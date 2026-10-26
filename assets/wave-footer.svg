@@ -1,75 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" fill="none" role="img" aria-labelledby="title desc">
-<title id="title">The Great Tide — DT-09</title>
-<desc id="desc">A clearly curling, towering indigo ocean wave with a hollow barrel, claw-like ivory foam, flying spray and layered woodblock-style water lines. The water and spray move gently.</desc>
-<defs>
- <linearGradient id="night" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#101A2A"/><stop offset="1" stop-color="#19394C"/></linearGradient>
- <linearGradient id="body" x1=".1" y1="0" x2=".9" y2="1"><stop stop-color="#70B5B5"/><stop offset=".28" stop-color="#286F89"/><stop offset=".7" stop-color="#174C70"/><stop offset="1" stop-color="#0A2038"/></linearGradient>
- <linearGradient id="foam" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFF4D8"/><stop offset=".5" stop-color="#D5E8D9"/><stop offset="1" stop-color="#86C4C3"/></linearGradient>
- <pattern id="grain" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M0 2H8M0 6H8" stroke="#F8F0DE" stroke-opacity=".045"/></pattern>
- <clipPath id="frame"><rect width="1280" height="360" rx="14"/></clipPath>
- <style>
- .sea-back{animation:seaBack 13s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:center}
- .sea-lines{animation:seaLines 8s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:center}
- .crest{animation:crest 4.5s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:60% 65%}
- .spray{animation:spray 3.2s ease-in-out infinite alternate}
- @keyframes seaBack{from{transform:translateX(-13px)}to{transform:translateX(12px)}}
- @keyframes seaLines{from{transform:translateX(13px)}to{transform:translateX(-16px)}}
- @keyframes crest{from{transform:translateY(2px) rotate(-.3deg)}to{transform:translateY(-5px) rotate(.35deg)}}
- @keyframes spray{from{opacity:.35;transform:translate(0,3px)}to{opacity:1;transform:translate(4px,-6px)}}
- @media(prefers-reduced-motion:reduce){.sea-back,.sea-lines,.crest,.spray{animation:none}}
- </style>
-</defs>
-<g clip-path="url(#frame)">
- <rect width="1280" height="360" fill="url(#night)"/>
- <circle cx="1084" cy="58" r="25" fill="#F2E5C7" opacity=".9"/>
- <circle cx="1093" cy="51" r="25" fill="#15283A"/>
- <path d="M0 263Q155 237 303 264T602 260T899 266T1280 251V360H0Z" fill="#0D2B40"/>
- <!-- distant low swell -->
- <g class="sea-back" fill="#17465D">
-  <path d="M-40 289Q100 242 222 279T455 300T710 276T970 294T1310 271V380H-40Z"/>
-  <path d="M-40 315Q118 280 240 309T490 323T737 305T1014 321T1310 302V380H-40Z" fill="#0C263D"/>
- </g>
- <!-- main silhouette: steep rising face, curled over crest, and broad descending body -->
- <path d="M-35 360V316C55 297 99 264 129 214C160 162 168 96 215 66C253 41 295 62 323 91C347 116 365 144 398 148C432 153 461 132 486 115C470 151 440 183 399 197C365 209 326 202 291 184C259 168 236 142 217 133C203 171 207 218 245 253C299 303 389 309 475 290C571 269 629 226 714 221C830 214 903 269 1008 285C1106 300 1193 280 1310 255V390H-35Z" fill="url(#body)"/>
- <!-- dark hollow makes the curl read as a wave, not a ribbon -->
- <path d="M226 129C250 90 282 85 309 112C332 135 347 158 377 163C400 167 425 154 444 140C427 171 397 187 365 185C329 183 302 155 281 139C261 124 243 124 226 143Z" fill="#10283B"/>
- <path d="M225 129C250 90 282 85 309 112C332 135 347 158 377 163C400 167 425 154 444 140C427 171 397 187 365 185C329 183 302 155 281 139C261 124 243 124 225 143Z" stroke="#6CB1B8" stroke-width="2"/>
- <!-- curling crest with distinct hooked fingers -->
- <g class="crest">
-  <path d="M121 222C139 175 153 118 193 77C220 49 254 39 285 53C314 66 335 97 355 123C376 149 401 159 432 145C416 174 385 190 353 185C320 180 297 153 274 128C255 108 238 101 224 112C203 129 197 169 188 202C177 239 159 261 134 277Z" fill="url(#foam)" stroke="#FFF4D8" stroke-width="2"/>
-  <path d="M187 91Q207 66 232 62Q216 78 218 94Q239 79 256 83Q238 99 242 116Q221 104 207 121Q196 139 190 160Q182 124 187 91Z" fill="#FDF5E4"/>
-  <path d="M251 61Q275 60 292 78Q271 72 266 89Q285 88 300 105Q278 98 267 113Q258 91 251 61Z" fill="#FDF5E4"/>
-  <path d="M300 87Q319 104 333 126Q345 145 368 155Q346 157 326 141Q310 126 300 87Z" fill="#E3EEE0"/>
-  <path d="M141 213Q163 156 182 133M154 232Q174 183 190 161M176 239Q192 198 202 183" stroke="#6CAAB4" stroke-width="3" stroke-linecap="round"/>
-  <path d="M206 82q-13 16 -14 34M226 70q-12 12 -12 23M250 66q10 4 18 15M278 82q13 8 19 20M309 110q10 13 22 23" stroke="#6AA7AF" stroke-width="2" stroke-linecap="round"/>
- </g>
- <!-- carved ridges across the steep face -->
- <g class="sea-lines" stroke-linecap="round">
-  <path d="M26 321Q82 300 114 264T165 176" stroke="#C7E6D8" stroke-width="2" opacity=".9"/>
-  <path d="M42 333Q95 311 128 276T178 193" stroke="#86C8C6" stroke-width="2"/>
-  <path d="M68 341Q118 320 145 291T190 218" stroke="#9BD3CE" stroke-width="1.4"/>
-  <path d="M216 235Q245 267 292 280T389 291" stroke="#A8D7D0" stroke-width="2"/>
-  <path d="M238 251Q275 279 320 286T409 291" stroke="#D2E8DA" stroke-width="1.5"/>
-  <path d="M293 304Q361 320 427 305T548 273" stroke="#73B7BE" stroke-width="1.6"/>
-  <path d="M480 310Q558 287 616 254T741 240" stroke="#6AA8B7" stroke-width="1.5"/>
-  <path d="M514 325Q596 300 653 276T772 260" stroke="#9BD0CB" stroke-width="1.4"/>
-  <path d="M710 276Q786 252 860 273T1001 298" stroke="#82C1C3" stroke-width="1.6"/>
-  <path d="M741 294Q819 275 891 291T1038 311" stroke="#C2E2D8" stroke-width="1.3"/>
-  <path d="M1004 320Q1091 329 1175 301T1300 283" stroke="#6BAEB9" stroke-width="1.4"/>
- </g>
- <!-- spray droplets and tiny flying foam shards -->
- <g class="spray" fill="#FFF4D8">
-  <path d="M159 76l-5 -15l12 9l1 -15l8 16l11 -7l-5 17Z"/>
-  <path d="M199 48l-3 -10l8 6l1 -10l6 11l7 -4l-3 12Z"/>
-  <path d="M244 34l-2 -8l7 5l1 -8l5 9l6 -3l-2 9Z"/>
-  <circle cx="145" cy="102" r="3"/><circle cx="174" cy="54" r="2.5"/><circle cx="208" cy="34" r="2"/><circle cx="283" cy="43" r="2.4"/><circle cx="320" cy="72" r="2"/><circle cx="350" cy="112" r="2.4"/><circle cx="384" cy="139" r="2.2"/><circle cx="421" cy="131" r="1.8"/><circle cx="116" cy="148" r="2"/><circle cx="133" cy="127" r="1.6"/>
- </g>
- <!-- tiny distant Fuji silhouette -->
- <path d="M958 177L1002 115L1023 142L1042 125L1090 177Z" fill="#A8BFC0" opacity=".4"/>
- <path d="M986 139L1002 115L1011 128L1004 125L999 132L994 128Z" fill="#E9E7D6" opacity=".65"/>
- <rect width="1280" height="360" fill="url(#grain)"/>
- <path d="M28 25H1252M28 334H1252" stroke="#D9D2BC" stroke-opacity=".32"/>
- <g font-family="monospace" fill="#D5E0D8"><text x="34" y="17" font-size="9" letter-spacing="2">THE TIDE KEEPS MOVING / DT—09</text><text x="1246" y="351" font-size="9" text-anchor="end" letter-spacing="1.5">OUTCOMES · ASSURANCE · AUTHORITY</text></g>
-</g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 360" role="img" aria-labelledby="title desc">
+  <title id="title">Indigo wave</title>
+  <desc id="desc">A single sweeping indigo ocean wave with ivory foam and restrained brass details.</desc>
+  <defs>
+    <linearGradient id="water" x1="0" y1="0" x2="0.9" y2="1">
+      <stop offset="0" stop-color="#34356D"/>
+      <stop offset=".52" stop-color="#20244F"/>
+      <stop offset="1" stop-color="#101426"/>
+    </linearGradient>
+    <linearGradient id="crest" x1=".1" y1="0" x2=".9" y2="1">
+      <stop stop-color="#F0E8D8"/>
+      <stop offset=".58" stop-color="#C9D5D0"/>
+      <stop offset="1" stop-color="#8C9DAF"/>
+    </linearGradient>
+    <linearGradient id="deep" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#171B3A"/>
+      <stop offset=".55" stop-color="#292B5D"/>
+      <stop offset="1" stop-color="#111629"/>
+    </linearGradient>
+    <clipPath id="clip"><rect width="1280" height="360" rx="2"/></clipPath>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="1280" height="360" fill="#10121B"/>
+    <path d="M0 252 C132 221 210 248 312 274 C438 307 531 279 623 242 C739 196 826 201 932 240 C1058 286 1155 276 1280 233 V360 H0Z" fill="#171C39"/>
+    <path d="M0 285 C141 258 233 289 343 312 C470 339 579 300 681 264 C804 220 884 242 985 278 C1080 312 1181 300 1280 271 V360 H0Z" fill="url(#deep)"/>
+    <path d="M-30 275 C88 235 153 244 235 271 C323 300 391 306 478 277 C562 249 606 200 651 140 C686 94 724 60 765 53 C790 49 814 61 829 81 C810 70 791 75 780 91 C763 115 768 143 792 158 C828 181 868 159 870 127 C871 111 861 97 848 91 C881 103 899 133 887 162 C871 204 822 219 780 202 C731 182 705 143 710 105 C714 76 733 52 760 38 C718 42 676 73 645 118 C603 179 570 237 509 273 C421 326 329 330 223 299 C132 273 62 266 -30 311Z" fill="url(#water)"/>
+    <path d="M-18 274 C95 237 157 248 236 274 C323 302 393 307 478 278 C561 250 606 199 651 140 C687 93 725 59 765 53 C790 49 814 61 829 81 C807 69 790 77 779 95 C764 119 772 145 794 159 C823 178 854 167 866 145 C875 127 866 105 848 91 C880 102 897 132 887 162 C872 204 822 219 780 202 C731 182 705 143 710 105 C714 76 733 52 760 38 C718 42 676 73 645 118 C603 179 570 237 509 273 C421 326 329 330 223 299 C132 273 62 266 -18 311" stroke="#D7DED9" stroke-opacity=".7" stroke-width="1.4" fill="none"/>
+    <path d="M763 39 C742 43 719 58 700 80 C679 104 664 132 650 159 C632 194 605 228 568 252 C525 281 474 296 422 302 C489 295 541 280 585 251 C631 221 658 180 681 145 C703 112 721 84 744 70 C763 59 781 61 794 70 C784 53 775 43 763 39Z" fill="url(#crest)"/>
+    <path d="M793 71 C780 59 761 61 744 75 C728 88 716 108 704 128 C722 111 739 101 751 105 C766 110 768 129 757 142 C742 160 716 167 694 159 C716 178 742 183 764 170 C789 156 801 130 793 108 C789 95 780 88 771 86 C783 83 790 87 800 96 C799 85 797 78 793 71Z" fill="#F2EBDD"/>
+    <path d="M748 77 C733 88 721 105 711 123 C727 108 741 101 752 107 C763 113 762 128 751 139 C737 153 717 159 698 155" stroke="#9DAEBC" stroke-width="2" stroke-linecap="round" fill="none"/>
+    <path d="M681 143 C671 166 656 190 637 211 M695 162 C682 185 666 204 648 219 M714 173 C703 193 691 206 677 218" stroke="#D5DCD7" stroke-opacity=".72" stroke-width="2" stroke-linecap="round"/>
+    <path d="M-4 292 C111 266 187 290 273 311 C370 335 455 324 526 296" stroke="#8D9DB5" stroke-opacity=".5" stroke-width="1.5" fill="none"/>
+    <path d="M48 318 C148 300 212 319 282 333 M814 270 C908 253 988 284 1067 297 M921 315 C1024 300 1127 323 1217 302" stroke="#737FA8" stroke-opacity=".55" stroke-width="1.4" stroke-linecap="round"/>
+    <path d="M0 343 C154 322 256 354 396 344 C530 334 602 311 711 320 C843 331 932 353 1061 337 C1147 326 1218 328 1280 338" stroke="#B79B67" stroke-opacity=".55" stroke-width="1" fill="none"/>
+    <g fill="#F0E8D8">
+      <circle cx="811" cy="65" r="2.3"/><circle cx="828" cy="83" r="1.7"/><circle cx="840" cy="105" r="1.4"/>
+      <circle cx="690" cy="111" r="1.7"/><circle cx="674" cy="128" r="1.2"/><circle cx="658" cy="150" r="1.5"/>
+      <circle cx="642" cy="172" r="1.1"/><circle cx="626" cy="191" r="1.2"/>
+    </g>
+    <g fill="#C6D3D0" opacity=".8">
+      <path d="M826 58 l-3 10 6-6Z"/><path d="M844 79 l-2 8 5-4Z"/><path d="M858 98 l-2 7 5-3Z"/>
+      <path d="M675 100 l-5 8 7-3Z"/><path d="M661 120 l-4 7 6-2Z"/><path d="M646 142 l-4 7 6-2Z"/>
+    </g>
+    <path d="M0 359 H1280" stroke="#B79B67" stroke-opacity=".7" stroke-width="1"/>
+  </g>
+  <style>
+    @media (prefers-reduced-motion: no-preference) {
+      #water-lines { animation: drift 18s ease-in-out infinite alternate; }
+      @keyframes drift { from { transform: translateX(-5px); } to { transform: translateX(5px); } }
+    }
+  </style>
 </svg>
