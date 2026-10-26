@@ -1,38 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="520" viewBox="0 0 1280 520" fill="none" role="img" aria-labelledby="title desc">
-<title id="title">DT-09 — Between chaos and control</title><desc id="desc">Original Japanese woodblock-inspired ocean with a monumental indigo wave, carved ivory foam, distant moon, and subtle animated currents.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+<title id="title">DT-09 — AI systems and software infrastructure</title>
+<desc id="desc">A restrained dark hero with a softly animated indigo glow and fine geometric lines.</desc>
 <defs>
-<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#0B1424"/><stop offset=".65" stop-color="#20384B"/><stop offset="1" stop-color="#2B4B5A"/></linearGradient>
-<linearGradient id="sea" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#75B3B7"/><stop offset=".28" stop-color="#286D85"/><stop offset=".7" stop-color="#16445D"/><stop offset="1" stop-color="#091D32"/></linearGradient>
-<linearGradient id="deep" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#27536D"/><stop offset="1" stop-color="#09192D"/></linearGradient>
-<linearGradient id="foam" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFF7DC"/><stop offset=".55" stop-color="#C8E1D8"/><stop offset="1" stop-color="#72AEB6"/></linearGradient>
-<radialGradient id="moonGlow"><stop stop-color="#F4E7C7" stop-opacity=".22"/><stop offset="1" stop-color="#F4E7C7" stop-opacity="0"/></radialGradient>
-<pattern id="grain" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M0 2H8M0 6H8" stroke="#F3E9D1" stroke-opacity=".04"/></pattern>
-<clipPath id="clip"><rect width="1280" height="520" rx="18"/></clipPath>
-<style>
-.current{animation:current 19s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:center}.spray{animation:spray 6s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:center}.spark{animation:spark 4s ease-in-out infinite}
-@keyframes current{from{transform:translateX(-10px)}to{transform:translateX(15px)}}@keyframes spray{from{transform:translateY(2px)}to{transform:translateY(-7px)}}@keyframes spark{0%,100%{opacity:.25}50%{opacity:.9}}
-@media(prefers-reduced-motion:reduce){.current,.spray,.spark{animation:none}}
-</style></defs>
-<g clip-path="url(#clip)">
-<rect width="1280" height="520" fill="url(#sky)"/><circle cx="1020" cy="119" r="115" fill="url(#moonGlow)"/><circle cx="1020" cy="119" r="35" fill="#F1E5C6" fill-opacity=".9"/>
-<path d="M0 315Q170 298 350 312T710 313T1280 303V520H0Z" fill="#193F53"/><path d="M0 348Q210 325 480 339T940 344T1280 326V520H0Z" fill="#123149"/>
-<path d="M1280 176C1192 182 1134 224 1082 280C1032 333 1018 389 953 418C899 442 829 424 775 392C722 360 683 320 634 307C575 291 527 312 488 350C448 389 418 433 359 454C281 482 166 462 0 423V520H1280Z" fill="url(#sea)"/>
-<path d="M1280 213C1190 219 1134 260 1092 308C1047 359 1028 405 965 432C910 456 849 439 803 410C762 384 728 348 684 333C642 319 607 323 571 344C620 333 666 346 709 376C757 409 807 454 877 461C957 470 1015 422 1052 367C1090 312 1120 277 1170 255C1210 238 1246 235 1280 235Z" fill="url(#deep)"/>
-<path d="M1280 158C1201 166 1148 202 1100 250C1058 292 1032 342 1000 375C968 409 930 425 891 423C839 422 802 394 765 364C722 328 685 294 635 285C586 276 542 299 510 326C482 350 456 388 423 408C385 432 342 437 298 430C218 418 132 390 0 382" stroke="url(#foam)" stroke-width="12" stroke-linecap="round"/>
-<path d="M1280 158C1201 166 1148 202 1100 250C1058 292 1032 342 1000 375C968 409 930 425 891 423C839 422 802 394 765 364C722 328 685 294 635 285C586 276 542 299 510 326C482 350 456 388 423 408C385 432 342 437 298 430C218 418 132 390 0 382" stroke="#FFF5DD" stroke-width="2" stroke-dasharray="2 7" stroke-linecap="round" class="current"/>
-<g fill="url(#foam)" stroke="#E9EBD8" stroke-width="1.1" stroke-linejoin="round">
-<path d="M1095 255C1107 224 1127 199 1155 185C1142 205 1138 220 1141 232C1152 216 1170 206 1191 202C1171 221 1163 240 1167 257C1185 244 1205 239 1227 241C1203 253 1190 268 1185 288C1165 265 1134 253 1095 255Z"/>
-<path d="M1037 329C1049 300 1062 286 1080 277C1068 296 1067 310 1072 323C1084 308 1097 303 1114 303C1097 318 1090 333 1092 349C1077 338 1058 332 1037 329Z"/>
-<path d="M967 394C981 374 994 361 1010 356C998 370 997 382 1002 393C1013 381 1025 377 1039 378C1023 390 1017 403 1018 415Z"/>
-<path d="M676 298C657 277 638 267 617 267C635 280 642 293 639 307C625 294 607 290 589 293C611 303 622 316 624 333Z"/>
-<path d="M541 333C525 317 508 311 491 314C507 325 513 337 509 349C496 340 482 338 468 342C486 350 494 362 494 375Z"/>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#0B0D13"/>
+    <stop offset="1" stop-color="#15192A"/>
+  </linearGradient>
+  <radialGradient id="glow">
+    <stop stop-color="#5557A0" stop-opacity=".42"/>
+    <stop offset="1" stop-color="#5557A0" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="line" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#C8A56A" stop-opacity="0"/>
+    <stop offset=".5" stop-color="#C8A56A" stop-opacity=".65"/>
+    <stop offset="1" stop-color="#A4B7D7" stop-opacity=".12"/>
+  </linearGradient>
+  <style>
+    .glow { animation: breathe 10s ease-in-out infinite alternate; transform-origin: 900px 140px; }
+    .orbit { animation: orbit 28s linear infinite; transform-origin: 910px 160px; }
+    @keyframes breathe { from { opacity: .55; transform: scale(.94); } to { opacity: 1; transform: scale(1.08); } }
+    @keyframes orbit { to { transform: rotate(360deg); } }
+    @media (prefers-reduced-motion: reduce) { .glow, .orbit { animation: none; } }
+  </style>
+</defs>
+<rect width="1200" height="360" rx="12" fill="url(#bg)"/>
+<circle class="glow" cx="900" cy="140" r="230" fill="url(#glow)"/>
+<g fill="none" stroke="url(#line)" stroke-width="1">
+  <path d="M650 0V360M730 0V360M810 0V360M890 0V360M970 0V360M1050 0V360M1130 0V360" stroke-opacity=".18"/>
+  <path d="M600 50H1200M600 110H1200M600 170H1200M600 230H1200M600 290H1200" stroke-opacity=".16"/>
+  <path class="orbit" d="M700 160C700 68 792 20 900 20S1100 68 1100 160 1008 300 900 300 700 252 700 160Z" stroke-opacity=".55" stroke-dasharray="2 8"/>
+  <path d="M780 360C790 260 830 215 900 160S1020 68 1060 0" stroke-opacity=".6"/>
+  <path d="M690 360C760 270 820 225 900 160S1040 65 1140 0" stroke-opacity=".28"/>
 </g>
-<g fill="none" stroke="#F5F0D9" stroke-linecap="round" stroke-linejoin="round"><path d="M1125 218q14 -22 38 -28q-14 14 -11 27q12 -12 28 -13q-15 13 -15 27" stroke-width="3"/><path d="M1071 288q10 -18 28 -24q-10 12 -7 21q10 -10 22 -9" stroke-width="2.4"/><path d="M1000 371q9 -15 24 -19q-8 10 -5 18q8 -8 18 -7" stroke-width="2.2"/><path d="M641 285q-14 -14 -33 -15q12 9 11 19q-10 -8 -22 -6" stroke-width="2.5"/><path d="M510 328q-12 -12 -27 -11q10 8 8 16q-9 -6 -18 -3" stroke-width="2.2"/></g>
-<g class="spray" fill="#F6F0DA"><path d="M1140 174l-5 -13l10 8l-2 -15l9 14l8 -9l-3 16Z"/><circle cx="1175" cy="179" r="3"/><circle cx="1122" cy="191" r="2"/><circle cx="1080" cy="221" r="2.5"/><path d="M1052 248l-3 -9l8 5l-1 -10l7 10l6 -6l-2 11Z"/><circle cx="1031" cy="268" r="2"/><circle cx="1018" cy="294" r="2.5"/><circle cx="694" cy="288" r="2"/><circle cx="668" cy="277" r="2.4"/><path d="M655 271l-2 -7l6 4l-1 -7l5 7l4 -4l-1 8Z"/><circle cx="565" cy="309" r="2"/><circle cx="535" cy="323" r="2.5"/></g>
-<g class="current" fill="none" stroke="#9BC9C4" stroke-linecap="round" stroke-opacity=".72"><path d="M1280 277q-92 9 -142 77t-103 76q-48 7 -88 -18" stroke-width="2"/><path d="M1280 294q-80 11 -122 68t-90 72q-37 7 -69 -13" stroke-width="1.3"/><path d="M748 385q-62 -55 -112 -61t-97 26q-39 31 -61 62" stroke-width="2"/><path d="M710 399q-52 -40 -93 -45t-79 25q-29 24 -44 43" stroke-width="1.2"/><path d="M0 461q130 24 235 29t186 -15M0 480q132 23 230 22t152 -12" stroke-width="1.2"/></g>
-<path d="M177 374L226 316L248 338L272 301L333 375Z" fill="#9AAFB0" fill-opacity=".82"/><path d="M207 339L226 316L238 329L248 338L262 317L272 301L291 330L276 324L267 336L251 330L241 345L225 334Z" fill="#F1EBD8"/>
-<rect width="1280" height="520" fill="url(#grain)"/>
-<g font-family="monospace"><text x="58" y="66" fill="#C8D9D3" font-size="11" letter-spacing="3">DT—09 / INDEPENDENT BUILDER</text><text x="56" y="142" fill="#F5F0E2" font-size="42" font-weight="700" letter-spacing="-1.8">BETWEEN CHAOS</text><text x="56" y="191" fill="#E2C78E" font-size="42" font-weight="700" letter-spacing="-1.8">AND CONTROL.</text><path d="M60 210H420" stroke="#D5C28F" stroke-opacity=".8"/><text x="60" y="240" fill="#D2E1DD" font-size="12" letter-spacing="1.1">AI SYSTEMS · SOFTWARE INFRASTRUCTURE</text><text x="60" y="261" fill="#A8C7C8" font-size="12" letter-spacing="1.1">OUTCOMES / ASSURANCE / AUTHORITY</text><text x="60" y="493" fill="#C6D4CE" font-size="10" letter-spacing="2">LESS MAGIC. MORE MECHANISM.</text></g>
-<g class="spark" stroke="#F8EED4" stroke-width="1.1" stroke-linecap="round"><path d="M1180 202l9 -5M1165 226l10 -6M1088 267l8 -5M1022 344l8 -5M625 293l-9 -4M498 347l-9 -4"/></g>
-</g></svg>
+<circle cx="900" cy="160" r="4" fill="#D7BC84"/>
+<circle cx="1060" cy="0" r="3" fill="#D7BC84"/>
+<circle cx="780" cy="360" r="3" fill="#D7BC84"/>
+<g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+  <text x="64" y="62" fill="#C8A56A" font-size="11" letter-spacing="3">DT—09 / INDEPENDENT BUILDER</text>
+  <text x="60" y="145" fill="#F0EEE8" font-size="43" font-weight="700" letter-spacing="-1.8">BETTER SYSTEMS.</text>
+  <text x="60" y="197" fill="#C8A56A" font-size="43" font-weight="700" letter-spacing="-1.8">CLEARER EVIDENCE.</text>
+  <path d="M64 221H430" stroke="#C8A56A" stroke-opacity=".7"/>
+  <text x="64" y="253" fill="#C8D0DE" font-size="12" letter-spacing="1.3">AI SYSTEMS · SOFTWARE INFRASTRUCTURE</text>
+  <text x="64" y="277" fill="#9AA7BD" font-size="11" letter-spacing="1.2">WORKFLOW VERIFICATION / ASSURANCE / AUTHORITY</text>
+  <text x="64" y="327" fill="#747F94" font-size="10" letter-spacing="2">BUILD WITH INTENT. VERIFY THE RESULT.</text>
+</g>
+</svg>
