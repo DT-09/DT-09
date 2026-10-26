@@ -102,3 +102,9 @@
   <br/><br/>
   <sub>BUILD WITH INTENT / VERIFY THE BOUNDARIES / SHOW THE EVIDENCE</sub>
 </div>
+
+<br/>
+
+<div align="center">
+  <img src="./assets/wave-footer.svg" alt="A flowing indigo and seafoam wave, inspired by Japanese woodblock ocean art, closing the profile." width="100%" />
+</div>
