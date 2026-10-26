@@ -4,9 +4,11 @@
 </div>
 
 <div align="center">
-  <a href="https://github.com/DT-09/Aurelis-Authority"><img src="https://img.shields.io/badge/01-AURELIS_AUTHORITY-C8A56A?style=flat-square&labelColor=101318" alt="Aurelis Authority" /></a>
+  <sub>INDEPENDENT BUILDER · AI SYSTEMS · SOFTWARE INFRASTRUCTURE</sub>
+  <br/><br/>
+  <a href="https://github.com/DT-09/VentureLabs"><img src="https://img.shields.io/badge/01-VENTURELABS-C8A56A?style=flat-square&labelColor=101318" alt="VentureLabs" /></a>
   <a href="https://github.com/DT-09/ai-assurance-infrastructure"><img src="https://img.shields.io/badge/02-AI_ASSURANCE-E7E5DF?style=flat-square&labelColor=101318" alt="AI Assurance Infrastructure" /></a>
-  <a href="https://github.com/DT-09/aurelis-aci"><img src="https://img.shields.io/badge/03-AGENT_CONTROL-9BA7B2?style=flat-square&labelColor=101318" alt="Aurelis ACI" /></a>
+  <a href="https://github.com/DT-09/Aurelis-Authority"><img src="https://img.shields.io/badge/03-AURELIS_AUTHORITY-9BA7B2?style=flat-square&labelColor=101318" alt="Aurelis Authority" /></a>
 </div>
 
 <br/>
@@ -16,9 +18,9 @@
     <td width="58%" valign="top">
       <sub>FIELD NOTE / 001</sub>
       <h2>Intelligence is impressive.<br/>Control is harder.</h2>
-      I build software and explore AI systems with a focus on the gap between what an agent <i>can</i> do and what it should be allowed to do.
+      I build software and explore AI systems with a focus on the gap between what a system <i>can</i> do and what it should be allowed to do—and whether its downstream results can be verified.
       <br/><br/>
-      That means boundaries you can test, failures you can reproduce, and evidence you can inspect—not trust-me demos.
+      My work leans toward explicit boundaries, reproducible checks, inspectable evidence, and honest engineering limits. Not trust-me demos.
     </td>
     <td width="42%" valign="top">
       <sub>OPERATING PRINCIPLES</sub><br/><br/>
@@ -31,38 +33,46 @@
 
 ---
 
-## 01 / Systems on the workbench
+## 01 / Selected work
+
+<sub>THREE ACTIVE THREADS · DIFFERENT PROBLEMS · ONE THROUGH-LINE: VERIFY WHAT MATTERS</sub>
 
 <table>
   <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/DT-09/Aurelis-Authority"><b>AURELIS AUTHORITY ↗</b></a><br/>
-      <sub>AI AGENT ASSURANCE</sub><br/><br/>
-      Exploring independent checks on whether AI-agent actions stay within defined authority boundaries.<br/><br/>
-      <code>POLICY</code> <code>EXPECTED VS OBSERVED</code> <code>EVIDENCE</code>
+    <td width="33%" valign="top">
+      <a href="https://github.com/DT-09/VentureLabs"><b>01 — VENTURELABS ↗</b></a><br/>
+      <sub>BUSINESS OUTCOME VERIFICATION</sub><br/><br/>
+      <a href="https://venturelabs.pages.dev/"><img src="https://img.shields.io/badge/OPEN-PRODUCT_SITE-C8A56A?style=flat-square&labelColor=101318" alt="Open VentureLabs product site" /></a><br/><br/>
+      Building **Outcome Check**, a local-first diagnostic for event-driven workflows. It compares expected business effects with observed effects and state to flag duplicate, missing, unexpected, or inconsistent outcomes.<br/><br/>
+      <code>CSV / JSONL</code><br/>
+      <code>CLI + GITHUB ACTION</code><br/>
+      <code>FINDINGS + EVIDENCE</code><br/><br/>
+      <sub>STATUS: ENGINEERING PROTOTYPE · SYNTHETIC FIXTURES · NO CLAIM OF CUSTOMER VALIDATION</sub>
     </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/DT-09/ai-assurance-infrastructure"><b>AI ASSURANCE INFRASTRUCTURE ↗</b></a><br/>
-      <sub>CONTROL PLANE / VERIFICATION</sub><br/><br/>
-      Prototypes for assurance controls, regression checks, audit evidence, and retesting of AI-enabled workflows.<br/><br/>
-      <code>TESTING</code> <code>TRACEABILITY</code> <code>RETESTING</code>
+    <td width="33%" valign="top">
+      <a href="https://github.com/DT-09/ai-assurance-infrastructure"><b>02 — AI ASSURANCE</b> ↗</a><br/>
+      <sub>ASSURANCE INFRASTRUCTURE</sub><br/><br/>
+      Prototyping checks that make AI-enabled workflows easier to test and review: explicit expectations, repeatable evaluations, traceable findings, and regression-oriented verification.<br/><br/>
+      <code>TEST HARNESS</code><br/>
+      <code>TRACEABILITY</code><br/>
+      <code>REGRESSION CHECKS</code><br/><br/>
+      <sub>FOCUS: TURN ASSURANCE CLAIMS INTO INSPECTABLE TESTS</sub>
     </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/DT-09/aurelis-aci"><b>AURELIS ACI ↗</b></a><br/>
-      <sub>AGENT CONTROL INTERFACE</sub><br/><br/>
-      Exploring how agent behavior and constraints can be made easier to inspect through clear control surfaces.<br/><br/>
-      <code>INTERFACES</code> <code>WORKFLOWS</code> <code>CONTROL</code>
-    </td>
-    <td width="50%" valign="top">
-      <b>VentureLabs / experiments</b><br/>
-      <sub>PRODUCT SYSTEMS</sub><br/><br/>
-      Building and testing practical software ideas. The aim is to solve a real workflow problem—not add another dashboard to the internet.<br/><br/>
-      <code>PROTOTYPING</code> <code>DATA</code> <code>VALIDATION</code>
+    <td width="34%" valign="top">
+      <a href="https://github.com/DT-09/Aurelis-Authority"><b>03 — AURELIS AUTHORITY ↗</b></a><br/>
+      <sub>AI AGENT AUTHORITY ASSURANCE</sub><br/><br/>
+      Exploring independent verification of whether an AI agent stays within its defined authority—especially around permissions, approval boundaries, and actions it should not take.<br/><br/>
+      <code>POLICY BOUNDARIES</code><br/>
+      <code>EXPECTED VS OBSERVED</code><br/>
+      <code>EVIDENCE + RETESTING</code><br/><br/>
+      <sub>THESIS: AGENT CAPABILITY DOES NOT EQUAL AUTHORITY</sub>
     </td>
   </tr>
 </table>
+
+<div align="center">
+  <sub>VENTURELABS CHECKS BUSINESS OUTCOMES · AI ASSURANCE CHECKS WORKFLOW BEHAVIOR · AURELIS AUTHORITY CHECKS AGENT PERMISSIONS</sub>
+</div>
 
 ## 02 / Tools, not trophies
 
