@@ -1,4 +1,8 @@
 <div align="center">
+  <img src="./assets/hero.svg" alt="Between Chaos and Control — an animated indigo ocean scene representing AI systems and software infrastructure." width="100%" />
+</div>
+
+<div align="center">
 
 # DT-09
 
@@ -12,32 +16,60 @@ Building practical systems for workflow verification, AI assurance, and permissi
 
 ---
 
-## Featured work
+## Featured projects
+
+<table>
+<tr>
+<td width="50%" valign="top">
 
 ### [VentureLabs](https://github.com/DT-09/VentureLabs)
+
 **Business workflow verification**
 
-Checks expected business outcomes against observed data to identify duplicate, missing, unexpected, or inconsistent records.
+Checks expected business outcomes against observed data to surface duplicate, missing, unexpected, or inconsistent records.
 
-- **Inputs:** CSV / JSONL
-- **Status:** Engineering prototype; synthetic fixtures; not customer-validated
-- [Open product](https://venturelabs.pages.dev/) · [Source code](https://github.com/DT-09/VentureLabs)
+**Inputs:** CSV / JSONL
+
+[Open product](https://venturelabs.pages.dev/) · [Source code](https://github.com/DT-09/VentureLabs)
+
+<sub>Engineering prototype · Synthetic fixtures · Not customer-validated</sub>
+
+</td>
+<td width="50%" valign="top">
 
 ### [AI Assurance Infrastructure](https://github.com/DT-09/ai-assurance-infrastructure)
+
 **Repeatable testing for AI-enabled workflows**
 
-A prototype exploring explicit expectations, observable behavior, traceable findings, and regression-oriented verification.
+Explores explicit expectations, observable behavior, traceable findings, and regression-oriented verification.
 
-- **Focus:** Test harnesses, traceability, and retesting
-- [Source code](https://github.com/DT-09/ai-assurance-infrastructure)
+[Explore repository](https://github.com/DT-09/ai-assurance-infrastructure)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
 ### [Aurelis Authority](https://github.com/DT-09/Aurelis-Authority)
+
 **AI agent permission assurance**
 
 Explores how to test whether an AI agent stays within defined permissions, approval gates, and action boundaries.
 
-- **Focus:** Policy checks, allow/deny outcomes, and evidence
-- [Source code](https://github.com/DT-09/Aurelis-Authority)
+[Explore repository](https://github.com/DT-09/Aurelis-Authority)
+
+</td>
+<td width="50%" valign="top">
+
+### Working principle
+
+**Expected → Observed → Evidence**
+
+I focus on making system behavior easier to inspect: what should have happened, what actually happened, and how the difference can be checked.
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -47,7 +79,9 @@ Explores how to test whether an AI agent stays within defined permissions, appro
   <img src="https://skillicons.dev/icons?i=python,js,ts,html,css,git,github,cloudflare,vscode&theme=dark&perline=9" alt="Python, JavaScript, TypeScript, HTML, CSS, Git, GitHub, Cloudflare, and VS Code" />
 </div>
 
-**Areas of work:** Prototyping · API integration · Testing · Deployment
+<div align="center">
+  <sub>PROTOTYPING · API INTEGRATION · TESTING · DEPLOYMENT</sub>
+</div>
 
 ---
 
