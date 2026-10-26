@@ -1,6 +1,6 @@
 <!-- DT-09 / THE VERIFICATION ATLAS -->
 <div align="center">
-  <img src="./assets/hero.svg" alt="The Verification Atlas: an animated systems map connecting VentureLabs, AI Assurance, and Aurelis Authority." width="100%" />
+  <img src="./assets/hero.svg" alt="Original animated Japanese woodblock-inspired ocean: a towering indigo wave and carved seafoam under a moonlit sky, titled Between Chaos and Control." width="100%" />
 </div>
 
 <div align="center">
