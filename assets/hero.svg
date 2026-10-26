@@ -1,45 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" fill="none" role="img" aria-labelledby="title desc">
-  <title id="title">DT-09 — Teaching chaos to compile</title>
-  <desc id="desc">An obsidian and brass abstract orbital sculpture representing systems, software, and AI assurance.</desc>
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="390" gradientUnits="userSpaceOnUse"><stop stop-color="#080909"/><stop offset=".55" stop-color="#11110F"/><stop offset="1" stop-color="#080909"/></linearGradient>
-    <linearGradient id="gold" x1="250" y1="70" x2="850" y2="340" gradientUnits="userSpaceOnUse"><stop stop-color="#F0D7A0"/><stop offset=".35" stop-color="#B68C4C"/><stop offset=".7" stop-color="#6D4B24"/><stop offset="1" stop-color="#E6C88D"/></linearGradient>
-    <linearGradient id="silver" x1="740" y1="60" x2="1030" y2="340" gradientUnits="userSpaceOnUse"><stop stop-color="#E4E0D7" stop-opacity=".75"/><stop offset=".5" stop-color="#7C7A74" stop-opacity=".15"/><stop offset="1" stop-color="#C9C4B9" stop-opacity=".65"/></linearGradient>
-    <radialGradient id="core" cx="0" cy="0" r="1" gradientTransform="matrix(105 0 0 105 890 190)" gradientUnits="userSpaceOnUse"><stop stop-color="#D5B476" stop-opacity=".22"/><stop offset="1" stop-color="#D5B476" stop-opacity="0"/></radialGradient>
-    <filter id="blur" x="660" y="-10" width="470" height="410" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="18"/></filter>
-    <filter id="glow" x="600" y="0" width="520" height="390" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-    <pattern id="grain" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="4" cy="11" r=".7" fill="#D8C69F" opacity=".23"/><circle cx="71" cy="63" r=".6" fill="#FFFFFF" opacity=".14"/><circle cx="39" cy="87" r=".5" fill="#D8C69F" opacity=".15"/></pattern>
-  </defs>
-  <rect width="1200" height="390" rx="12" fill="url(#bg)"/>
-  <rect width="1200" height="390" rx="12" fill="url(#grain)"/>
-  <path d="M32 32H1168M32 358H1168" stroke="#A68A5B" stroke-opacity=".28"/>
-  <path d="M32 32V54M1168 32V54M32 336V358M1168 336V358" stroke="#C9A96A" stroke-opacity=".65"/>
-  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace">
-    <text x="58" y="65" fill="#C9A96A" font-size="12" letter-spacing="3">DT—09 / INDEPENDENT SYSTEMS ENGINEERING</text>
-    <text x="58" y="149" fill="#F0EDE5" font-size="48" font-weight="600" letter-spacing="-2">TEACHING CHAOS</text>
-    <text x="58" y="207" fill="#C9A96A" font-size="48" font-weight="600" letter-spacing="-2">TO COMPILE.</text>
-    <path d="M60 234H370" stroke="#B99558" stroke-opacity=".7"/>
-    <text x="60" y="262" fill="#C7C2B7" font-size="13" letter-spacing="1.1">AI SYSTEMS  /  SOFTWARE INFRASTRUCTURE</text>
-    <text x="60" y="284" fill="#8F8C84" font-size="13" letter-spacing="1.1">ASSURANCE  /  APPLIED RESEARCH</text>
-    <text x="60" y="333" fill="#6E6B64" font-size="10" letter-spacing="2">BUILD WITH INTENT. VERIFY THE BOUNDARIES.</text>
-    <text x="1140" y="65" fill="#8F8C84" font-size="10" letter-spacing="2" text-anchor="end">FIELD NOTES — 001</text>
-  </g>
-  <circle cx="890" cy="190" r="150" fill="url(#core)"/>
-  <ellipse cx="890" cy="190" rx="164" ry="64" stroke="url(#gold)" stroke-width="1.5" transform="rotate(-34 890 190)" opacity=".85"/>
-  <ellipse cx="890" cy="190" rx="164" ry="64" stroke="url(#silver)" stroke-width="1" transform="rotate(48 890 190)" opacity=".75"/>
-  <ellipse cx="890" cy="190" rx="132" ry="96" stroke="#C5A46A" stroke-opacity=".45" stroke-width="1" transform="rotate(79 890 190)"/>
-  <ellipse cx="890" cy="190" rx="115" ry="115" stroke="#B4A17C" stroke-opacity=".2" stroke-width=".8" transform="rotate(-12 890 190)"/>
-  <g filter="url(#glow)">
-    <path d="M774 114C802 70 863 56 916 79C970 102 1001 158 984 208C966 260 911 290 860 275C809 260 780 215 787 169C791 147 805 126 826 112" stroke="url(#gold)" stroke-width="2.4" stroke-linecap="round"/>
-    <path d="M816 267C858 291 915 280 944 244C976 205 969 146 931 119C895 93 843 98 815 128" stroke="url(#silver)" stroke-width="1.2" stroke-linecap="round" opacity=".9"/>
-    <path d="M824 144L889 106L951 145L950 222L889 261L827 224Z" stroke="#D7BD86" stroke-opacity=".6" stroke-width="1.1"/>
-    <path d="M824 144L889 190L951 145M889 190V261M889 190L827 224M889 190L950 222" stroke="#B9965A" stroke-opacity=".55" stroke-width=".8"/>
-    <circle cx="889" cy="190" r="34" fill="#11100D" stroke="#E2C58B" stroke-opacity=".85" stroke-width="1.3"/>
-    <circle cx="889" cy="190" r="22" stroke="#C6A263" stroke-opacity=".45"/>
-    <circle cx="889" cy="190" r="5" fill="#F0D7A0"/>
-  </g>
-  <circle cx="776" cy="114" r="3" fill="#F0D7A0"/><circle cx="984" cy="208" r="2.5" fill="#DCC18A"/><circle cx="931" cy="119" r="2" fill="#E5E0D5"/><circle cx="827" cy="224" r="2" fill="#C9A96A"/>
-  <g opacity=".45" stroke="#8D7A57" stroke-width=".7"><path d="M1030 100H1092M1051 120H1132M1018 286H1098M1041 306H1120"/><path d="M1060 91V109M1092 111V129M1076 277V295M1105 297V315"/></g>
-  <circle cx="890" cy="190" r="155" stroke="#B99558" stroke-opacity=".12" stroke-dasharray="2 7"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" fill="none" role="img" aria-labelledby="title desc">
+<title id="title">DT-09 — Systems, under tension</title><desc id="desc">A dark technical field with an animated three-dimensional brass and ivory polyhedral structure, orbital traces, and system annotations.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1200" y2="430" gradientUnits="userSpaceOnUse"><stop stop-color="#080A0D"/><stop offset=".52" stop-color="#11151A"/><stop offset="1" stop-color="#080A0D"/></linearGradient>
+<linearGradient id="brass" x1="720" y1="70" x2="1050" y2="355" gradientUnits="userSpaceOnUse"><stop stop-color="#F5E1B2"/><stop offset=".36" stop-color="#C8A56A"/><stop offset=".72" stop-color="#77552E"/><stop offset="1" stop-color="#E6C990"/></linearGradient>
+<linearGradient id="ice" x1="760" y1="80" x2="1020" y2="340" gradientUnits="userSpaceOnUse"><stop stop-color="#F4F0E8" stop-opacity=".9"/><stop offset="1" stop-color="#8795A2" stop-opacity=".18"/></linearGradient>
+<radialGradient id="halo"><stop stop-color="#C8A56A" stop-opacity=".22"/><stop offset="1" stop-color="#C8A56A" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" stroke="#C7D0D9" stroke-opacity=".055" stroke-width=".7"/></pattern>
+<pattern id="stars" width="119" height="91" patternUnits="userSpaceOnUse"><circle cx="9" cy="13" r=".8" fill="#F1D9A5" opacity=".5"/><circle cx="76" cy="62" r=".65" fill="#E7EAF0" opacity=".38"/><circle cx="105" cy="27" r=".5" fill="#E7EAF0" opacity=".25"/></pattern>
+<filter id="soft"><feGaussianBlur stdDeviation="22"/></filter><filter id="glow"><feGaussianBlur stdDeviation="2.2" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<style>.orbit{transform-box:fill-box;transform-origin:center;animation:orbit 24s linear infinite}.orbit2{transform-box:fill-box;transform-origin:center;animation:orbit 31s linear infinite reverse}.pulse{animation:pulse 4.5s ease-in-out infinite}@keyframes orbit{to{transform:rotate(360deg)}}@keyframes pulse{0%,100%{opacity:.42}50%{opacity:.95}}@media(prefers-reduced-motion:reduce){.orbit,.orbit2,.pulse{animation:none}}</style>
+</defs>
+<rect width="1200" height="430" rx="14" fill="url(#bg)"/><rect width="1200" height="430" rx="14" fill="url(#grid)"/><rect width="1200" height="430" rx="14" fill="url(#stars)"/>
+<path d="M36 36H1164M36 394H1164" stroke="#C8A56A" stroke-opacity=".35"/><path d="M36 36V58M1164 36V58M36 372V394M1164 372V394" stroke="#D7B77B" stroke-opacity=".8"/>
+<g font-family="ui-monospace, SFMono-Regular, Menlo, monospace"><text x="60" y="72" fill="#D5B77E" font-size="12" letter-spacing="3">DT—09 / SYSTEMS FIELDNOTES</text><text x="60" y="155" fill="#F2F0E9" font-size="54" font-weight="600" letter-spacing="-2.6">SYSTEMS,</text><text x="60" y="215" fill="#F2F0E9" font-size="54" font-weight="600" letter-spacing="-2.6">UNDER <tspan fill="#C8A56A">TENSION.</tspan></text><path d="M62 241H398" stroke="#C8A56A" stroke-opacity=".8"/><text x="62" y="272" fill="#C5CBD1" font-size="13" letter-spacing="1.3">AI SYSTEMS / SOFTWARE INFRASTRUCTURE</text><text x="62" y="295" fill="#8F9AA4" font-size="13" letter-spacing="1.3">ASSURANCE / TESTABLE BOUNDARIES</text><text x="62" y="353" fill="#777F87" font-size="10" letter-spacing="2">LESS MAGIC. MORE MECHANISM.</text><text x="1140" y="72" fill="#87919B" font-size="10" letter-spacing="2" text-anchor="end">MODEL / 009-A</text><text x="1140" y="371" fill="#87919B" font-size="10" letter-spacing="2" text-anchor="end">FIG. 01 — CONTROL GEOMETRY</text></g>
+<circle cx="900" cy="218" r="190" fill="url(#halo)" filter="url(#soft)"/>
+<g class="orbit" opacity=".72"><ellipse cx="900" cy="218" rx="184" ry="65" transform="rotate(-34 900 218)" stroke="url(#brass)" stroke-width="1.3" stroke-dasharray="150 10 42 12"/><ellipse cx="900" cy="218" rx="176" ry="78" transform="rotate(48 900 218)" stroke="url(#ice)" stroke-width="1.1" stroke-dasharray="90 8 55 15"/></g>
+<g class="orbit2" opacity=".45"><ellipse cx="900" cy="218" rx="152" ry="115" transform="rotate(73 900 218)" stroke="#B9C1C9" stroke-width=".8" stroke-dasharray="2 8"/></g>
+<g filter="url(#glow)"><path d="M900 105L1000 163L985 278L890 329L793 269L799 158Z" stroke="url(#brass)" stroke-width="1.7" fill="#C8A56A" fill-opacity=".025"/><path d="M900 105L890 329M1000 163L793 269M985 278L799 158M900 105L985 278M1000 163L890 329M793 269L985 278M799 158L890 329" stroke="url(#ice)" stroke-width="1.05" stroke-opacity=".8"/><path d="M900 105L1000 163L900 218L799 158Z" fill="#D9C18F" fill-opacity=".06"/><path d="M799 158L900 218L890 329L793 269Z" fill="#C8A56A" fill-opacity=".07"/><path d="M900 218L1000 163L985 278L890 329Z" fill="#E5E8EB" fill-opacity=".035"/><path d="M860 190L900 167L940 190L940 236L900 259L860 236Z" stroke="#D8BD83" stroke-opacity=".8" stroke-width="1.2"/><path d="M860 190L900 213L940 190M900 213V259M900 213L860 236M900 213L940 236" stroke="#D8BD83" stroke-opacity=".7" stroke-width="1"/><circle cx="900" cy="213" r="16" fill="#11151A" stroke="#F0D7A0" stroke-width="1.2"/><circle cx="900" cy="213" r="4" fill="#F0D7A0" class="pulse"/></g>
+<g fill="#F0D7A0"><circle cx="900" cy="105" r="3"/><circle cx="1000" cy="163" r="2.5"/><circle cx="985" cy="278" r="2.5"/><circle cx="793" cy="269" r="2.5"/></g>
+<g stroke="#C8A56A" stroke-opacity=".65" stroke-width=".8"><path d="M1000 163H1082V145H1120"/><path d="M985 278H1060V300H1110"/><path d="M900 105V89H950"/></g><g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" letter-spacing="1.4" fill="#B8C0C8"><text x="1085" y="137">POLICY</text><text x="1064" y="317">EVIDENCE</text><text x="956" y="92">BOUNDARY</text></g>
 </svg>
