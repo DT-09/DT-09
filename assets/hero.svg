@@ -1,48 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
-<title id="title">DT-09 — AI systems and software infrastructure</title>
-<desc id="desc">A restrained dark hero with a softly animated indigo glow and fine geometric lines.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 390" role="img" aria-labelledby="title desc">
+<title id="title">DT-09 — Build systems. Show evidence.</title>
+<desc id="desc">An animated obsidian hero with flowing golden-brown contours, a quiet orbital system, and ivory typography.</desc>
 <defs>
   <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-    <stop stop-color="#0B0D13"/>
-    <stop offset="1" stop-color="#15192A"/>
+    <stop stop-color="#100E0B"/><stop offset=".56" stop-color="#17130F"/><stop offset="1" stop-color="#090A0B"/>
   </linearGradient>
-  <radialGradient id="glow">
-    <stop stop-color="#5557A0" stop-opacity=".42"/>
-    <stop offset="1" stop-color="#5557A0" stop-opacity="0"/>
+  <radialGradient id="halo">
+    <stop stop-color="#9C6B2F" stop-opacity=".22"/><stop offset="1" stop-color="#9C6B2F" stop-opacity="0"/>
   </radialGradient>
-  <linearGradient id="line" x1="0" y1="0" x2="1" y2="1">
-    <stop stop-color="#C8A56A" stop-opacity="0"/>
-    <stop offset=".5" stop-color="#C8A56A" stop-opacity=".65"/>
-    <stop offset="1" stop-color="#A4B7D7" stop-opacity=".12"/>
+  <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#6D4823" stop-opacity=".1"/><stop offset=".5" stop-color="#B88945" stop-opacity=".85"/><stop offset="1" stop-color="#D6B77D" stop-opacity=".12"/>
   </linearGradient>
   <style>
-    .glow { animation: breathe 10s ease-in-out infinite alternate; transform-origin: 900px 140px; }
-    .orbit { animation: orbit 28s linear infinite; transform-origin: 910px 160px; }
-    @keyframes breathe { from { opacity: .55; transform: scale(.94); } to { opacity: 1; transform: scale(1.08); } }
-    @keyframes orbit { to { transform: rotate(360deg); } }
-    @media (prefers-reduced-motion: reduce) { .glow, .orbit { animation: none; } }
+    .halo{transform-origin:930px 180px;animation:pulse 9s ease-in-out infinite alternate}
+    .flow{stroke-dasharray:7 11;animation:drift 24s linear infinite}
+    .orbit{transform-origin:930px 184px;animation:rotate 46s linear infinite}
+    @keyframes pulse{from{opacity:.55;transform:scale(.9)}to{opacity:1;transform:scale(1.13)}}
+    @keyframes drift{to{stroke-dashoffset:-360}}
+    @keyframes rotate{to{transform:rotate(360deg)}}
+    @media(prefers-reduced-motion:reduce){.halo,.flow,.orbit{animation:none}}
   </style>
 </defs>
-<rect width="1200" height="360" rx="12" fill="url(#bg)"/>
-<circle class="glow" cx="900" cy="140" r="230" fill="url(#glow)"/>
-<g fill="none" stroke="url(#line)" stroke-width="1">
-  <path d="M650 0V360M730 0V360M810 0V360M890 0V360M970 0V360M1050 0V360M1130 0V360" stroke-opacity=".18"/>
-  <path d="M600 50H1200M600 110H1200M600 170H1200M600 230H1200M600 290H1200" stroke-opacity=".16"/>
-  <path class="orbit" d="M700 160C700 68 792 20 900 20S1100 68 1100 160 1008 300 900 300 700 252 700 160Z" stroke-opacity=".55" stroke-dasharray="2 8"/>
-  <path d="M780 360C790 260 830 215 900 160S1020 68 1060 0" stroke-opacity=".6"/>
-  <path d="M690 360C760 270 820 225 900 160S1040 65 1140 0" stroke-opacity=".28"/>
+<rect width="1200" height="390" rx="14" fill="url(#bg)"/>
+<circle class="halo" cx="930" cy="180" r="260" fill="url(#halo)"/>
+<g fill="none" stroke="url(#gold)" stroke-width="1">
+  <path d="M640 0V390M720 0V390M800 0V390M880 0V390M960 0V390M1040 0V390M1120 0V390" opacity=".18"/>
+  <path d="M610 60H1200M610 120H1200M610 180H1200M610 240H1200M610 300H1200M610 360H1200" opacity=".15"/>
+  <path class="orbit" d="M700 184C700 91 802 38 930 38S1160 91 1160 184 1058 330 930 330 700 277 700 184Z" stroke-dasharray="2 9" opacity=".75"/>
+  <path class="flow" d="M650 390C760 290 820 250 930 184S1090 75 1180 0" opacity=".85"/>
+  <path d="M700 390C790 300 860 245 930 184S1070 80 1120 0" opacity=".45"/>
+  <path class="flow" d="M730 390C830 300 880 250 960 190S1100 100 1200 60" opacity=".35"/>
 </g>
-<circle cx="900" cy="160" r="4" fill="#D7BC84"/>
-<circle cx="1060" cy="0" r="3" fill="#D7BC84"/>
-<circle cx="780" cy="360" r="3" fill="#D7BC84"/>
-<g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
-  <text x="64" y="62" fill="#C8A56A" font-size="11" letter-spacing="3">DT—09 / INDEPENDENT BUILDER</text>
-  <text x="60" y="145" fill="#F0EEE8" font-size="43" font-weight="700" letter-spacing="-1.8">BETTER SYSTEMS.</text>
-  <text x="60" y="197" fill="#C8A56A" font-size="43" font-weight="700" letter-spacing="-1.8">CLEARER EVIDENCE.</text>
-  <path d="M64 221H430" stroke="#C8A56A" stroke-opacity=".7"/>
-  <text x="64" y="253" fill="#C8D0DE" font-size="12" letter-spacing="1.3">AI SYSTEMS · SOFTWARE INFRASTRUCTURE</text>
-  <text x="64" y="277" fill="#9AA7BD" font-size="11" letter-spacing="1.2">WORKFLOW VERIFICATION / ASSURANCE / AUTHORITY</text>
-  <text x="64" y="327" fill="#747F94" font-size="10" letter-spacing="2">BUILD WITH INTENT. VERIFY THE RESULT.</text>
+<circle cx="930" cy="184" r="4" fill="#D6B77D"/>
+<circle cx="1180" cy="0" r="3" fill="#B88945"/>
+<circle cx="650" cy="390" r="3" fill="#B88945"/>
+<g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+  <text x="66" y="62" fill="#B88945" font-size="11" letter-spacing="3.4">DT—09 / INDEPENDENT BUILDER</text>
+  <text x="62" y="147" fill="#F1E9D8" font-size="43" font-weight="700" letter-spacing="-1.9">BUILD SYSTEMS.</text>
+  <text x="62" y="201" fill="#B88945" font-size="43" font-weight="700" letter-spacing="-1.9">SHOW EVIDENCE.</text>
+  <path d="M66 226H435" stroke="#B88945" stroke-opacity=".72"/>
+  <text x="66" y="258" fill="#E5DCCB" font-size="12" letter-spacing="1.35">AI SYSTEMS · SOFTWARE INFRASTRUCTURE</text>
+  <text x="66" y="284" fill="#B8AD9A" font-size="11" letter-spacing="1.2">RECONCILIATION / ASSURANCE / AUTHORITY</text>
+  <rect x="66" y="318" width="5" height="5" fill="#B88945"/>
+  <text x="82" y="324" fill="#A99B86" font-size="10" letter-spacing="2">CURRENT FOCUS: LEDGERTRACE</text>
 </g>
 </svg>
