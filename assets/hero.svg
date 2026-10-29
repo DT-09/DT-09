@@ -1,49 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
-<title id="title">DT-09 — Systems that prove themselves</title>
-<desc id="desc">A bold editorial engineering banner with oversized ivory typography, a monumental gold 09, animated orbital geometry, signal lines, and a dark obsidian field.</desc>
+<title id="title">DT-09 — Build systems that matter</title>
+<desc id="desc">A cinematic, architectural engineering banner with monumental ivory typography, brass technical linework, a glowing central signal, and an obsidian-black field.</desc>
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#08090B"/><stop offset=".5" stop-color="#17130F"/><stop offset="1" stop-color="#050607"/></linearGradient>
-  <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#6D4823"/><stop offset=".32" stop-color="#D7B878"/><stop offset=".62" stop-color="#9D713A"/><stop offset="1" stop-color="#E7D1A0"/></linearGradient>
-  <radialGradient id="glow"><stop stop-color="#B88945" stop-opacity=".25"/><stop offset="1" stop-color="#B88945" stop-opacity="0"/></radialGradient>
-  <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" fill="none" stroke="#B88945" stroke-opacity=".12" stroke-width=".7"/></pattern>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#070809"/><stop offset=".52" stop-color="#15130F"/><stop offset="1" stop-color="#050607"/></linearGradient>
+  <linearGradient id="brass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#72502B"/><stop offset=".32" stop-color="#E2C58A"/><stop offset=".58" stop-color="#9A713C"/><stop offset=".82" stop-color="#F0DDB0"/><stop offset="1" stop-color="#76512A"/></linearGradient>
+  <linearGradient id="type" x1="0" y1="0" x2=".9" y2="1"><stop stop-color="#FFF9EE"/><stop offset=".62" stop-color="#DCD2C1"/><stop offset="1" stop-color="#A9987E"/></linearGradient>
+  <radialGradient id="aura"><stop stop-color="#C49A58" stop-opacity=".23"/><stop offset=".55" stop-color="#8E6533" stop-opacity=".07"/><stop offset="1" stop-color="#08090B" stop-opacity="0"/></radialGradient>
+  <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse"><path d="M38 0H0V38" fill="none" stroke="#C39A5C" stroke-opacity=".105" stroke-width=".65"/></pattern>
+  <pattern id="fine" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M0 8L8 0" stroke="#D2B47C" stroke-opacity=".08" stroke-width=".5"/></pattern>
   <style>
-    .orbit{transform-origin:900px 290px;animation:spin 42s linear infinite}
-    .signal{stroke-dasharray:4 13;animation:dash 18s linear infinite}
-    .pulse{transform-origin:900px 290px;animation:breathe 8s ease-in-out infinite alternate}
-    @keyframes spin{to{transform:rotate(360deg)}}
-    @keyframes dash{to{stroke-dashoffset:-340}}
-    @keyframes breathe{to{opacity:.95;transform:scale(1.06)}}
-    @media(prefers-reduced-motion:reduce){.orbit,.signal,.pulse{animation:none}}
+    .rotor{transform-origin:895px 300px;animation:rotate 52s linear infinite}
+    .flow{stroke-dasharray:3 11;animation:flow 20s linear infinite}
+    .glint{animation:glint 5s ease-in-out infinite alternate}
+    @keyframes rotate{to{transform:rotate(360deg)}}
+    @keyframes flow{to{stroke-dashoffset:-280}}
+    @keyframes glint{from{opacity:.3}to{opacity:1}}
+    @media(prefers-reduced-motion:reduce){.rotor,.flow,.glint{animation:none}}
   </style>
 </defs>
 <rect width="1200" height="620" rx="18" fill="url(#bg)"/>
 <rect width="1200" height="620" rx="18" fill="url(#grid)"/>
-<circle cx="900" cy="290" r="360" fill="url(#glow)"/>
-<g fill="none" stroke="url(#metal)">
-  <circle class="pulse" cx="900" cy="290" r="245" stroke-width="1" stroke-opacity=".45"/>
-  <circle class="orbit" cx="900" cy="290" r="205" stroke-width="1.2" stroke-dasharray="2 10" stroke-opacity=".8"/>
-  <ellipse class="orbit" cx="900" cy="290" rx="285" ry="112" stroke-width="1" stroke-opacity=".55" transform="rotate(-32 900 290)"/>
-  <ellipse cx="900" cy="290" rx="310" ry="138" stroke-width="1" stroke-opacity=".25" transform="rotate(48 900 290)"/>
-  <path class="signal" d="M600 620L900 290 1200 68M680 620L930 340 1200 150" stroke-width="1.3" stroke-opacity=".8"/>
-  <path d="M0 500H1200M0 510H1200" stroke-width=".7" stroke-opacity=".25"/>
-  <path d="M780 0V620M900 0V620M1020 0V620" stroke-width=".7" stroke-opacity=".14"/>
+<rect width="1200" height="620" rx="18" fill="url(#fine)"/>
+<circle cx="895" cy="300" r="390" fill="url(#aura)"/>
+<!-- Architectural frame -->
+<g fill="none" stroke="url(#brass)">
+  <path d="M32 32H1168V588H32Z" stroke-opacity=".45" stroke-width="1"/>
+  <path d="M32 112H1168M32 500H1168" stroke-opacity=".16" stroke-width=".8"/>
+  <path d="M690 32V588M1138 32V588" stroke-opacity=".13" stroke-width=".8"/>
+  <path d="M52 48H210M52 48V96M1148 524V572H1098" stroke-width="2" stroke-opacity=".85"/>
 </g>
-<text x="748" y="388" fill="url(#metal)" opacity=".18" font-family="Arial,sans-serif" font-size="350" font-weight="900" letter-spacing="-28">09</text>
-<circle cx="900" cy="290" r="5" fill="#F1D7A0"/>
-<circle cx="1099" cy="220" r="4" fill="#D6B77D"/>
-<circle cx="715" cy="450" r="3" fill="#D6B77D"/>
+<!-- Technical orbital instrument, not a logo or number -->
+<g fill="none" stroke="url(#brass)">
+  <circle cx="895" cy="300" r="228" stroke-width="1" stroke-opacity=".34"/>
+  <circle class="rotor" cx="895" cy="300" r="194" stroke-width="1.2" stroke-dasharray="2 9" stroke-opacity=".82"/>
+  <ellipse class="rotor" cx="895" cy="300" rx="280" ry="104" stroke-width="1" stroke-opacity=".55" transform="rotate(-34 895 300)"/>
+  <ellipse cx="895" cy="300" rx="290" ry="133" stroke-width=".8" stroke-opacity=".28" transform="rotate(48 895 300)"/>
+  <path d="M700 300H1090M895 106V494" stroke-width=".8" stroke-opacity=".22"/>
+  <path class="flow" d="M648 584L895 300 1170 100M724 584L934 345 1170 192M708 60L895 300 1088 550" stroke-width="1.2" stroke-opacity=".75"/>
+  <path d="M786 192L1004 408M1004 192L786 408" stroke-width=".65" stroke-opacity=".18"/>
+  <path d="M895 72v18m0 420v18m-228-228h18m420 0h18" stroke-width="2" stroke-opacity=".8"/>
+</g>
+<circle class="glint" cx="895" cy="300" r="7" fill="#F3DDAA"/>
+<circle cx="1080" cy="228" r="4" fill="#D5B578"/>
+<circle cx="748" cy="434" r="3" fill="#D5B578"/>
+<circle cx="895" cy="300" r="28" fill="none" stroke="#D8B77A" stroke-opacity=".3"/>
+<circle cx="895" cy="300" r="45" fill="none" stroke="#D8B77A" stroke-opacity=".12"/>
+<!-- Editorial type -->
 <g font-family="Arial,Helvetica,sans-serif">
-  <text x="66" y="68" fill="#D6B77D" font-family="monospace" font-size="13" letter-spacing="5">DT—09  /  INDEPENDENT SYSTEMS</text>
-  <path d="M66 92H420" stroke="#B88945" stroke-width="2"/>
-  <text x="58" y="205" fill="#F4EEE2" font-size="88" font-weight="900" letter-spacing="-5">BUILD</text>
-  <text x="58" y="294" fill="#F4EEE2" font-size="88" font-weight="900" letter-spacing="-5">WHAT</text>
-  <text x="58" y="383" fill="url(#metal)" font-size="88" font-weight="900" letter-spacing="-5">MATTERS.</text>
-  <text x="66" y="433" fill="#C7BDAA" font-family="monospace" font-size="13" letter-spacing="2.2">AI SYSTEMS  /  SOFTWARE INFRASTRUCTURE</text>
-  <text x="66" y="462" fill="#8E8578" font-family="monospace" font-size="11" letter-spacing="1.5">RECONCILIATION · ASSURANCE · AUTHORITY</text>
-  <rect x="66" y="510" width="10" height="10" fill="#B88945"/>
-  <text x="90" y="520" fill="#E8DCC5" font-family="monospace" font-size="12" letter-spacing="2">MAKE THE RESULT VISIBLE.</text>
-  <text x="66" y="576" fill="#71685D" font-family="monospace" font-size="10" letter-spacing="2.4">CURRENT BUILD  /  LEDGERTRACE</text>
-  <text x="1132" y="576" text-anchor="end" fill="#71685D" font-family="monospace" font-size="10" letter-spacing="2">EST. IN PUBLIC</text>
+  <text x="68" y="70" fill="#D9B879" font-family="monospace" font-size="12" letter-spacing="4.2">INDEPENDENT SYSTEMS ENGINEERING</text>
+  <path d="M68 91H408" stroke="url(#brass)" stroke-width="2"/>
+  <text x="58" y="218" fill="url(#type)" font-size="96" font-weight="900" letter-spacing="-6">BUILD</text>
+  <text x="58" y="310" fill="url(#type)" font-size="96" font-weight="900" letter-spacing="-6">WITH</text>
+  <text x="58" y="402" fill="url(#brass)" font-size="96" font-weight="900" letter-spacing="-6">PROOF.</text>
+  <text x="70" y="445" fill="#D3C8B5" font-family="monospace" font-size="12" letter-spacing="1.8">AI SYSTEMS  /  SOFTWARE INFRASTRUCTURE</text>
+  <text x="70" y="470" fill="#938777" font-family="monospace" font-size="10.5" letter-spacing="1.35">RECONCILIATION · ASSURANCE · AUTHORITY</text>
+  <path d="M70 520H510" stroke="#C19A5D" stroke-opacity=".42"/>
+  <rect x="70" y="540" width="9" height="9" fill="#C9A66B"/>
+  <text x="92" y="549" fill="#E8DCC6" font-family="monospace" font-size="11" letter-spacing="1.65">MAKE THE RESULT VISIBLE.</text>
+  <text x="70" y="572" fill="#756B5E" font-family="monospace" font-size="9.5" letter-spacing="1.8">DESIGNED TO BE INSPECTED.</text>
+  <text x="1132" y="572" text-anchor="end" fill="#756B5E" font-family="monospace" font-size="9.5" letter-spacing="1.7">SYSTEMS / 001</text>
 </g>
 </svg>
