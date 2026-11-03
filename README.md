@@ -10,7 +10,7 @@ Visual language: midnight ink · ultraviolet · signal-lime · warm paper
     <img src="https://img.shields.io/badge/ENTER_THE_FIELDBOOK-151326?style=for-the-badge&logo=githubpages&logoColor=D8F28B&labelColor=6555B5" alt="Enter the interactive fieldbook" />
   </a>
   <a href="https://github.com/DT-09?tab=repositories">
-    <img src="https://img.shields.io/badge/EXPLORE_SOURCE- D8F28B?style=for-the-badge&logo=github&logoColor=151326&labelColor= D8F28B" alt="Explore source repositories" />
+    <img src="https://img.shields.io/badge/EXPLORE_SOURCE-D8F28B?style=for-the-badge&logo=github&logoColor=151326&labelColor=D8F28B" alt="Explore source repositories" />
   </a>
   <a href="mailto:dhairytopia@gmail.com">
     <img src="https://img.shields.io/badge/CONTACT-FF806B?style=for-the-badge&logo=minutemailer&logoColor=151326&labelColor=FF806B" alt="Contact by email" />
@@ -100,12 +100,6 @@ The [interactive fieldbook](https://dt-09.github.io/DT-09/) is the full experien
 ---
 
 ## One engineering pattern
-
-<div align="center">
-
-<img src="./assets/fieldbook-map.svg" width="100%" alt="Illustration of the DT—09 engineering pattern." />
-
-</div>
 
 `INPUTS → RULES → OBSERVATION → EVIDENCE → HUMAN DECISION`
 
