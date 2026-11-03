@@ -1,8 +1,8 @@
 <div align="center">
   <img src="./assets/fieldbook-map.svg" width="100%" alt="DT—09 engineering fieldnotes: make complex things legible." />
   <br><br>
-  <a href="https://dt-09.github.io/DT-09/"><img src="https://img.shields.io/badge/OPEN_INTERACTIVE_FIELDNOTES-4658E8?style=for-the-badge&logo=githubpages&logoColor=FFFFFF&labelColor=171A22" alt="Open interactive fieldnotes" /></a>
-  <a href="https://github.com/DT-09?tab=repositories"><img src="https://img.shields.io/badge/EXPLORE_SOURCE-D8F36A?style=for-the-badge&logo=github&logoColor=171A22&labelColor=D8F36A" alt="Explore source repositories" /></a>
+  <a href="https://dt-09.github.io/DT-09/"><img src="https://img.shields.io/badge/OPEN_INTERACTIVE_FIELDNOTES-C9AD7B?style=for-the-badge&logo=githubpages&logoColor=FFFFFF&labelColor=11100F" alt="Open interactive fieldnotes" /></a>
+  <a href="https://github.com/DT-09?tab=repositories"><img src="https://img.shields.io/badge/EXPLORE_SOURCE-E2CFAA?style=for-the-badge&logo=github&logoColor=11100F&labelColor=E2CFAA" alt="Explore source repositories" /></a>
 </div>
 
 # DT—09 / Make complexity legible.
@@ -10,6 +10,8 @@
 I build software that turns difficult problems into systems people can inspect, understand and use.
 
 **Data investigation · AI assurance · Adaptive learning · Interactive products**
+
+`OBSIDIAN / EBONY` · `CHAMPAGNE METAL` · `WARM IVORY`
 
 My engineering bias is simple: explicit inputs, inspectable logic, traceable evidence and honest boundaries.
 
