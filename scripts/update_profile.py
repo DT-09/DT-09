@@ -14,7 +14,7 @@ REPOSITORIES = [
     ("Aurelis ACI", "DT-09/aurelis-aci"),
     ("Aurelis AAI", "DT-09/aurelis-aai"),
     ("AI Assurance Infrastructure", "DT-09/ai-assurance-infrastructure"),
-    ("AI Evaluation Evidence Validator", "DT-09/AI-Evaluation-Evidence-Validator"),
+    ("DealTie / AI Acceptance Assurance", "DT-09/DealTie"),
     ("AUREL Desktop", "DT-09/AurelDesktop"),
     ("IL ROSSO", "DT-09/IL-ROSSO"),
     ("VentureLabs", "DT-09/VentureLabs"),
