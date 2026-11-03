@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/hero.svg" width="100%" alt="DT—09 — Systems with substance." />
+<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/hero.svg" width="100%" alt="DT—09 — Independent engineering." />
 
 **SOFTWARE ENGINEERING** &nbsp;·&nbsp; **AI SYSTEMS** &nbsp;·&nbsp; **DATA & EVIDENCE** &nbsp;·&nbsp; **INFRASTRUCTURE**
 
@@ -8,11 +8,11 @@
 
 ---
 
-## Engineering, with intent.
+## What I build.
 
-I build systems that turn complex inputs into inspectable outcomes: software products, verification tools, data workflows and AI control infrastructure.
+Software products, verification tools, data workflows and AI control infrastructure. My work spans systems programming, applied AI assurance, data integrity and interactive software.
 
-**The standard:** explicit assumptions, traceable evidence, reproducible checks and honest limits.
+**Approach:** explicit assumptions · traceable evidence · reproducible checks · honest limits.
 
 <img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/system-map.svg" width="100%" alt="Engineering map: reconcile data, verify outcomes, govern authority." />
 
@@ -20,7 +20,7 @@ I build systems that turn complex inputs into inspectable outcomes: software pro
 
 ## Selected work / 09
 
-Nine projects across product engineering, AI assurance, verification and interactive software. Three lead projects receive visual treatment; the rest stay deliberately uncluttered.
+Nine selected projects across product engineering, systems software, AI assurance and interactive experiences.
 
 <table>
 <tr>
@@ -71,7 +71,7 @@ Checks whether an agent's claimed business outcome is supported by its execution
 
 **Agent authority assurance**
 
-Tests agent tool calls against defined authority policies. Compares expected and observed decisions with trace evidence.
+Tests agent tool calls against defined authority policies. Compares expected and observed decisions with trace evidence. Part of a wider assurance infrastructure.
 
 [Repository ↗](https://github.com/DT-09/Aurelis-Authority)
 
@@ -89,13 +89,13 @@ Evaluates third-party AI outputs against buyer-defined, versioned acceptance pro
 </td>
 <td width="33%" valign="top">
 
-### 06 / Aurelis Assurance Infrastructure
+### 06 / Verity
 
-**Control and assurance for AI systems**
+**C17 migration verification**
 
-A layered family covering AI identity, authority, policy, change and release assurance, evidence and operational control.
+A local-first CSV verification utility. Matches records by a unique key, compares selected fields and produces machine-readable findings with source-row references.
 
-[Core infrastructure ↗](https://github.com/DT-09/ai-assurance-infrastructure) · [ACI ↗](https://github.com/DT-09/aurelis-aci) · [AAI ↗](https://github.com/DT-09/aurelis-aai)
+[Repository ↗](https://github.com/DT-09/Verity)
 
 </td>
 </tr>
@@ -138,22 +138,23 @@ A browser workspace for explicit assumptions, an evidence ledger, pre-registered
 
 ---
 
-## The workbench / technical toolkit
+## Technical toolkit
 
-A practical stack across systems programming, application engineering, data handling, interface work and deployment.
+**Languages**
 
-<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/toolkit.svg" width="100%" alt="Technical toolkit across programming languages, frameworks, data systems and build tools." />
+<p>
+  <img src="https://skillicons.dev/icons?i=c,cs,py,js,ts,html,css&theme=dark" alt="C, C sharp, Python, JavaScript, TypeScript, HTML and CSS logos" />
+</p>
 
-| Layer | Languages and tools |
-|---|---|
-| **Programming languages** | C / C17 · C# · Python · JavaScript · TypeScript · HTML · CSS · SQL |
-| **Application frameworks** | FastAPI · React · .NET · Three.js · Node.js |
-| **Data and interfaces** | SQLite · Cloudflare D1 · CSV · JSON · REST APIs |
-| **Build and testing** | CMake · pytest · npm · Docker |
-| **Versioning and delivery** | Git · GitHub Actions · Cloudflare Pages · Cloudflare Workers · Wrangler |
+**Frameworks, runtimes & engineering tools**
 
-<sub>These are technologies used across the listed repositories; depth and production maturity vary by project.</sub>
+<p>
+  <img src="https://skillicons.dev/icons?i=react,dotnet,threejs,nodejs,sqlite,cloudflare,docker,git,github,githubactions&theme=dark" alt="React, .NET, Three.js, Node.js, SQLite, Cloudflare, Docker, Git, GitHub and GitHub Actions logos" />
+</p>
 
+**Also used:** SQL · FastAPI · CMake · pytest · npm · Cloudflare D1 · Pages · Workers · Wrangler · CSV · JSON · REST APIs
+
+<sub>Logo wall highlights core languages and tools; the text line covers additional project-specific technologies.</sub>
 ---
 
 ## Git topography
@@ -179,7 +180,7 @@ A contribution year rendered as an isometric terrain. Each raised cell represent
 
 <div align="center">
 
-**DT—09** &nbsp;·&nbsp; **Make complexity legible.**
+**DT—09** &nbsp;·&nbsp; **Independent engineering.**
 
 [Browse all repositories ↗](https://github.com/DT-09?tab=repositories)
 
