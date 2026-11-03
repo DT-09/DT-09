@@ -114,13 +114,13 @@ A family of systems covering AI identity, policy, authority, change and release 
 
 <img src="./assets/evaluation-validator.svg" width="100%" alt="AI Evaluation Evidence Validator — versioned protocol, hard gates and case-level outcomes." />
 
-### 07 / AI Evaluation Evidence Validator
+### 07 / DealTie
 
-**Versioned evaluation protocols**
+**AI acceptance assurance workbench**
 
-Evaluates AI outputs against acceptance protocols, hard gates and case-level outcomes, with human adjudication.
+Evaluates third-party AI outputs against buyer-defined, versioned acceptance protocols. Records case-level outcomes, hard gates, human adjudication and portable evidence packages.
 
-[Repository ↗](https://github.com/DT-09/AI-Evaluation-Evidence-Validator)
+[Repository ↗](https://github.com/DT-09/DealTie)
 
 </td>
 <td width="50%" valign="top">
@@ -214,7 +214,7 @@ _Refreshed: 2026-11-03 13:51 UTC. Source: GitHub public repository and commit AP
 | [Aurelis ACI](https://github.com/DT-09/aurelis-aci) | JavaScript | 1 | 0 | 2026-10-03 · [<code>4c380f4</code>](https://github.com/DT-09/aurelis-aci/commit/4c380f401668d6e998bec0d1a67141fdf610cfdd) · Initial Aurelis ACI production baseline |
 | [Aurelis AAI](https://github.com/DT-09/aurelis-aai) | HTML | 1 | 0 | 2026-10-07 · [<code>2006702</code>](https://github.com/DT-09/aurelis-aai/commit/20067029650e107ea76884c95ab5ce852fad5e49) · Fix D1 database UUID |
 | [AI Assurance Infrastructure](https://github.com/DT-09/ai-assurance-infrastructure) | Python | 1 | 0 | 2026-10-25 · [<code>ad7bf62</code>](https://github.com/DT-09/ai-assurance-infrastructure/commit/ad7bf6232b2944df0fae59917528275318e7289a) · Document partner pilot evaluation kit |
-| [AI Evaluation Evidence Validator](https://github.com/DT-09/DealTie) | Python | 1 | 0 | 2026-11-02 · [<code>7292d58</code>](https://github.com/DT-09/DealTie/commit/7292d5842c9ae2a5aaa38129279cd3e214d1553a) · Build complete AI Acceptance Assurance website |
+| [DealTie / AI Acceptance Assurance](https://github.com/DT-09/DealTie) | Python | 1 | 0 | 2026-11-02 · [<code>7292d58</code>](https://github.com/DT-09/DealTie/commit/7292d5842c9ae2a5aaa38129279cd3e214d1553a) · Build complete AI Acceptance Assurance website |
 | [AUREL Desktop](https://github.com/DT-09/AurelDesktop) | C# | 1 | 0 | 2026-11-02 · [<code>adecd0b</code>](https://github.com/DT-09/AurelDesktop/commit/adecd0b3b192bcf0b369f28397a8f59aee005786) · Document AUREL customization and cursor features |
 | [IL ROSSO](https://github.com/DT-09/IL-ROSSO) | TypeScript | 1 | 0 | 2026-10-29 · [<code>7379290</code>](https://github.com/DT-09/IL-ROSSO/commit/7379290d5cd5df186348c6b90e13b54fffe7dd84) · Force both hero title lines to Rosso red |
 | [VentureLabs](https://github.com/DT-09/VentureLabs) | HTML | 1 | 0 | 2026-10-28 · [<code>d908fae</code>](https://github.com/DT-09/VentureLabs/commit/d908fae2828ebb39d86b3cee4246730f533ef559) · Document VentureLabs paid review funnel |
