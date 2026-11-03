@@ -1,52 +1,142 @@
 <div align="center">
-  <img src="./assets/fieldbook-map.svg" width="100%" alt="DT—09 engineering fieldnotes: make complex things legible." />
-  <br><br>
-  <a href="https://dt-09.github.io/DT-09/"><img src="https://img.shields.io/badge/OPEN_INTERACTIVE_FIELDNOTES-C9AD7B?style=for-the-badge&logo=githubpages&logoColor=FFFFFF&labelColor=11100F" alt="Open interactive fieldnotes" /></a>
-  <a href="https://github.com/DT-09?tab=repositories"><img src="https://img.shields.io/badge/EXPLORE_SOURCE-E2CFAA?style=for-the-badge&logo=github&logoColor=11100F&labelColor=E2CFAA" alt="Explore source repositories" /></a>
+
+<img src="./assets/fieldbook-map.svg" width="100%" alt="DT—09 — Independent engineering. Systems, evidence, interfaces." />
+
+<br>
+
+**INDEPENDENT ENGINEERING** &nbsp;·&nbsp; **SYSTEMS** &nbsp;·&nbsp; **EVIDENCE** &nbsp;·&nbsp; **INTERFACES**
+
+<br>
+
 </div>
 
-# DT—09 / Make complexity legible.
+---
 
-I build software that turns difficult problems into systems people can inspect, understand and use.
+## A practice of making complexity legible.
 
-**Data investigation · AI assurance · Adaptive learning · Interactive products**
+I build software around problems that need structure, evidence and clear decisions.
 
-`OBSIDIAN / EBONY` · `CHAMPAGNE METAL` · `WARM IVORY`
+**Focus**  
+Data investigation · AI assurance · Evaluation systems · Interactive software
 
-My engineering bias is simple: explicit inputs, inspectable logic, traceable evidence and honest boundaries.
-
-[**Enter the interactive fieldnotes ↗**](https://dt-09.github.io/DT-09/) — explore the project atlas, switch between system diagrams, inspect implementation context and navigate the engineering method.
+My default approach is to make inputs explicit, logic inspectable, outcomes traceable and limitations visible.
 
 ---
 
 ## Selected work
 
-| Project | What it does | Inspect |
-|---|---|---|
-| **01 / LedgerTrace** | Investigates supplier invoices against purchase orders and goods receipts. Surfaces rule-triggered exceptions with source-row evidence for human review. A flagged discrepancy is not a confirmed loss or recovery. | [Live experience](https://ledgertrace.pages.dev/) · [Source](https://github.com/DT-09/LedgerTrace) |
-| **02 / Aurelis Authority** | Assesses AI-agent tool calls against defined authority policies; compares expected and observed decisions with trace evidence. | [Demonstration](https://aurelis-authority.pages.dev/) · [Source](https://github.com/DT-09/Aurelis-Authority) |
-| **03 / AI Assurance Infrastructure** | Explores AI asset identity, authority, evidence provenance, policy decisions, trust state and runtime control. | [Source](https://github.com/DT-09/ai-assurance-infrastructure) |
-| **04 / AI Evaluation Evidence Validator** | Evaluates AI outputs against versioned acceptance protocols, hard gates and case-level outcomes, with human adjudication. | [Source](https://github.com/DT-09/AI-Evaluation-Evidence-Validator) |
-| **05 / LUMEN ALS** | Source-grounded adaptive learning with indexed material, tutoring, practice, progress estimates and an interactive concept graph. | [Source](https://github.com/DT-09/lumen-als) |
-| **06 / AUREL Desktop** | Native Windows companion with a translucent desktop widget, system indicators, configurable themes and cursor-scheme utility. | [Source](https://github.com/DT-09/AurelDesktop) |
-| **07 / IL ROSSO** | Editorial experience combining a 3D concept-car study, historical archive and guided interface. | [Source](https://github.com/DT-09/IL-ROSSO) |
-| **08 / VentureLabs** | Browser workspace for explicit assumptions, an evidence ledger, pre-registered experiments and decision reports. | [Live workspace](https://venturelabs.pages.dev/) · [Source](https://github.com/DT-09/VentureLabs) |
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 01 — LedgerTrace
+
+**Supplier-payment evidence review**
+
+Investigates supplier invoices against purchase orders and goods receipts. Surfaces potential discrepancies with source-row evidence for human review.
+
+[Repository ↗](https://github.com/DT-09/LedgerTrace)
+
+</td>
+<td width="50%" valign="top">
+
+### 02 — Aurelis Authority
+
+**AI agent authority assurance**
+
+Assesses agent tool calls against defined authority policies. Compares expected and observed decisions with trace evidence.
+
+[Repository ↗](https://github.com/DT-09/Aurelis-Authority)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 03 — AI Assurance Infrastructure
+
+**Identity · authority · provenance**
+
+Explores infrastructure for AI asset identity, authority, evidence provenance, policy decisions, trust state and runtime control.
+
+[Repository ↗](https://github.com/DT-09/ai-assurance-infrastructure)
+
+</td>
+<td width="50%" valign="top">
+
+### 04 — AI Evaluation Evidence Validator
+
+**Versioned evaluation protocols**
+
+Evaluates AI outputs against acceptance protocols, hard gates and case-level outcomes, with human adjudication.
+
+[Repository ↗](https://github.com/DT-09/AI-Evaluation-Evidence-Validator)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 05 — AUREL Desktop
+
+**Native Windows experience**
+
+A desktop companion with a translucent widget, system indicators, configurable themes and cursor-scheme utility.
+
+[Repository ↗](https://github.com/DT-09/AurelDesktop)
+
+</td>
+<td width="50%" valign="top">
+
+### 06 — IL ROSSO
+
+**Automotive editorial experience**
+
+An editorial interface combining a 3D concept-car study, historical archive and guided exploration.
+
+[Repository ↗](https://github.com/DT-09/IL-ROSSO)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 07 — VentureLabs
+
+**Experiment and decision workspace**
+
+A browser workspace for explicit assumptions, an evidence ledger, pre-registered experiments and decision reports.
+
+[Repository ↗](https://github.com/DT-09/VentureLabs)
+
+</td>
+<td width="50%" valign="top">
+
+### Engineering principles
+
+- Evidence before assertion.
+- Deterministic checks where possible.
+- Clear separation of observation and conclusion.
+- Human review where judgment is required.
+- No capability claims without proof.
+
+</td>
+</tr>
+</table>
 
 ---
 
-## How I approach engineering
+## Engineering approach
 
-`INPUT → RULES → OBSERVATION → EVIDENCE → HUMAN REVIEW`
+<div align="center">
 
-- **Traceability:** keep source references and calculation paths close to results.
-- **Repeatability:** use deterministic checks where consistent outcomes matter.
-- **Explicit limits:** state what a system does not establish.
-- **Human accountability:** surface uncertainty and escalation points.
-- **Proof over claims:** prefer runnable examples, tests and inspectable outputs.
+**INPUT** &nbsp; → &nbsp; **RULES** &nbsp; → &nbsp; **OBSERVATION** &nbsp; → &nbsp; **EVIDENCE** &nbsp; → &nbsp; **DECISION**
 
-## Technical range
+<sub>Build the path. Preserve the context. Make the result inspectable.</sub>
 
-| Area | Tools and methods |
+</div>
+
+| Domain | Working range |
 |---|---|
 | Application engineering | Python · JavaScript · TypeScript · C# · React · FastAPI · .NET |
 | Data systems | CSV / JSON pipelines · deterministic validation · SQLite · REST APIs |
@@ -54,16 +144,16 @@ My engineering bias is simple: explicit inputs, inspectable logic, traceable evi
 | Interfaces | Responsive workflows · interactive visualisation · Three.js · motion |
 | Delivery | Git · GitHub Actions · Cloudflare Pages · CI workflows |
 
-These are tools represented in the projects above, not claims of equal depth in every technology.
+<sub>Technologies listed reflect tools used across projects; depth varies by implementation.</sub>
 
 ---
 
 <div align="center">
 
-### Have a problem worth making clearer?
+**DT—09**
 
-[GitHub](https://github.com/DT-09) · [LinkedIn](https://www.linkedin.com/in/dhairy-topia/) · [Email](mailto:dhairytopia@gmail.com)
+<sub>Make complexity legible.</sub>
 
-<sub>DT—09 / INDEPENDENT ENGINEERING · SYSTEMS · EVIDENCE · INTERFACES</sub>
+[GitHub repositories](https://github.com/DT-09?tab=repositories)
 
 </div>
