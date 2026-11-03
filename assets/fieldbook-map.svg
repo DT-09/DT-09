@@ -1,1 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="700" viewBox="0 0 1600 700" fill="none"><defs><pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" stroke="#C9AD7B" stroke-opacity=".10"/></pattern><linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#272119"/><stop offset="1" stop-color="#11100F"/></linearGradient><linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#E2CFAA"/><stop offset="1" stop-color="#9E8052"/></linearGradient></defs><rect width="1600" height="700" fill="#11100F"/><rect width="1600" height="700" fill="url(#grid)"/><rect x="28" y="28" width="1544" height="644" stroke="#C9AD7B" stroke-opacity=".42"/><text x="88" y="100" fill="#DCC7A2" font-family="monospace" font-size="16" letter-spacing="5">DT—09 / INDEPENDENT ENGINEERING</text><text x="88" y="250" fill="#F2EEE5" font-family="Arial,sans-serif" font-weight="700" font-size="108" letter-spacing="-7">Make complex</text><text x="88" y="360" fill="#DCC7A2" font-family="Georgia,serif" font-style="italic" font-size="112" letter-spacing="-5">things legible.</text><text x="94" y="425" fill="#B7AA96" font-family="monospace" font-size="16" letter-spacing="2">DATA INVESTIGATION · AI ASSURANCE · ADAPTIVE LEARNING · INTERACTIVE PRODUCTS</text><rect x="1000" y="130" width="485" height="420" fill="url(#panel)" stroke="#9E8052"/><rect x="1000" y="130" width="485" height="420" fill="url(#grid)"/><g stroke="#C9AD7B" stroke-opacity=".7" stroke-dasharray="5 7" stroke-width="2"><path d="M1242 340L1088 220L1395 220L1410 430L1085 430L1242 340"/><path d="M1088 220L1410 430M1395 220L1085 430"/></g><circle cx="1242" cy="340" r="60" fill="url(#gold)" stroke="#17130E" stroke-width="3"/><text x="1242" y="334" fill="#17130E" text-anchor="middle" font-family="monospace" font-size="16">SYSTEM</text><text x="1242" y="357" fill="#17130E" text-anchor="middle" font-family="monospace" font-size="16">/ 09</text><g font-family="monospace" font-size="14" text-anchor="middle"><circle cx="1088" cy="220" r="27" fill="#DCC7A2"/><text x="1088" y="225" fill="#17130E">01</text><circle cx="1395" cy="220" r="27" fill="#B99A6B"/><text x="1395" y="225" fill="#17130E">02</text><circle cx="1410" cy="430" r="27" fill="#8C7351"/><text x="1410" y="435" fill="#F2EEE5">03</text><circle cx="1085" cy="430" r="27" fill="#E2CFAA"/><text x="1085" y="435" fill="#17130E">04</text></g><rect x="94" y="520" width="245" height="54" fill="#DCC7A2"/><text x="216" y="553" fill="#17130E" text-anchor="middle" font-family="monospace" font-size="14" letter-spacing="2">EXPLORE THE WORK ↗</text><rect x="355" y="520" width="245" height="54" fill="none" stroke="#9E8052"/><text x="477" y="553" fill="#E2CFAA" text-anchor="middle" font-family="monospace" font-size="14" letter-spacing="2">INSPECT SOURCE ↗</text><text x="94" y="630" fill="#9B907F" font-family="monospace" font-size="13" letter-spacing="3">SYSTEMS · EVIDENCE · INTERFACES</text><text x="1505" y="630" fill="#9B907F" text-anchor="end" font-family="monospace" font-size="13" letter-spacing="3">FIELDNOTES / 2026</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="620" viewBox="0 0 1600 620" fill="none">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0D0D0C"/><stop offset=".55" stop-color="#171512"/><stop offset="1" stop-color="#100F0D"/></linearGradient>
+ <linearGradient id="champagne" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F0E3C9"/><stop offset=".48" stop-color="#CDB58B"/><stop offset="1" stop-color="#92744E"/></linearGradient>
+ <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" stroke="#CDB58B" stroke-opacity=".07" stroke-width="1"/></pattern>
+ <radialGradient id="glow"><stop stop-color="#B99A6A" stop-opacity=".18"/><stop offset="1" stop-color="#B99A6A" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="1600" height="620" rx="8" fill="url(#bg)"/>
+<rect width="1600" height="620" rx="8" fill="url(#grid)"/>
+<circle cx="1270" cy="300" r="380" fill="url(#glow)"/>
+<rect x="24" y="24" width="1552" height="572" rx="4" stroke="#BDA47B" stroke-opacity=".38"/>
+<path d="M72 92H1528" stroke="#BDA47B" stroke-opacity=".24"/>
+<text x="86" y="72" fill="#D6C4A5" font-family="monospace" font-size="15" letter-spacing="5">DT—09  /  INDEPENDENT ENGINEERING</text>
+<text x="86" y="236" fill="#F2EEE5" font-family="Arial,sans-serif" font-size="104" font-weight="600" letter-spacing="-6">Make complexity</text>
+<text x="86" y="344" fill="url(#champagne)" font-family="Georgia,serif" font-size="112" font-style="italic" letter-spacing="-4">legible.</text>
+<text x="92" y="410" fill="#B9B0A2" font-family="monospace" font-size="15" letter-spacing="2.4">DATA INVESTIGATION  /  AI ASSURANCE  /  INTERACTIVE SYSTEMS</text>
+<path d="M92 470H620" stroke="#BDA47B" stroke-opacity=".5"/>
+<text x="92" y="512" fill="#E9E1D4" font-family="monospace" font-size="13" letter-spacing="2">SYSTEMS  ·  EVIDENCE  ·  INTERFACES</text>
+<g transform="translate(1190 302)">
+ <circle r="168" stroke="#BDA47B" stroke-opacity=".24"/>
+ <circle r="128" stroke="#BDA47B" stroke-opacity=".42" stroke-dasharray="3 8"/>
+ <circle r="86" stroke="#BDA47B" stroke-opacity=".6"/>
+ <path d="M-168 0H168M0-168V168M-119-119L119 119M119-119L-119 119" stroke="#BDA47B" stroke-opacity=".2"/>
+ <path d="M0-128L111-64L111 64L0 128L-111 64L-111-64Z" stroke="url(#champagne)" stroke-width="1.5" fill="#CDB58B" fill-opacity=".04"/>
+ <circle r="38" fill="url(#champagne)"/>
+ <text y="5" fill="#17130F" text-anchor="middle" font-family="monospace" font-size="14" letter-spacing="1">DT—09</text>
+ <g fill="#E5D5B8" stroke="#17130F" stroke-width="4">
+  <circle cx="0" cy="-128" r="8"/><circle cx="111" cy="-64" r="8"/><circle cx="111" cy="64" r="8"/><circle cx="0" cy="128" r="8"/><circle cx="-111" cy="64" r="8"/><circle cx="-111" cy="-64" r="8"/>
+ </g>
+ <g fill="#A99A83" font-family="monospace" font-size="10" letter-spacing="1.5">
+  <text x="0" y="-148" text-anchor="middle">SYSTEMS</text><text x="130" y="-62">EVIDENCE</text><text x="130" y="82">DESIGN</text><text x="0" y="155" text-anchor="middle">ENGINEERING</text>
+ </g>
+</g>
+<text x="1508" y="548" fill="#8F8576" text-anchor="end" font-family="monospace" font-size="11" letter-spacing="2">FIELDNOTES / 09</text>
+</svg>
