@@ -1,141 +1,167 @@
 <div align="center">
 
-<img src="./assets/hero.svg" width="100%" alt="DT—09 — Build with proof. Independent systems engineering." />
+<img src="./assets/hero.svg" width="100%" alt="DT—09 — Systems with substance. Independent engineering across software, AI assurance and data systems." />
 
 <br>
 
-**SYSTEMS ENGINEERING** &nbsp;·&nbsp; **AI ASSURANCE** &nbsp;·&nbsp; **DATA INVESTIGATION** &nbsp;·&nbsp; **INTERACTIVE SOFTWARE**
+**SOFTWARE ENGINEERING** &nbsp;·&nbsp; **AI SYSTEMS** &nbsp;·&nbsp; **DATA & EVIDENCE** &nbsp;·&nbsp; **INFRASTRUCTURE**
 
 </div>
 
 ---
 
-## A practice of making complexity legible.
+## Engineering, with intent.
 
-I build software around problems that need structure, evidence and clear decisions.
+I build systems that turn complex inputs into inspectable outcomes: software products, verification tools, data workflows and AI control infrastructure.
 
-**The through-line:** make inputs explicit, logic inspectable, outcomes traceable and limitations visible.
+**The standard:** explicit assumptions, traceable evidence, reproducible checks and honest limits.
 
-<img src="./assets/system-map.svg" width="100%" alt="Engineering map: reconcile business data, verify system behavior, control AI agent authority." />
+<img src="./assets/system-map.svg" width="100%" alt="Engineering map connecting data reconciliation, outcome verification and AI authority." />
 
 ---
 
 ## Selected work
 
-A collection of independent projects across evidence systems, AI controls, evaluation infrastructure and interface engineering.
+Ten selected projects across product engineering, verification, AI assurance and interactive systems. The showcase favours concrete capabilities over a long list of repository names.
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-<img src="./assets/ledgertrace.svg" width="100%" alt="LedgerTrace illustration: invoice, purchase order and goods receipt records connected to an evidence review." />
+<img src="./assets/ledgertrace.svg" width="100%" alt="LedgerTrace — invoice, purchase order and goods receipt records converge into an evidence review." />
 
-### 01 — LedgerTrace
+### 01 / LedgerTrace
 
 **Supplier-payment evidence review**
 
-Compares supplier invoices with purchase orders and goods receipts. Surfaces potential discrepancies with source-row evidence for human review.
+Compares supplier invoices with purchase orders and goods receipts. Produces source-linked potential discrepancies for human review.
 
-[Explore repository ↗](https://github.com/DT-09/LedgerTrace)
+[Repository ↗](https://github.com/DT-09/LedgerTrace)
 
 </td>
 <td width="50%" valign="top">
 
-<img src="./assets/aurelis-authority.svg" width="100%" alt="Aurelis Authority illustration: an AI agent's capability is separated from its permitted authority." />
+<img src="./assets/pacelab.svg" width="100%" alt="PaceLab — source material flows into a learning workspace and learning signals." />
 
-### 02 — Aurelis Authority
+### 02 / PaceLab
 
-**AI agent authority assurance**
+**Source-grounded learning environment**
 
-Tests agent tool calls against defined authority policies. Compares expected and observed decisions with trace evidence.
+An interactive learning product with source-linked tutoring, concept exploration, retrieval practice, spaced review and a constrained maths studio.
 
-[Explore repository ↗](https://github.com/DT-09/Aurelis-Authority)
+[Repository ↗](https://github.com/DT-09/PaceLab)
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-<img src="./assets/ai-assurance.svg" width="100%" alt="AI assurance workflow: claim, check, evidence and repeatable verification." />
+<img src="./assets/verity.svg" width="100%" alt="Verity — source and target CSV exports are checked by a C17 verification core." />
 
-### 03 — AI Assurance Infrastructure
+### 03 / Verity
 
-**Identity · authority · provenance**
+**C17 migration verification utility**
 
-Explores infrastructure for AI asset identity, authority, evidence provenance, policy decisions, trust state and runtime control.
+A local-first tool for comparing agreed source and target CSV exports. Checks keys and selected fields, then reports mismatches with source-row references. Early MVP; not production-certified.
 
-[Explore repository ↗](https://github.com/DT-09/ai-assurance-infrastructure)
+[Repository ↗](https://github.com/DT-09/Verity)
 
 </td>
 <td width="50%" valign="top">
 
-<img src="./assets/evaluation-validator.svg" width="100%" alt="Evaluation validator illustration: versioned protocol, hard gates and case-level result." />
+<img src="./assets/aurelis-outcome.svg" width="100%" alt="Aurelis Outcome Assurance — an agent claim is checked against execution trace evidence and a verdict." />
 
-### 04 — AI Evaluation Evidence Validator
+### 04 / Aurelis Outcome Assurance
+
+**Independent AI outcome verification**
+
+Checks whether an agent's claimed business outcome is supported by its execution trace: required actions, duplicates, ordering, identity consistency, final state and evidence.
+
+[Repository ↗](https://github.com/DT-09/aurelis-aoa)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<img src="./assets/aurelis-authority.svg" width="100%" alt="Aurelis Authority — agent capability is separated from permitted authority and policy boundaries." />
+
+### 05 / Aurelis Authority
+
+**Agent authority assurance**
+
+Tests agent tool calls against defined authority policies. Compares expected and observed decisions with trace evidence.
+
+[Repository ↗](https://github.com/DT-09/Aurelis-Authority)
+
+</td>
+<td width="50%" valign="top">
+
+<img src="./assets/aurelis-infrastructure.svg" width="100%" alt="Aurelis infrastructure — identity, authority, policy and evidence layers." />
+
+### 06 / Aurelis Infrastructure
+
+**AI control and assurance infrastructure**
+
+A family of systems covering AI identity, policy, authority, change and release assurance, evidence and operational control.
+
+[AI Assurance Infrastructure ↗](https://github.com/DT-09/ai-assurance-infrastructure) · [ACI ↗](https://github.com/DT-09/aurelis-aci) · [AAI ↗](https://github.com/DT-09/aurelis-aai)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<img src="./assets/evaluation-validator.svg" width="100%" alt="AI Evaluation Evidence Validator — versioned protocol, hard gates and case-level outcomes." />
+
+### 07 / AI Evaluation Evidence Validator
 
 **Versioned evaluation protocols**
 
 Evaluates AI outputs against acceptance protocols, hard gates and case-level outcomes, with human adjudication.
 
-[Explore repository ↗](https://github.com/DT-09/AI-Evaluation-Evidence-Validator)
+[Repository ↗](https://github.com/DT-09/AI-Evaluation-Evidence-Validator)
+
+</td>
+<td width="50%" valign="top">
+
+<img src="./assets/aurel-desktop.svg" width="100%" alt="AUREL Desktop — a translucent desktop system status widget." />
+
+### 08 / AUREL Desktop
+
+**Native Windows companion**
+
+A desktop utility with a translucent widget, system indicators, configurable themes and cursor-scheme utility.
+
+[Repository ↗](https://github.com/DT-09/AurelDesktop)
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-<img src="./assets/aurel-desktop.svg" width="100%" alt="AUREL Desktop translucent system status widget." />
+<img src="./assets/il-rosso.svg" width="100%" alt="IL ROSSO — sculptural concept-car editorial illustration." />
 
-### 05 — AUREL Desktop
-
-**Native Windows experience**
-
-A desktop companion with a translucent widget, system indicators, configurable themes and cursor-scheme utility.
-
-[Explore repository ↗](https://github.com/DT-09/AurelDesktop)
-
-</td>
-<td width="50%" valign="top">
-
-<img src="./assets/il-rosso.svg" width="100%" alt="IL ROSSO automotive concept car editorial illustration." />
-
-### 06 — IL ROSSO
+### 09 / IL ROSSO
 
 **Automotive editorial experience**
 
 An editorial interface combining a 3D concept-car study, historical archive and guided exploration.
 
-[Explore repository ↗](https://github.com/DT-09/IL-ROSSO)
+[Repository ↗](https://github.com/DT-09/IL-ROSSO)
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
-<img src="./assets/venturelabs.svg" width="100%" alt="VentureLabs workflow: event, effects and findings." />
+<img src="./assets/venturelabs.svg" width="100%" alt="VentureLabs — event, effects and findings in an experiment workspace." />
 
-### 07 — VentureLabs
+### 10 / VentureLabs
 
 **Experiment and decision workspace**
 
 A browser workspace for explicit assumptions, an evidence ledger, pre-registered experiments and decision reports.
 
-[Explore repository ↗](https://github.com/DT-09/VentureLabs)
-
-</td>
-<td width="50%" valign="top">
-
-### Engineering principles
-
-- Evidence before assertion.
-- Deterministic checks where possible.
-- Observation kept separate from conclusion.
-- Human review where judgment is required.
-- No capability claims without proof.
-
-**Design intent**
-
-Quiet interfaces. Clear hierarchy. Useful motion. Technical detail with a reason to exist.
+[Repository ↗](https://github.com/DT-09/VentureLabs)
 
 </td>
 </tr>
@@ -143,25 +169,52 @@ Quiet interfaces. Clear hierarchy. Useful motion. Technical detail with a reason
 
 ---
 
-## How I approach engineering
+## The workbench / technical toolkit
 
-<div align="center">
+A practical toolkit across systems programming, application engineering, data handling, interface work and deployment.
 
-**INPUT** &nbsp; → &nbsp; **RULES** &nbsp; → &nbsp; **OBSERVATION** &nbsp; → &nbsp; **EVIDENCE** &nbsp; → &nbsp; **DECISION**
+<img src="./assets/toolkit.svg" width="100%" alt="Technical toolkit: C, C sharp, Python, JavaScript, TypeScript, HTML, CSS, SQL, FastAPI, React, .NET, Three.js, SQLite, Cloudflare D1, CMake, pytest, npm, Docker, GitHub Actions and Wrangler." />
 
-<sub>Build the path. Preserve the context. Make the result inspectable.</sub>
-
-</div>
-
-| Domain | Working range |
+| Layer | Languages and tools |
 |---|---|
-| Application engineering | Python · JavaScript · TypeScript · C# · React · FastAPI · .NET |
-| Data systems | CSV / JSON pipelines · deterministic validation · SQLite · REST APIs |
-| AI assurance | Policy evaluation · acceptance protocols · trace auditing · regression testing |
-| Interfaces | Responsive workflows · interactive visualisation · Three.js · motion |
-| Delivery | Git · GitHub Actions · Cloudflare Pages · CI workflows |
+| **Programming languages** | C / C17 · C# · Python · JavaScript · TypeScript · HTML · CSS · SQL |
+| **Application frameworks** | FastAPI · React · .NET · Three.js |
+| **Data and interfaces** | SQLite · Cloudflare D1 · CSV · JSON · REST APIs |
+| **Build and testing** | CMake · pytest · npm · Docker |
+| **Versioning and delivery** | Git · GitHub Actions · Cloudflare Pages · Cloudflare Workers · Wrangler |
 
-<sub>Technologies listed reflect tools used across projects; depth varies by implementation.</sub>
+<sub>Toolkit reflects technologies used across the listed repositories; depth and production maturity vary by project.</sub>
+
+---
+
+## Git topography
+
+A three-dimensional view of contribution activity. Each raised cell represents a day; elevation scales with the number of GitHub contributions.
+
+<img src="./assets/git-topography.svg" width="100%" alt="Isometric Git contribution terrain, refreshed daily from the GitHub contribution calendar." />
+
+<sub>Generated by GitHub Actions from the public contribution calendar. The first automated run replaces the initial placeholder; subsequent refreshes run daily.</sub>
+
+---
+
+## Repository pulse
+
+Live public repository metadata and latest commit activity. Updated automatically by GitHub Actions.
+
+<!-- PROFILE_PULSE:START -->
+_The live repository pulse is waiting for its first workflow refresh._
+<!-- PROFILE_PULSE:END -->
+
+---
+
+## Engineering principles
+
+- Evidence before assertion.
+- Deterministic checks where possible.
+- Observation kept separate from conclusion.
+- Human review where judgment is required.
+- Clear limits; no invented performance or customer claims.
+- Interfaces should clarify the system, not decorate it.
 
 ---
 
