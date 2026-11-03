@@ -6,8 +6,9 @@ on:
     - cron: "17 4 * * *"
   push:
     branches: [main]
-    paths-ignore:
-      - "README.md"
+    paths:
+      - "scripts/update_profile.py"
+      - ".github/workflows/profile-telemetry.yml"
 
 permissions:
   contents: write
