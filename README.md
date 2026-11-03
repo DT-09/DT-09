@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/hero.svg" width="100%" alt="DT—09 — Independent engineering." />
+<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/hero.svg" width="100%" alt="Well done is better than well said — Benjamin Franklin." />
 
 **SOFTWARE ENGINEERING** &nbsp;·&nbsp; **AI SYSTEMS** &nbsp;·&nbsp; **DATA & EVIDENCE** &nbsp;·&nbsp; **INFRASTRUCTURE**
 
