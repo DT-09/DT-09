@@ -1,18 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="760" viewBox="0 0 1600 760" fill="none">
-<defs>
- <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="760" gradientUnits="userSpaceOnUse"><stop stop-color="#151326"/><stop offset="1" stop-color="#24214A"/></linearGradient>
- <linearGradient id="violet" x1="240" y1="150" x2="1320" y2="640" gradientUnits="userSpaceOnUse"><stop stop-color="#B9A5FF"/><stop offset="1" stop-color="#6F82FF"/></linearGradient>
- <linearGradient id="lime" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#E3FF91"/><stop offset="1" stop-color="#A9D95A"/></linearGradient>
- <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" stroke="#fff" stroke-opacity=".055"/></pattern>
- <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="18"/></filter>
-</defs>
-<rect width="1600" height="760" rx="34" fill="url(#bg)"/><rect width="1600" height="760" rx="34" fill="url(#grid)"/>
-<circle cx="1270" cy="160" r="180" fill="#8E7AFF" fill-opacity=".14" filter="url(#glow)"/><circle cx="360" cy="610" r="190" fill="#D5F57D" fill-opacity=".10" filter="url(#glow)"/>
-<g opacity=".7" stroke="#9A91C9" stroke-width="1.5"><path d="M100 190H390L510 310H760"/><path d="M100 570H330L470 430H760"/><path d="M840 310H1110L1220 200H1480"/><path d="M840 430H1090L1210 550H1480"/></g>
-<g fill="#D6CBFF"><circle cx="390" cy="190" r="5"/><circle cx="510" cy="310" r="5"/><circle cx="330" cy="570" r="5"/><circle cx="470" cy="430" r="5"/><circle cx="1110" cy="310" r="5"/><circle cx="1220" cy="200" r="5"/><circle cx="1090" cy="430" r="5"/><circle cx="1210" cy="550" r="5"/></g>
-<g transform="translate(610 205)"><rect width="380" height="350" rx="26" fill="#F3F0E8"/><rect x="24" y="24" width="332" height="48" rx="12" fill="#E5E0D6"/><circle cx="48" cy="48" r="5" fill="#F27C68"/><circle cx="67" cy="48" r="5" fill="#D9B75C"/><circle cx="86" cy="48" r="5" fill="#9DCB69"/><text x="24" y="112" fill="#777181" font-family="monospace" font-size="12" letter-spacing="2">SYSTEM / 09</text><text x="24" y="155" fill="#17152A" font-family="Georgia,serif" font-size="34">Evidence in.</text><text x="24" y="195" fill="#17152A" font-family="Georgia,serif" font-size="34">Clarity out.</text><rect x="24" y="226" width="332" height="1" fill="#D8D3C9"/><g font-family="monospace" font-size="11"><text x="24" y="257" fill="#777181">INPUTS</text><text x="122" y="257" fill="#777181">RULES</text><text x="220" y="257" fill="#777181">EVIDENCE</text><text x="24" y="294" fill="#17152A">01  SOURCE</text><text x="122" y="294" fill="#17152A">02  CHECK</text><text x="220" y="294" fill="#17152A">03  TRACE</text></g><rect x="24" y="314" width="332" height="12" rx="6" fill="#D8D3C9"/><rect x="24" y="314" width="244" height="12" rx="6" fill="#A78BFA"/></g>
-<g transform="translate(130 90)"><rect width="300" height="130" rx="18" fill="#262344" stroke="#8F82C7" stroke-opacity=".55"/><text x="24" y="36" fill="#B9A5FF" font-family="monospace" font-size="11" letter-spacing="2">01 / BUILD</text><text x="24" y="78" fill="#F3F0E8" font-family="Georgia,serif" font-size="28">Useful systems</text><path d="M24 102H270" stroke="#8F82C7" stroke-opacity=".45"/><circle cx="267" cy="102" r="4" fill="#D5F57D"/></g>
-<g transform="translate(1170 545)"><rect width="300" height="130" rx="18" fill="#D8F28B"/><text x="24" y="36" fill="#4D6030" font-family="monospace" font-size="11" letter-spacing="2">02 / VERIFY</text><text x="24" y="78" fill="#17152A" font-family="Georgia,serif" font-size="28">Inspectable work</text><path d="M24 102H270" stroke="#738A4A" stroke-opacity=".5"/><circle cx="267" cy="102" r="4" fill="#17152A"/></g>
-<text x="100" y="690" fill="#B9A5FF" font-family="monospace" font-size="13" letter-spacing="4">DT—09 / ENGINEERING FIELDBOOK</text>
-<text x="1500" y="690" text-anchor="end" fill="#B8B4C9" font-family="monospace" font-size="11" letter-spacing="2">SYSTEMS · EVIDENCE · INTERFACES</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="700" viewBox="0 0 1600 700" fill="none">
+<defs><pattern id="g" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" stroke="#171A22" stroke-opacity=".08"/></pattern><linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#4658E8"/><stop offset="1" stop-color="#2838B9"/></linearGradient></defs>
+<rect width="1600" height="700" fill="#F2EFE7"/><rect width="1600" height="700" fill="url(#g)"/>
+<rect x="30" y="30" width="1540" height="640" stroke="#171A22" stroke-opacity=".2"/>
+<text x="90" y="100" fill="#4658E8" font-family="monospace" font-size="16" letter-spacing="5">DT—09 / INDEPENDENT ENGINEERING</text>
+<text x="90" y="255" fill="#171A22" font-family="Arial,sans-serif" font-weight="700" font-size="112" letter-spacing="-8">Make complex</text>
+<text x="90" y="365" fill="#4658E8" font-family="Georgia,serif" font-style="italic" font-size="112" letter-spacing="-5">things legible.</text>
+<text x="95" y="430" fill="#656871" font-family="monospace" font-size="17" letter-spacing="2">DATA INVESTIGATION · AI ASSURANCE · ADAPTIVE LEARNING · INTERACTIVE PRODUCTS</text>
+<rect x="1010" y="135" width="465" height="410" fill="url(#b)"/>
+<rect x="1010" y="135" width="465" height="410" fill="url(#g)"/>
+<g stroke="#E6E8FF" stroke-opacity=".75" stroke-dasharray="6 7" stroke-width="2"><path d="M1242 340L1095 220L1390 220L1410 425L1090 425L1242 340"/><path d="M1095 220L1410 425M1390 220L1090 425"/></g>
+<circle cx="1242" cy="340" r="58" fill="#D8F36A" stroke="#171A22" stroke-width="3"/>
+<text x="1242" y="334" fill="#171A22" text-anchor="middle" font-family="monospace" font-size="16">SYSTEM</text><text x="1242" y="357" fill="#171A22" text-anchor="middle" font-family="monospace" font-size="16">/ 09</text>
+<g font-family="monospace" font-size="14" text-anchor="middle"><circle cx="1095" cy="220" r="27" fill="#FA7958"/><text x="1095" y="225" fill="#171A22">01</text><circle cx="1390" cy="220" r="27" fill="#A8C98C"/><text x="1390" y="225" fill="#171A22">02</text><circle cx="1410" cy="425" r="27" fill="#AEB7FF"/><text x="1410" y="430" fill="#171A22">03</text><circle cx="1090" cy="425" r="27" fill="#D8F36A"/><text x="1090" y="430" fill="#171A22">04</text></g>
+<rect x="95" y="515" width="245" height="54" fill="#171A22"/><text x="217" y="548" fill="#F2EFE7" text-anchor="middle" font-family="monospace" font-size="14" letter-spacing="2">EXPLORE THE WORK ↗</text>
+<rect x="355" y="515" width="245" height="54" fill="#D8F36A" stroke="#171A22"/><text x="477" y="548" fill="#171A22" text-anchor="middle" font-family="monospace" font-size="14" letter-spacing="2">INSPECT SOURCE ↗</text>
+<text x="95" y="625" fill="#777A80" font-family="monospace" font-size="13" letter-spacing="3">SYSTEMS · EVIDENCE · INTERFACES</text>
+<text x="1505" y="625" fill="#777A80" text-anchor="end" font-family="monospace" font-size="13" letter-spacing="3">FIELDNOTES / 2026</text>
 </svg>
