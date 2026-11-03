@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Refresh the GitHub profile README with live public repository telemetry."""
+"""Refresh the GitHub profile with live public repository telemetry."""
 from datetime import datetime, timezone
 import json
 import os
@@ -7,10 +7,14 @@ import urllib.request
 
 REPOSITORIES = [
     ("LedgerTrace", "DT-09/LedgerTrace"),
+    ("PaceLab", "DT-09/PaceLab"),
+    ("Verity", "DT-09/Verity"),
+    ("Aurelis Outcome Assurance", "DT-09/aurelis-aoa"),
     ("Aurelis Authority", "DT-09/Aurelis-Authority"),
+    ("Aurelis ACI", "DT-09/aurelis-aci"),
+    ("Aurelis AAI", "DT-09/aurelis-aai"),
     ("AI Assurance Infrastructure", "DT-09/ai-assurance-infrastructure"),
     ("AI Evaluation Evidence Validator", "DT-09/AI-Evaluation-Evidence-Validator"),
-    ("LUMEN ALS", "DT-09/lumen-als"),
     ("AUREL Desktop", "DT-09/AurelDesktop"),
     ("IL ROSSO", "DT-09/IL-ROSSO"),
     ("VentureLabs", "DT-09/VentureLabs"),
@@ -29,7 +33,7 @@ def github_get(path: str):
     if token:
         headers["Authorization"] = f"Bearer {token}"
     request = urllib.request.Request("https://api.github.com" + path, headers=headers)
-    with urllib.request.urlopen(request, timeout=20) as response:
+    with urllib.request.urlopen(request, timeout=25) as response:
         return json.loads(response.read().decode("utf-8"))
 
 
@@ -60,7 +64,7 @@ def main():
 
     refreshed = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     section = (
-        f"_Last refreshed: {refreshed}. Source: GitHub public repository and commit APIs._\n\n"
+        f"_Refreshed: {refreshed}. Source: GitHub public repository and commit APIs._\n\n"
         "| Repository | Primary language | Stars | Forks | Latest commit |\n"
         "|---|---:|---:|---:|---|\n"
         + "\n".join(rows)
