@@ -212,7 +212,18 @@ This is a map of technologies used across the projects above, not a claim of equ
 A small, automatically refreshed view of the repositories: current public metadata and the latest commit recorded by GitHub. It is activity context, not a quality score.
 
 <!-- PROFILE_PULSE:START -->
-_Profile telemetry is being prepared. The scheduled workflow will populate this section._
+_Last refreshed: 2026-11-03 03:06 UTC. Source: GitHub public repository and commit APIs._
+
+| Repository | Primary language | Stars | Forks | Latest commit |
+|---|---:|---:|---:|---|
+| [LedgerTrace](https://github.com/DT-09/LedgerTrace) | HTML | 1 | 0 | 2026-11-02 · [<code>46e8ac9</code>](https://github.com/DT-09/LedgerTrace/commit/46e8ac94d98677bf2bf0fb71b53e28ecb548e955) · Document first-party analytics D1 setup |
+| [Aurelis Authority](https://github.com/DT-09/Aurelis-Authority) | JavaScript | 1 | 0 | 2026-11-02 · [<code>8919644</code>](https://github.com/DT-09/Aurelis-Authority/commit/891964492fd03b72704bb4d6a8811a60011924c9) · Document the private inbound lead dashboard |
+| [AI Assurance Infrastructure](https://github.com/DT-09/ai-assurance-infrastructure) | Python | 1 | 0 | 2026-10-25 · [<code>ad7bf62</code>](https://github.com/DT-09/ai-assurance-infrastructure/commit/ad7bf6232b2944df0fae59917528275318e7289a) · Document partner pilot evaluation kit |
+| [AI Evaluation Evidence Validator](https://github.com/DT-09/AI-Evaluation-Evidence-Validator) | Python | 1 | 0 | 2026-11-02 · [<code>7292d58</code>](https://github.com/DT-09/AI-Evaluation-Evidence-Validator/commit/7292d5842c9ae2a5aaa38129279cd3e214d1553a) · Build complete AI Acceptance Assurance website |
+| [LUMEN ALS](https://github.com/DT-09/lumen-als) | HTML | 1 | 1 | 2026-10-13 · [<code>a24b47b</code>](https://github.com/DT-09/lumen-als/commit/a24b47bed7290e13d85f8f2e7dee760212653bed) · Improve LUMEN interface and error handling |
+| [AUREL Desktop](https://github.com/DT-09/AurelDesktop) | C# | 1 | 0 | 2026-11-02 · [<code>adecd0b</code>](https://github.com/DT-09/AurelDesktop/commit/adecd0b3b192bcf0b369f28397a8f59aee005786) · Document AUREL customization and cursor features |
+| [IL ROSSO](https://github.com/DT-09/IL-ROSSO) | TypeScript | 1 | 0 | 2026-10-29 · [<code>7379290</code>](https://github.com/DT-09/IL-ROSSO/commit/7379290d5cd5df186348c6b90e13b54fffe7dd84) · Force both hero title lines to Rosso red |
+| [VentureLabs](https://github.com/DT-09/VentureLabs) | HTML | 1 | 0 | 2026-10-28 · [<code>d908fae</code>](https://github.com/DT-09/VentureLabs/commit/d908fae2828ebb39d86b3cee4246730f533ef559) · Document VentureLabs paid review funnel |
 <!-- PROFILE_PULSE:END -->
 
 ---
