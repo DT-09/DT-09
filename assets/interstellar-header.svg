@@ -1,65 +1,57 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="420" viewBox="0 0 1400 420" role="img" aria-labelledby="title desc">
-<title id="title">DT—09 — Wonder is where knowing begins</title>
-<desc id="desc">A quiet interstellar scene with a black hole and warm amber accretion ring in the upper-right corner, sparse stars, and restrained editorial typography.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="560" viewBox="0 0 1600 560" role="img" aria-labelledby="t d">
+<title id="t">DT—09 — Somewhere, wonder becomes discovery</title>
+<desc id="d">A cinematic black hole with a bright amber accretion disc dominates the right side. Oversized editorial typography and a restrained orbital grid frame the left.</desc>
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0" stop-color="#030305"/>
-    <stop offset=".58" stop-color="#08090D"/>
-    <stop offset="1" stop-color="#161B26"/>
-  </linearGradient>
-  <radialGradient id="nebula" cx="76%" cy="44%" r="55%">
-    <stop offset="0" stop-color="#D47A3B" stop-opacity=".13"/>
-    <stop offset=".42" stop-color="#161B26" stop-opacity=".22"/>
-    <stop offset="1" stop-color="#030305" stop-opacity="0"/>
-  </radialGradient>
-  <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0" stop-color="#F9AD6A" stop-opacity=".1"/>
-    <stop offset=".24" stop-color="#D47A3B"/>
-    <stop offset=".46" stop-color="#F9AD6A"/>
-    <stop offset=".62" stop-color="#8F492B"/>
-    <stop offset=".82" stop-color="#D47A3B"/>
-    <stop offset="1" stop-color="#F9AD6A" stop-opacity=".08"/>
-  </linearGradient>
-  <linearGradient id="type" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0" stop-color="#F3E9DE"/>
-    <stop offset=".72" stop-color="#F9AD6A"/>
-    <stop offset="1" stop-color="#D47A3B"/>
-  </linearGradient>
-  <filter id="blur18"><feGaussianBlur stdDeviation="18"/></filter>
-  <filter id="blur5"><feGaussianBlur stdDeviation="5"/></filter>
-  <filter id="blur2"><feGaussianBlur stdDeviation="2"/></filter>
-  <clipPath id="right">
-    <rect x="730" y="0" width="670" height="420"/>
-  </clipPath>
+ <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#030305"/><stop offset=".55" stop-color="#08090D"/><stop offset="1" stop-color="#161B26"/></linearGradient>
+ <radialGradient id="haze"><stop stop-color="#D47A3B" stop-opacity=".22"/><stop offset=".5" stop-color="#161B26" stop-opacity=".2"/><stop offset="1" stop-color="#030305" stop-opacity="0"/></radialGradient>
+ <linearGradient id="disc" x1="0" y1="0" x2="1" y2=".3"><stop stop-color="#7D3B24" stop-opacity=".15"/><stop offset=".3" stop-color="#D47A3B"/><stop offset=".52" stop-color="#FFE0B2"/><stop offset=".7" stop-color="#F9AD6A"/><stop offset="1" stop-color="#8C452A" stop-opacity=".1"/></linearGradient>
+ <radialGradient id="hole"><stop offset=".72" stop-color="#010103"/><stop offset=".86" stop-color="#030305"/><stop offset=".94" stop-color="#161B26"/><stop offset="1" stop-color="#030305"/></radialGradient>
+ <linearGradient id="word" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#F5EDE4"/><stop offset=".62" stop-color="#F9AD6A"/><stop offset="1" stop-color="#D47A3B"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="22"/></filter><filter id="soft"><feGaussianBlur stdDeviation="7"/></filter>
+ <pattern id="grid" width="54" height="54" patternUnits="userSpaceOnUse"><path d="M54 0H0V54" fill="none" stroke="#F3E9DE" stroke-opacity=".035" stroke-width="1"/></pattern>
+ <style>
+ .reveal{opacity:0;animation:reveal 1.4s ease-out .25s forwards}
+ .sub{opacity:0;animation:reveal 1.3s ease-out .85s forwards}
+ .orbit{transform-origin:1110px 275px;animation:orbit 54s linear infinite}
+ .pulse{animation:pulse 5s ease-in-out infinite}
+ .stars circle{animation:twinkle 4s ease-in-out infinite alternate}
+ @keyframes reveal{from{opacity:0;transform:translateY(18px);letter-spacing:18px}to{opacity:1;transform:translateY(0);letter-spacing:7px}}
+ @keyframes orbit{to{transform:rotate(360deg)}}
+ @keyframes pulse{0%,100%{opacity:.48}50%{opacity:.9}}
+ @keyframes twinkle{from{opacity:.18}to{opacity:.85}}
+ @media(prefers-reduced-motion:reduce){.reveal,.sub{opacity:1;animation:none}.orbit,.pulse,.stars circle{animation:none}}
+ </style>
 </defs>
-<rect width="1400" height="420" fill="url(#bg)"/>
-<rect width="1400" height="420" fill="url(#nebula)"/>
-<g fill="#F3E9DE">
-  <circle cx="88" cy="72" r="1.1" opacity=".52"/><circle cx="185" cy="318" r=".9" opacity=".44"/>
-  <circle cx="308" cy="57" r="1" opacity=".34"/><circle cx="454" cy="358" r="1.2" opacity=".5"/>
-  <circle cx="590" cy="112" r=".8" opacity=".42"/><circle cx="680" cy="270" r="1" opacity=".34"/>
-  <circle cx="770" cy="44" r=".9" opacity=".4"/><circle cx="1005" cy="365" r="1" opacity=".42"/>
-  <circle cx="1168" cy="60" r="1.2" opacity=".46"/><circle cx="1332" cy="294" r=".9" opacity=".5"/>
-  <circle cx="1250" cy="158" r=".7" opacity=".55"/><circle cx="925" cy="194" r=".7" opacity=".35"/>
-  <circle cx="54" cy="205" r=".7" opacity=".32"/><circle cx="372" cy="178" r=".7" opacity=".35"/>
+<rect width="1600" height="560" fill="url(#bg)"/><rect width="1600" height="560" fill="url(#grid)"/>
+<ellipse cx="1110" cy="275" rx="470" ry="360" fill="url(#haze)"/>
+<g class="stars" fill="#F5EDE4">
+ <circle cx="70" cy="74" r="1.5"/><circle cx="420" cy="56" r="1.1"/><circle cx="640" cy="126" r="1.3"/>
+ <circle cx="780" cy="455" r="1.2"/><circle cx="930" cy="68" r="1.1"/><circle cx="1480" cy="90" r="1.4"/>
+ <circle cx="1510" cy="410" r="1.2"/><circle cx="136" cy="414" r="1.1"/><circle cx="510" cy="340" r="1.4"/>
+ <circle cx="870" cy="260" r="1"/><circle cx="1320" cy="500" r="1.3"/><circle cx="290" cy="220" r="1"/>
 </g>
-<g clip-path="url(#right)" transform="translate(1080 188) rotate(-13)">
-  <ellipse rx="260" ry="83" fill="none" stroke="#D47A3B" stroke-width="30" opacity=".12" filter="url(#blur18)"/>
-  <ellipse rx="244" ry="78" fill="none" stroke="url(#ring)" stroke-width="13" opacity=".85" filter="url(#blur5)"/>
-  <ellipse rx="238" ry="74" fill="none" stroke="url(#ring)" stroke-width="4" opacity=".96"/>
-  <ellipse rx="192" ry="60" fill="none" stroke="#F9AD6A" stroke-width="2" opacity=".56" filter="url(#blur2)"/>
-  <ellipse rx="154" ry="48" fill="none" stroke="#D47A3B" stroke-width="10" opacity=".4" filter="url(#blur18)"/>
-  <path d="M-240 0 C-160 -54 130 -80 239 -8" fill="none" stroke="#F9AD6A" stroke-width="2" opacity=".5"/>
-  <circle r="66" fill="#010103"/>
-  <circle r="70" fill="none" stroke="#D47A3B" stroke-width="1.5" opacity=".58"/>
-  <ellipse rx="93" ry="26" fill="none" stroke="#F9AD6A" stroke-width="1" opacity=".22"/>
+<g transform="translate(1110 275)">
+ <ellipse rx="365" ry="118" fill="none" stroke="#D47A3B" stroke-width="46" opacity=".16" filter="url(#glow)"/>
+ <ellipse rx="335" ry="106" fill="none" stroke="url(#disc)" stroke-width="22" opacity=".85" filter="url(#soft)"/>
+ <ellipse rx="324" ry="101" fill="none" stroke="url(#disc)" stroke-width="8" opacity=".95"/>
+ <ellipse rx="285" ry="88" fill="none" stroke="#F9AD6A" stroke-width="2" opacity=".64"/>
+ <ellipse rx="240" ry="74" fill="none" stroke="#F9AD6A" stroke-width="1.2" opacity=".38"/>
+ <g class="orbit"><ellipse rx="375" ry="130" fill="none" stroke="#F9AD6A" stroke-width="1" stroke-dasharray="3 13" opacity=".4"/></g>
+ <path d="M-325 0C-180 -118 170 -125 325 -4" fill="none" stroke="#FFE0B2" stroke-width="2.5" opacity=".65" filter="url(#soft)"/>
+ <circle r="112" fill="url(#hole)"/><circle r="116" fill="none" stroke="#F9AD6A" stroke-opacity=".48" stroke-width="1.5"/>
+ <ellipse rx="145" ry="40" fill="none" stroke="#D47A3B" stroke-width="1" opacity=".24"/>
 </g>
-<path d="M76 316 H660" stroke="#D47A3B" stroke-opacity=".42" stroke-width="1"/>
-<g>
-  <text x="76" y="180" font-family="Georgia, 'Times New Roman', serif" font-size="104" letter-spacing="8" fill="url(#type)">DT—09</text>
-  <text x="82" y="226" font-family="Arial, Helvetica, sans-serif" font-size="16" letter-spacing="5" fill="#D47A3B">INDEPENDENT SYSTEMS ENGINEERING</text>
-  <text x="82" y="278" font-family="Georgia, 'Times New Roman', serif" font-size="27" font-style="italic" fill="#F3E9DE">Wonder is where knowing begins.</text>
-  <text x="82" y="356" font-family="Arial, Helvetica, sans-serif" font-size="11" letter-spacing="3.2" fill="#8B8D96">APPLIED AI  /  SOFTWARE  /  DATA  /  ENGINEERING</text>
+<g class="reveal">
+ <text x="92" y="210" font-family="Georgia, 'Times New Roman', serif" font-size="128" letter-spacing="7" fill="url(#word)">DT—09</text>
+ <text x="101" y="263" font-family="Arial, Helvetica, sans-serif" font-size="15" letter-spacing="6" fill="#D47A3B">INDEPENDENT SYSTEMS ENGINEERING</text>
 </g>
-<path d="M76 384 H1324" stroke="#161B26" stroke-width="1"/>
+<g class="sub">
+ <text x="101" y="337" font-family="Georgia, 'Times New Roman', serif" font-size="31" font-style="italic" fill="#F5EDE4">Somewhere, wonder becomes discovery.</text>
+ <path d="M101 376H635" stroke="#D47A3B" stroke-opacity=".68"/>
+ <text x="101" y="413" font-family="Arial, Helvetica, sans-serif" font-size="12" letter-spacing="3.4" fill="#A6A7B0">APPLIED AI  /  SOFTWARE  /  DATA  /  ENGINEERING</text>
+</g>
+<g class="pulse" fill="none" stroke="#D47A3B" stroke-opacity=".28"><circle cx="1110" cy="275" r="230"/><circle cx="1110" cy="275" r="420" stroke-dasharray="2 14"/></g>
+<path d="M70 510H1530" stroke="#161B26" stroke-width="1"/>
+<text x="72" y="538" fill="#777B87" font-family="monospace" font-size="10" letter-spacing="2">CURIOSITY → MODELS → SYSTEMS → EVIDENCE</text>
+<text x="1528" y="538" fill="#777B87" font-family="monospace" font-size="10" text-anchor="end" letter-spacing="2">EST. IN PROGRESS</text>
 </svg>
