@@ -16,6 +16,12 @@
 
 ---
 
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/kinetic-type.svg" width="100%" alt="Animated typography: inquire, imagine, model, build, test, refine." />
+
+</div>
+
 ## 01 / A question worth following
 
 I build software to investigate difficult questions and turn useful answers into working systems.
@@ -29,6 +35,12 @@ My projects move across AI assurance, adaptive learning, financial evidence, eng
 <div align="center">
 
 <img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/systems-method.svg" width="100%" alt="Illustrated process: inquire, model, build, verify and review." />
+
+</div>
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/kinetic-type.svg" width="100%" alt="Animated typography: inquire, imagine, model, build, test, refine." />
 
 </div>
 
@@ -146,6 +158,12 @@ An independent Scuderia Ferrari fan project featuring an original 3D concept-car
 
 ---
 
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/kinetic-type.svg" width="100%" alt="Animated typography: inquire, imagine, model, build, test, refine." />
+
+</div>
+
 ## 03 / Technical range
 
 A cross-section of languages, runtimes and tools used across the projects.
@@ -187,6 +205,12 @@ A cross-section of languages, runtimes and tools used across the projects.
 
 ---
 
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/kinetic-type.svg" width="100%" alt="Animated typography: inquire, imagine, model, build, test, refine." />
+
+</div>
+
 ## 04 / Engineering principles
 
 <div align="center">
@@ -213,11 +237,7 @@ Not every problem belongs in a dashboard. Some are better explored through an in
 
 <div align="center">
 
-### Wonder awaits.
-
-<sub>DT—09 &nbsp;·&nbsp; INDEPENDENT SOFTWARE & SYSTEMS ENGINEERING</sub>
-
-<br /><br />
+<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/closing-quote.svg" width="100%" alt="Wonder is where knowing begins." />
 
 <a href="https://github.com/DT-09?tab=repositories">EXPLORE THE REPOSITORIES ↗</a>
 &nbsp;·&nbsp;
@@ -225,6 +245,6 @@ Not every problem belongs in a dashboard. Some are better explored through an in
 
 <br /><br />
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:030305,55:161B26,100:030305&height=110&section=footer" width="100%" alt="Interstellar dark footer in charcoal and amber." />
+<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/footer-panel.svg" width="100%" alt="Contrasting bronze and midnight-blue DT—09 footer." />
 
 </div>
