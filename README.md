@@ -1,158 +1,149 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/quasar-header.svg" width="100%" alt="QUASAR — a TON 618-inspired black hole and accretion disk, representing independent systems engineering." />
+<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/interstellar-header.svg" width="100%" alt="DT—09 — an interstellar black-hole scene in ember and amber, with the line Wonder is where knowing begins." />
 
 <br />
 
-<a href="https://github.com/DT-09">
-  <img src="https://readme-typing-svg.demolab.com?font=Cormorant+Garamond&weight=500&size=29&duration=6800&pause=3200&color=CFC8F5&center=true&vCenter=true&width=860&height=54&lines=Engineering+at+the+edge+of+the+known.;Building+systems+that+stand+up+to+scrutiny." alt="Engineering at the edge of the known. Building systems that stand up to scrutiny." />
+<a href="https://github.com/DT-09?tab=repositories">
+  <img src="https://img.shields.io/badge/EXPLORE_THE_WORK- repositories?style=for-the-badge&logo=github&logoColor=F9AD6A&labelColor=030305&color=D47A3B" alt="Explore repositories" />
 </a>
-
-<br />
-
-<sub><code>SOFTWARE SYSTEMS</code> &nbsp;·&nbsp; <code>APPLIED AI</code> &nbsp;·&nbsp; <code>DATA INTEGRITY</code> &nbsp;·&nbsp; <code>INTERACTIVE ENGINEERING</code></sub>
+&nbsp;
+<a href="https://github.com/DT-09">
+  <img src="https://img.shields.io/badge/INDEPENDENT-ENGINEERING?style=for-the-badge&labelColor=030305&color=161B26&logo=github&logoColor=F9AD6A" alt="Independent engineering" />
+</a>
 
 <br /><br />
 
-<a href="https://github.com/DT-09?tab=repositories"><img src="https://img.shields.io/badge/EXPLORE-REPOSITORIES-9B8CFF?style=for-the-badge&labelColor=090914&logo=github&logoColor=F5F2FF" alt="Explore repositories" /></a>
-&nbsp;
-<a href="https://github.com/DT-09"><img src="https://img.shields.io/badge/INDEPENDENT-ENGINEERING-75D9F2?style=for-the-badge&labelColor=090914&color=75D9F2" alt="Independent engineering" /></a>
+<sub>APPLIED AI &nbsp;·&nbsp; SYSTEMS ENGINEERING &nbsp;·&nbsp; DATA & EVIDENCE &nbsp;·&nbsp; SOFTWARE & INTERACTIVE MEDIA</sub>
 
 </div>
 
 ---
 
-## / 01 — The signal
+## 01 / The work
 
-I build software products and technical systems across applied AI, verification, data workflows and interactive experiences.
+I build independent software across AI assurance, data integrity, financial workflows, engineering tools and interactive experiences.
 
-The aim is practical: turn difficult requirements into working systems with observable behaviour, traceable evidence and clear limits.
+The work moves between research and implementation: define the problem, make the system observable, test its behaviour, preserve the evidence and state its limits. Some projects are prototypes or early evaluation products; their status is documented in their repositories.
 
-**Operating principles**
+**A few recurring questions**
 
-`Explicit assumptions` &nbsp;·&nbsp; `Traceable evidence` &nbsp;·&nbsp; `Reproducible checks` &nbsp;·&nbsp; `Useful outcomes`
+- How can an AI system be given clear authority—and how can its actions be checked?
+- How can separate records be compared without losing their source context?
+- How can complex technical information become easier to explore and reason about?
+- How can software make uncertainty visible instead of hiding it?
+
+---
+
+## 02 / Selected work — nine projects
 
 <div align="center">
-
-<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/system-map.svg" width="100%" alt="System map: reconcile data, verify outcomes, govern authority." />
-
+<sub>AI ASSURANCE &nbsp; / &nbsp; LEARNING &nbsp; / &nbsp; FINANCIAL EVIDENCE &nbsp; / &nbsp; ENGINEERING &nbsp; / &nbsp; INTERACTIVE DESIGN</sub>
 </div>
-
----
-
-## / 02 — Selected work
-
-A portfolio of experiments and products spanning operational software, AI assurance, data verification and interactive engineering.
 
 <table>
 <tr>
 <td width="33%" valign="top">
 
-<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/ledgertrace.svg" width="100%" alt="LedgerTrace — invoice, purchase order and goods receipt records converge into an evidence review." />
+### 01 — AI Assurance Infrastructure
 
-### 01 / LedgerTrace
+**Vendor-neutral AI assurance and control plane**
+
+Persistent identity, authority, evidence, policy, evaluation and runtime-control foundations, with a protocol and experimental benchmark.
+
+[Repository ↗](https://github.com/DT-09/ai-assurance-infrastructure)
+
+</td>
+<td width="33%" valign="top">
+
+### 02 — Aurelis Authority
+
+**AI agent authority assessment**
+
+Defines intended authority, evaluates supplied tool-call traces against policy, and produces expected-versus-observed findings for human review.
+
+[Repository ↗](https://github.com/DT-09/Aurelis-Authority)
+
+</td>
+<td width="33%" valign="top">
+
+### 03 — Vesper
+
+**Adaptive discovery and learning**
+
+An open-ended inquiry environment for exploring subjects, forming hypotheses, researching sources, testing ideas and deriving qualified answers.
+
+[Repository ↗](https://github.com/DT-09/Vesper)
+
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+
+### 04 — LedgerTrace
 
 **Supplier-payment evidence review**
 
-Compares supplier invoices with purchase orders and goods receipts. Surfaces potential discrepancies with source-row evidence for human review.
+Connects invoice lines with purchase orders, goods receipts and supported payment or credit context. Turns rule-triggered differences into source-linked cases for finance review.
 
-[Explore repository ↗](https://github.com/DT-09/LedgerTrace)
-
-</td>
-<td width="33%" valign="top">
-
-<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/pacelab.svg" width="100%" alt="PaceLab — source material flows through a learning workspace into learning signals." />
-
-### 02 / PaceLab
-
-**Source-grounded learning environment**
-
-An interactive learning product for concept exploration, source-linked tutoring, retrieval practice, spaced review and a focused maths studio.
-
-[Explore repository ↗](https://github.com/DT-09/PaceLab)
+[Repository ↗](https://github.com/DT-09/LedgerTrace)
 
 </td>
 <td width="33%" valign="top">
 
-<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/aurelis-outcome.svg" width="100%" alt="Aurelis Outcome Assurance — an agent claim is checked against execution trace evidence." />
+### 05 — DealTie
 
-### 03 / Aurelis Outcome Assurance
+**Financial evidence reconciliation**
 
-**Independent AI outcome verification**
+A transaction-document workbench for comparing selected metrics across CIM, QoE and valuation materials, preserving source references and review findings.
 
-Checks whether an agent's claimed outcome is supported by its execution trace, including required actions, ordering, identity consistency, final state and evidence.
+[Repository ↗](https://github.com/DT-09/DealTie)
 
-[Explore repository ↗](https://github.com/DT-09/aurelis-aoa)
+</td>
+<td width="33%" valign="top">
+
+### 06 — DatasheetDelta
+
+**Engineering revision intelligence**
+
+Compares supported fields across technical document revisions, normalises selected units and produces a provenance-linked change register.
+
+[Repository ↗](https://github.com/DT-09/DatasheetDelta)
 
 </td>
 </tr>
 <tr>
 <td width="33%" valign="top">
 
-### 04 / Aurelis Authority
+### 07 — CommitmentGraph
 
-**Agent authority assurance**
+**Evidence-led commitment intelligence**
 
-Tests agent tool calls against defined authority policies and compares expected decisions with observed behaviour and trace evidence.
+Links obligations, dated events and source records into an inspectable graph. Runs deterministic investigations and exposes the evidence behind each finding.
 
-[Explore repository ↗](https://github.com/DT-09/Aurelis-Authority)
-
-</td>
-<td width="33%" valign="top">
-
-### 05 / DealTie
-
-**AI acceptance assurance workbench**
-
-Evaluates third-party AI outputs against buyer-defined, versioned acceptance protocols. Records case outcomes, hard gates, human adjudication and portable evidence packages.
-
-[Explore repository ↗](https://github.com/DT-09/DealTie)
+[Repository ↗](https://github.com/DT-09/CommitmentGraph)
 
 </td>
 <td width="33%" valign="top">
 
-### 06 / Verity
+### 08 — Migraven
 
-**C17 migration verification**
+**Migration export verification**
 
-A local-first CSV verification utility. Matches records by a unique key, compares selected fields and produces machine-readable findings with source-row references.
+A local-first C17 utility for comparing CSV and flat JSONL exports by key, producing source-row findings and SHA-256 integrity manifests.
 
-[Explore repository ↗](https://github.com/DT-09/Verity)
-
-</td>
-</tr>
-<tr>
-<td width="33%" valign="top">
-
-### 07 / AUREL Desktop
-
-**Native Windows companion**
-
-A desktop utility with a translucent widget, system indicators, configurable themes and cursor-scheme utility.
-
-[Explore repository ↗](https://github.com/DT-09/AurelDesktop)
+[Repository ↗](https://github.com/DT-09/Migraven)
 
 </td>
 <td width="33%" valign="top">
 
-### 08 / IL ROSSO
+### 09 — IL ROSSO
 
-**Automotive editorial experience**
+**Interactive automotive experience**
 
-An editorial interface combining a 3D concept-car study, historical archive and guided exploration.
+An independent, fan-made Scuderia Ferrari tribute with an original 3D concept-car study, editorial storytelling and a navigable archive.
 
-[Explore repository ↗](https://github.com/DT-09/IL-ROSSO)
-
-</td>
-<td width="33%" valign="top">
-
-### 09 / VentureLabs
-
-**Experiment and decision workspace**
-
-A browser workspace for explicit assumptions, an evidence ledger, pre-registered experiments and decision reports.
-
-[Explore repository ↗](https://github.com/DT-09/VentureLabs)
+[Repository ↗](https://github.com/DT-09/IL-ROSSO)
 
 </td>
 </tr>
@@ -160,50 +151,64 @@ A browser workspace for explicit assumptions, an evidence ledger, pre-registered
 
 ---
 
-## / 03 — Technical range
+## 03 / Technical range
+
+The projects span low-level utilities, application software, APIs, data processing, cloud deployment and real-time 3D experiences.
 
 <div align="center">
 
-**LANGUAGES**
+**LANGUAGES & WEB FOUNDATIONS**
 
-<img src="https://skillicons.dev/icons?i=c,cs,py,js,ts,html,css&theme=dark" alt="C, C sharp, Python, JavaScript, TypeScript, HTML and CSS" />
+<img src="https://skillicons.dev/icons?i=c,cpp,cs,py,js,ts,html,css,bash&theme=dark" alt="C, C++, C sharp, Python, JavaScript, TypeScript, HTML, CSS and Bash" />
 
 <br /><br />
 
-**FRAMEWORKS · RUNTIMES · ENGINEERING**
+**APPLICATIONS, FRAMEWORKS & RUNTIMES**
 
-<img src="https://skillicons.dev/icons?i=react,dotnet,threejs,nodejs,sqlite,cloudflare,docker,git,github,githubactions&theme=dark" alt="React, .NET, Three.js, Node.js, SQLite, Cloudflare, Docker, Git, GitHub and GitHub Actions" />
+<img src="https://skillicons.dev/icons?i=react,vite,nodejs,fastapi,dotnet,threejs,sqlite&theme=dark" alt="React, Vite, Node.js, FastAPI, .NET, Three.js and SQLite" />
+
+<br /><br />
+
+**CLOUD, BUILD, TEST & DELIVERY**
+
+<img src="https://skillicons.dev/icons?i=cloudflare,docker,cmake,git,github,githubactions&theme=dark" alt="Cloudflare, Docker, CMake, Git, GitHub and GitHub Actions" />
 
 </div>
 
-**Also used:** SQL · FastAPI · CMake · pytest · npm · Cloudflare D1 · Pages · Workers · Wrangler · CSV · JSON · REST APIs
+**Additional tools and formats**
 
-<sub>Selected tools shown above; additional technologies vary by project.</sub>
+- **Backend & APIs:** Python, FastAPI, Streamlit, REST, Node.js, Cloudflare Workers and Pages Functions.
+- **Data & persistence:** SQL, SQLite, Cloudflare D1, CSV, JSON, JSONL, structured document extraction and SHA-256 evidence manifests.
+- **Documents:** PDF text extraction, XLSX and XLS, DOCX, TXT and Markdown processing.
+- **Frontend & 3D:** React, TypeScript, Vite, CSS, Three.js, React Three Fiber, Drei, Motion and GSAP.
+- **Native & systems:** C17, CMake, command-line tooling, cross-platform build and packaging workflows.
+- **Quality & delivery:** pytest, unittest, CTest, npm scripts, GitHub Actions, Docker and Cloudflare deployment workflows.
 
----
-
-## / 04 — Git topography
-
-A contribution year rendered as isometric terrain. Each raised cell represents a day; elevation reflects the daily contribution count.
-
-<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/git-topography.svg" width="100%" alt="Isometric Git contribution terrain, refreshed daily from the GitHub contribution calendar." />
-
-<sub>Generated from the public GitHub contribution calendar and refreshed daily.</sub>
+*Tools are listed because they appear in project implementations or documented workflows—not as a claim of equal depth across every technology.*
 
 ---
 
-## / 05 — Engineering doctrine
+## 04 / How I approach engineering
 
-<div align="center">
-
-| PRINCIPLE | APPLICATION |
+| PRINCIPLE | IN PRACTICE |
 |:--|:--|
-| Evidence before assertion | Make claims inspectable. |
-| Determinism where possible | Prefer reproducible checks to vague confidence. |
-| Separation of concerns | Keep observation distinct from conclusion. |
-| Human judgment where needed | Expose uncertainty; do not conceal it. |
-| Honest limits | Never invent performance, customers or impact. |
-| Purposeful interfaces | Make complex systems easier to understand. |
+| Evidence before assertion | Keep claims connected to inspectable source material. |
+| Explicit boundaries | State what the system does, does not do and cannot establish. |
+| Determinism where useful | Prefer reproducible rules for checks that need consistent outcomes. |
+| Traceability | Preserve source references, inputs, versions and outputs. |
+| Human judgment | Surface exceptions and uncertainty; leave consequential decisions reviewable. |
+| Testable design | Build around observable behaviour, validation and clear failure states. |
+| Useful complexity | Make the underlying system rigorous without making the interface needlessly difficult. |
+
+---
+
+## 05 / Git topography
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/git-topography.svg" width="100%" alt="Isometric terrain generated from the public GitHub contribution calendar." />
+
+<sub>A visual rendering of the public contribution calendar. Activity is not a measure of project quality.</sub>
 
 </div>
 
@@ -211,14 +216,16 @@ A contribution year rendered as isometric terrain. Each raised cell represents a
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Cormorant+Garamond&weight=500&size=26&duration=7200&pause=3600&color=AAA0D8&center=true&vCenter=true&width=800&height=48&lines=Make+the+complex+work.;Leave+the+evidence+visible." alt="Make the complex work. Leave the evidence visible." />
+### Wonder is where knowing begins.
+
+<sub>DT—09 &nbsp;·&nbsp; INDEPENDENT SOFTWARE & SYSTEMS ENGINEERING</sub>
 
 <br />
 
-**QUASAR** &nbsp;·&nbsp; <sub>DT—09 / Independent engineering</sub>
+<a href="https://github.com/DT-09?tab=repositories">EXPLORE ALL REPOSITORIES ↗</a>
 
-[Explore all repositories ↗](https://github.com/DT-09?tab=repositories)
+<br /><br />
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:090914,48:252044,100:090914&height=120&section=footer&text=BUILD%20WITH%20INTENT.%20LEAVE%20A%20CLEAR%20SIGNAL.&fontSize=15&fontColor=D8D1F5&fontAlignY=68&animation=fadeIn" width="100%" alt="Build with intent. Leave a clear signal." />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:030305,55:161B26,100:030305&height=105&section=footer" width="100%" alt="A dark interstellar footer in the DT—09 palette." />
 
 </div>
