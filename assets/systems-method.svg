@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="390" viewBox="0 0 1400 390" role="img" aria-labelledby="t d">
+<title id="t">From question to working system</title><desc id="d">An illustrated systems map linking inquiry, models, implementation, evidence and review, with warm amber connections on a dark field.</desc>
+<defs><linearGradient id="b" x2="1" y2="1"><stop stop-color="#030305"/><stop offset="1" stop-color="#161B26"/></linearGradient><linearGradient id="line"><stop stop-color="#8F492B"/><stop offset=".5" stop-color="#F9AD6A"/><stop offset="1" stop-color="#D47A3B"/></linearGradient><filter id="g"><feGaussianBlur stdDeviation="8"/></filter></defs>
+<rect width="1400" height="390" rx="18" fill="url(#b)"/>
+<g stroke="#F5EDE4" stroke-opacity=".07"><path d="M0 65H1400M0 130H1400M0 195H1400M0 260H1400M0 325H1400"/><path d="M100 0V390M200 0V390M300 0V390M400 0V390M500 0V390M600 0V390M700 0V390M800 0V390M900 0V390M1000 0V390M1100 0V390M1200 0V390M1300 0V390"/></g>
+<text x="54" y="52" fill="#D47A3B" font-family="monospace" font-size="12" letter-spacing="3">A WORKING METHOD / NOT A LINEAR FORMULA</text>
+<g fill="none" stroke="url(#line)" stroke-width="2.5"><path d="M270 192H365M560 192H655M850 192H945M1140 192H1220"/></g>
+<g fill="none" stroke="#F9AD6A" stroke-width="1.4" opacity=".7"><path d="M317 182l12 10-12 10M607 182l12 10-12 10M897 182l12 10-12 10M1187 182l12 10-12 10"/></g>
+<g>
+ <circle cx="170" cy="192" r="74" fill="#D47A3B" opacity=".12" filter="url(#g)"/><circle cx="170" cy="192" r="62" fill="#0C0D12" stroke="#D47A3B" stroke-width="1.5"/><circle cx="170" cy="192" r="43" fill="none" stroke="#F9AD6A" stroke-opacity=".6"/><path d="M170 158V226M136 192H204M146 168L194 216M194 168L146 216" stroke="#F9AD6A" stroke-opacity=".55"/><circle cx="170" cy="192" r="7" fill="#F9AD6A"/>
+ <text x="170" y="294" text-anchor="middle" fill="#F5EDE4" font-family="Georgia,serif" font-size="22">01 / INQUIRE</text><text x="170" y="319" text-anchor="middle" fill="#9FA1AA" font-family="Arial" font-size="12">Frame the real problem</text>
+</g>
+<g>
+ <circle cx="460" cy="192" r="62" fill="#0C0D12" stroke="#D47A3B" stroke-width="1.5"/><path d="M430 174L460 157L490 174L490 210L460 227L430 210Z" fill="none" stroke="#F9AD6A" stroke-width="2"/><path d="M430 174L460 192L490 174M460 192V227" fill="none" stroke="#F9AD6A" stroke-width="1.5"/><circle cx="460" cy="192" r="5" fill="#F9AD6A"/>
+ <text x="460" y="294" text-anchor="middle" fill="#F5EDE4" font-family="Georgia,serif" font-size="22">02 / MODEL</text><text x="460" y="319" text-anchor="middle" fill="#9FA1AA" font-family="Arial" font-size="12">Make assumptions explicit</text>
+</g>
+<g>
+ <circle cx="750" cy="192" r="62" fill="#0C0D12" stroke="#D47A3B" stroke-width="1.5"/><rect x="720" y="164" width="60" height="56" rx="5" fill="none" stroke="#F9AD6A" stroke-width="2"/><path d="M732 179H768M732 191H760M732 203H752" stroke="#F9AD6A" stroke-width="2"/><circle cx="772" cy="211" r="4" fill="#F9AD6A"/>
+ <text x="750" y="294" text-anchor="middle" fill="#F5EDE4" font-family="Georgia,serif" font-size="22">03 / BUILD</text><text x="750" y="319" text-anchor="middle" fill="#9FA1AA" font-family="Arial" font-size="12">Implement the mechanism</text>
+</g>
+<g>
+ <circle cx="1040" cy="192" r="62" fill="#0C0D12" stroke="#D47A3B" stroke-width="1.5"/><path d="M1009 166H1071V218H1009Z" fill="none" stroke="#F9AD6A" stroke-width="2"/><path d="M1020 179H1060M1020 190H1050M1020 201H1040" stroke="#F9AD6A" stroke-width="2"/><path d="M1051 209L1058 216L1073 198" fill="none" stroke="#F9AD6A" stroke-width="2"/>
+ <text x="1040" y="294" text-anchor="middle" fill="#F5EDE4" font-family="Georgia,serif" font-size="22">04 / VERIFY</text><text x="1040" y="319" text-anchor="middle" fill="#9FA1AA" font-family="Arial" font-size="12">Test against evidence</text>
+</g>
+<g>
+ <circle cx="1290" cy="192" r="62" fill="#0C0D12" stroke="#D47A3B" stroke-width="1.5"/><circle cx="1290" cy="192" r="35" fill="none" stroke="#F9AD6A" stroke-width="2"/><path d="M1266 192L1282 208L1316 174" fill="none" stroke="#F9AD6A" stroke-width="3"/>
+ <text x="1290" y="294" text-anchor="middle" fill="#F5EDE4" font-family="Georgia,serif" font-size="22">05 / REVIEW</text><text x="1290" y="319" text-anchor="middle" fill="#9FA1AA" font-family="Arial" font-size="12">Expose limits and decisions</text>
+</g>
+<text x="54" y="365" fill="#777B87" font-family="monospace" font-size="10" letter-spacing="2">OBSERVABLE INPUTS · REPRODUCIBLE LOGIC · TRACEABLE OUTPUTS · HUMAN JUDGMENT</text>
+</svg>
