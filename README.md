@@ -1,42 +1,40 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:090909,45:17130F,100:C6A875&height=190&section=header&text=DT%E2%80%9409&fontSize=54&fontColor=F3EBDD&fontAlignY=36&animation=fadeIn" width="100%" alt="DT—09 — independent engineering" />
+<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/quasar-header.svg" width="100%" alt="QUASAR — a TON 618-inspired black hole and accretion disk, representing independent systems engineering." />
 
 <br />
 
 <a href="https://github.com/DT-09">
-  <img src="https://readme-typing-svg.demolab.com?font=Cormorant+Garamond&weight=600&size=34&duration=3200&pause=1100&color=D6BD91&center=true&vCenter=true&width=820&height=58&lines=Engineering+with+intent.;Systems+that+verify.+Products+that+deliver.;Ideas%2C+made+operational." alt="Engineering with intent. Systems that verify. Products that deliver." />
+  <img src="https://readme-typing-svg.demolab.com?font=Cormorant+Garamond&weight=500&size=29&duration=6800&pause=3200&color=CFC8F5&center=true&vCenter=true&width=860&height=54&lines=Engineering+at+the+edge+of+the+known.;Building+systems+that+stand+up+to+scrutiny." alt="Engineering at the edge of the known. Building systems that stand up to scrutiny." />
 </a>
 
 <br />
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=13&duration=3600&pause=900&color=B8AA96&center=true&vCenter=true&width=820&height=32&lines=SOFTWARE+ENGINEERING+%2F+AI+SYSTEMS+%2F+DATA+INTEGRITY;EVIDENCE-FIRST+DESIGN+%2F+VERIFIABLE+OUTCOMES+%2F+INFRASTRUCTURE;RESEARCH+%E2%86%92+ENGINEERING+%E2%86%92+WORKING+SYSTEMS" alt="Engineering disciplines" />
+<sub><code>SOFTWARE SYSTEMS</code> &nbsp;·&nbsp; <code>APPLIED AI</code> &nbsp;·&nbsp; <code>DATA INTEGRITY</code> &nbsp;·&nbsp; <code>INTERACTIVE ENGINEERING</code></sub>
 
 <br /><br />
 
-<a href="https://github.com/DT-09?tab=repositories"><img src="https://img.shields.io/badge/EXPLORE-REPOSITORIES-C6A875?style=for-the-badge&labelColor=11100E&logo=github&logoColor=F3EBDD" alt="Explore repositories" /></a>
+<a href="https://github.com/DT-09?tab=repositories"><img src="https://img.shields.io/badge/EXPLORE-REPOSITORIES-9B8CFF?style=for-the-badge&labelColor=090914&logo=github&logoColor=F5F2FF" alt="Explore repositories" /></a>
 &nbsp;
-<a href="https://github.com/DT-09"><img src="https://img.shields.io/badge/INDEPENDENT-ENGINEERING-25221D?style=for-the-badge&labelColor=11100E&color=B8AA96" alt="Independent engineering" /></a>
+<a href="https://github.com/DT-09"><img src="https://img.shields.io/badge/INDEPENDENT-ENGINEERING-75D9F2?style=for-the-badge&labelColor=090914&color=75D9F2" alt="Independent engineering" /></a>
 
 </div>
 
 ---
 
-## / 01 — The work
+## / 01 — The signal
 
-Software products, verification systems, data workflows and AI infrastructure.
+I build software products and technical systems across applied AI, verification, data workflows and interactive experiences.
 
-I work across applied AI, systems engineering, evidence integrity and interactive software. The common thread is turning complex requirements into systems whose behaviour can be inspected, tested and understood.
+The aim is practical: turn difficult requirements into working systems with observable behaviour, traceable evidence and clear limits.
 
-**Working principles**
+**Operating principles**
 
-`Explicit assumptions` &nbsp;·&nbsp; `Traceable evidence` &nbsp;·&nbsp; `Reproducible checks` &nbsp;·&nbsp; `Honest limits`
+`Explicit assumptions` &nbsp;·&nbsp; `Traceable evidence` &nbsp;·&nbsp; `Reproducible checks` &nbsp;·&nbsp; `Useful outcomes`
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=15&duration=3000&pause=800&color=C6A875&center=true&vCenter=true&width=720&height=34&lines=Observe+the+system.;Test+the+claim.;Make+the+result+useful." alt="Observe. Test. Deliver." />
-
-<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/system-map.svg" width="100%" alt="Engineering map: reconcile data, verify outcomes, govern authority." />
+<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/system-map.svg" width="100%" alt="System map: reconcile data, verify outcomes, govern authority." />
 
 </div>
 
@@ -44,7 +42,7 @@ I work across applied AI, systems engineering, evidence integrity and interactiv
 
 ## / 02 — Selected work
 
-Nine projects across product engineering, systems software, AI assurance and interactive experiences.
+A portfolio of experiments and products spanning operational software, AI assurance, data verification and interactive engineering.
 
 <table>
 <tr>
@@ -56,7 +54,7 @@ Nine projects across product engineering, systems software, AI assurance and int
 
 **Supplier-payment evidence review**
 
-Compares supplier invoices with purchase orders and goods receipts. Produces source-linked potential discrepancies for human review.
+Compares supplier invoices with purchase orders and goods receipts. Surfaces potential discrepancies with source-row evidence for human review.
 
 [Explore repository ↗](https://github.com/DT-09/LedgerTrace)
 
@@ -69,7 +67,7 @@ Compares supplier invoices with purchase orders and goods receipts. Produces sou
 
 **Source-grounded learning environment**
 
-An interactive learning product with source-linked tutoring, concept exploration, retrieval practice, spaced review and a constrained maths studio.
+An interactive learning product for concept exploration, source-linked tutoring, retrieval practice, spaced review and a focused maths studio.
 
 [Explore repository ↗](https://github.com/DT-09/PaceLab)
 
@@ -82,7 +80,7 @@ An interactive learning product with source-linked tutoring, concept exploration
 
 **Independent AI outcome verification**
 
-Checks whether an agent's claimed business outcome is supported by its execution trace: required actions, duplicates, ordering, identity consistency, final state and evidence.
+Checks whether an agent's claimed outcome is supported by its execution trace, including required actions, ordering, identity consistency, final state and evidence.
 
 [Explore repository ↗](https://github.com/DT-09/aurelis-aoa)
 
@@ -95,7 +93,7 @@ Checks whether an agent's claimed business outcome is supported by its execution
 
 **Agent authority assurance**
 
-Tests agent tool calls against defined authority policies. Compares expected and observed decisions with trace evidence.
+Tests agent tool calls against defined authority policies and compares expected decisions with observed behaviour and trace evidence.
 
 [Explore repository ↗](https://github.com/DT-09/Aurelis-Authority)
 
@@ -106,7 +104,7 @@ Tests agent tool calls against defined authority policies. Compares expected and
 
 **AI acceptance assurance workbench**
 
-Evaluates third-party AI outputs against buyer-defined, versioned acceptance protocols. Records case-level outcomes, hard gates, human adjudication and portable evidence packages.
+Evaluates third-party AI outputs against buyer-defined, versioned acceptance protocols. Records case outcomes, hard gates, human adjudication and portable evidence packages.
 
 [Explore repository ↗](https://github.com/DT-09/DealTie)
 
@@ -186,7 +184,7 @@ A browser workspace for explicit assumptions, an evidence ledger, pre-registered
 
 ## / 04 — Git topography
 
-A contribution year rendered as an isometric terrain. Each raised cell represents a day; elevation reflects the daily contribution count.
+A contribution year rendered as isometric terrain. Each raised cell represents a day; elevation reflects the daily contribution count.
 
 <img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/git-topography.svg" width="100%" alt="Isometric Git contribution terrain, refreshed daily from the GitHub contribution calendar." />
 
@@ -200,12 +198,12 @@ A contribution year rendered as an isometric terrain. Each raised cell represent
 
 | PRINCIPLE | APPLICATION |
 |:--|:--|
-| Evidence before assertion | Claims must be inspectable. |
-| Determinism where possible | Prefer reproducible checks over vague confidence. |
-| Separation of concerns | Observation is not conclusion. |
-| Human judgment where needed | Automation should expose uncertainty, not conceal it. |
-| Honest limits | No invented performance, customer or impact claims. |
-| Purposeful interfaces | Design should make complex systems easier to understand. |
+| Evidence before assertion | Make claims inspectable. |
+| Determinism where possible | Prefer reproducible checks to vague confidence. |
+| Separation of concerns | Keep observation distinct from conclusion. |
+| Human judgment where needed | Expose uncertainty; do not conceal it. |
+| Honest limits | Never invent performance, customers or impact. |
+| Purposeful interfaces | Make complex systems easier to understand. |
 
 </div>
 
@@ -213,14 +211,14 @@ A contribution year rendered as an isometric terrain. Each raised cell represent
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Cormorant+Garamond&weight=600&size=27&duration=3400&pause=1000&color=D6BD91&center=true&vCenter=true&width=760&height=48&lines=Make+the+complex+work.;Make+the+result+clear.;Build+with+intent." alt="Make the complex work. Make the result clear. Build with intent." />
+<img src="https://readme-typing-svg.demolab.com?font=Cormorant+Garamond&weight=500&size=26&duration=7200&pause=3600&color=AAA0D8&center=true&vCenter=true&width=800&height=48&lines=Make+the+complex+work.;Leave+the+evidence+visible." alt="Make the complex work. Leave the evidence visible." />
 
 <br />
 
-**DT—09** &nbsp;·&nbsp; **Independent engineering.**
+**QUASAR** &nbsp;·&nbsp; <sub>DT—09 / Independent engineering</sub>
 
-[Browse all repositories ↗](https://github.com/DT-09?tab=repositories)
+[Explore all repositories ↗](https://github.com/DT-09?tab=repositories)
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:C6A875,50:332A20,100:090909&height=135&section=footer&text=Build%20with%20intent.%20Engineer%20beyond%20limits.&fontSize=16&fontColor=F3EBDD&fontAlignY=68&animation=fadeIn" width="100%" alt="Build with intent. Engineer beyond limits." />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:090914,48:252044,100:090914&height=120&section=footer&text=BUILD%20WITH%20INTENT.%20LEAVE%20A%20CLEAR%20SIGNAL.&fontSize=15&fontColor=D8D1F5&fontAlignY=68&animation=fadeIn" width="100%" alt="Build with intent. Leave a clear signal." />
 
 </div>
