@@ -1,149 +1,144 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/interstellar-header.svg" width="100%" alt="DT—09 — an interstellar black-hole scene in ember and amber, with the line Wonder is where knowing begins." />
+<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/interstellar-header.svg" width="100%" alt="DT—09. An illustrated black hole with a glowing amber accretion disc and animated editorial typography." />
 
 <br />
 
-<a href="https://github.com/DT-09?tab=repositories">
-  <img src="https://img.shields.io/badge/EXPLORE_THE_WORK-REPOSITORIES?style=for-the-badge&logo=github&logoColor=F9AD6A&labelColor=030305&color=D47A3B" alt="Explore repositories" />
-</a>
+<a href="https://github.com/DT-09?tab=repositories"><img src="https://img.shields.io/badge/EXPLORE-REPOSITORIES-D47A3B?style=for-the-badge&labelColor=030305&logo=github&logoColor=F9AD6A" alt="Explore repositories" /></a>
 &nbsp;
-<a href="https://github.com/DT-09">
-  <img src="https://img.shields.io/badge/INDEPENDENT-ENGINEERING?style=for-the-badge&labelColor=030305&color=161B26&logo=github&logoColor=F9AD6A" alt="Independent engineering" />
-</a>
+<a href="https://github.com/DT-09"><img src="https://img.shields.io/badge/INDEPENDENT-SYSTEMS_ENGINEERING-161B26?style=for-the-badge&labelColor=030305&logo=github&logoColor=F9AD6A" alt="Independent systems engineering" /></a>
 
 <br /><br />
 
-<sub>APPLIED AI &nbsp;·&nbsp; SYSTEMS ENGINEERING &nbsp;·&nbsp; DATA & EVIDENCE &nbsp;·&nbsp; SOFTWARE & INTERACTIVE MEDIA</sub>
+<sub>APPLIED AI &nbsp;·&nbsp; SYSTEMS &nbsp;·&nbsp; DATA & EVIDENCE &nbsp;·&nbsp; ENGINEERING &nbsp;·&nbsp; INTERACTIVE MEDIA</sub>
 
 </div>
 
 ---
 
-## 01 / The work
+## 01 / A question worth following
 
-I build independent software across AI assurance, data integrity, financial workflows, engineering tools and interactive experiences.
+I build software to investigate difficult questions and turn useful answers into working systems.
 
-The work moves between research and implementation: define the problem, make the system observable, test its behaviour, preserve the evidence and state its limits. Some projects are prototypes or early evaluation products; their status is documented in their repositories.
+My projects move across AI assurance, adaptive learning, financial evidence, engineering data and interactive experiences. I care about what happens beneath the interface: the model, the mechanism, the source material, the edge cases and the evidence that a system did what it claims.
 
-**A few recurring questions**
-
-- How can an AI system be given clear authority—and how can its actions be checked?
-- How can separate records be compared without losing their source context?
-- How can complex technical information become easier to explore and reason about?
-- How can software make uncertainty visible instead of hiding it?
+**The aim is not complexity for its own sake. It is clarity earned through engineering.**
 
 ---
-
-## 02 / Selected work — nine projects
 
 <div align="center">
-<sub>AI ASSURANCE &nbsp; / &nbsp; LEARNING &nbsp; / &nbsp; FINANCIAL EVIDENCE &nbsp; / &nbsp; ENGINEERING &nbsp; / &nbsp; INTERACTIVE DESIGN</sub>
+
+<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/systems-method.svg" width="100%" alt="Illustrated process: inquire, model, build, verify and review." />
+
 </div>
+
+## 02 / Selected work
+
+Nine independent projects. Different problems; a shared interest in making complex systems inspectable.
 
 <table>
 <tr>
 <td width="33%" valign="top">
 
-### 01 — AI Assurance Infrastructure
+### 01 · AI Assurance Infrastructure
 
-**Vendor-neutral AI assurance and control plane**
+<sub>AI CONTROL PLANE</sub>
 
-Persistent identity, authority, evidence, policy, evaluation and runtime-control foundations, with a protocol and experimental benchmark.
+Identity, authority, evidence, policy and evaluation foundations for AI systems, with protocol and benchmark work.
 
-[Repository ↗](https://github.com/DT-09/ai-assurance-infrastructure)
-
-</td>
-<td width="33%" valign="top">
-
-### 02 — Aurelis Authority
-
-**AI agent authority assessment**
-
-Defines intended authority, evaluates supplied tool-call traces against policy, and produces expected-versus-observed findings for human review.
-
-[Repository ↗](https://github.com/DT-09/Aurelis-Authority)
+[EXPLORE ↗](https://github.com/DT-09/ai-assurance-infrastructure)
 
 </td>
 <td width="33%" valign="top">
 
-### 03 — Vesper
+### 02 · Aurelis Authority
 
-**Adaptive discovery and learning**
+<sub>AGENT AUTHORITY</sub>
 
-An open-ended inquiry environment for exploring subjects, forming hypotheses, researching sources, testing ideas and deriving qualified answers.
+Assesses agent actions against intended permissions and policy, comparing expected and observed behaviour for review.
 
-[Repository ↗](https://github.com/DT-09/Vesper)
-
-</td>
-</tr>
-<tr>
-<td width="33%" valign="top">
-
-### 04 — LedgerTrace
-
-**Supplier-payment evidence review**
-
-Connects invoice lines with purchase orders, goods receipts and supported payment or credit context. Turns rule-triggered differences into source-linked cases for finance review.
-
-[Repository ↗](https://github.com/DT-09/LedgerTrace)
+[EXPLORE ↗](https://github.com/DT-09/Aurelis-Authority)
 
 </td>
 <td width="33%" valign="top">
 
-### 05 — DealTie
+### 03 · Vesper
 
-**Financial evidence reconciliation**
+<sub>ADAPTIVE LEARNING</sub>
 
-A transaction-document workbench for comparing selected metrics across CIM, QoE and valuation materials, preserving source references and review findings.
+An inquiry-led learning environment for exploring subjects, forming hypotheses, researching sources and testing ideas.
 
-[Repository ↗](https://github.com/DT-09/DealTie)
-
-</td>
-<td width="33%" valign="top">
-
-### 06 — DatasheetDelta
-
-**Engineering revision intelligence**
-
-Compares supported fields across technical document revisions, normalises selected units and produces a provenance-linked change register.
-
-[Repository ↗](https://github.com/DT-09/DatasheetDelta)
+[EXPLORE ↗](https://github.com/DT-09/Vesper)
 
 </td>
 </tr>
 <tr>
 <td width="33%" valign="top">
 
-### 07 — CommitmentGraph
+### 04 · LedgerTrace
 
-**Evidence-led commitment intelligence**
+<sub>SUPPLIER PAYMENT EVIDENCE</sub>
 
-Links obligations, dated events and source records into an inspectable graph. Runs deterministic investigations and exposes the evidence behind each finding.
+Compares supplier invoices with purchase orders, goods receipts and related records to surface source-linked exceptions.
 
-[Repository ↗](https://github.com/DT-09/CommitmentGraph)
-
-</td>
-<td width="33%" valign="top">
-
-### 08 — Migraven
-
-**Migration export verification**
-
-A local-first C17 utility for comparing CSV and flat JSONL exports by key, producing source-row findings and SHA-256 integrity manifests.
-
-[Repository ↗](https://github.com/DT-09/Migraven)
+[EXPLORE ↗](https://github.com/DT-09/LedgerTrace)
 
 </td>
 <td width="33%" valign="top">
 
-### 09 — IL ROSSO
+### 05 · DealTie
 
-**Interactive automotive experience**
+<sub>FINANCIAL RECONCILIATION</sub>
 
-An independent, fan-made Scuderia Ferrari tribute with an original 3D concept-car study, editorial storytelling and a navigable archive.
+A transaction-document workbench for selected metrics across CIM, QoE and valuation materials, with traceable review findings.
 
-[Repository ↗](https://github.com/DT-09/IL-ROSSO)
+[EXPLORE ↗](https://github.com/DT-09/DealTie)
+
+</td>
+<td width="33%" valign="top">
+
+### 06 · DatasheetDelta
+
+<sub>ENGINEERING DOCUMENTS</sub>
+
+Compares supported technical fields across document revisions and creates a provenance-linked change register.
+
+[EXPLORE ↗](https://github.com/DT-09/DatasheetDelta)
+
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+
+### 07 · CommitmentGraph
+
+<sub>COMMITMENT INTELLIGENCE</sub>
+
+Connects obligations, dated events and source records in an inspectable graph for evidence-led investigation.
+
+[EXPLORE ↗](https://github.com/DT-09/CommitmentGraph)
+
+</td>
+<td width="33%" valign="top">
+
+### 08 · Migraven
+
+<sub>DATA MIGRATION VERIFICATION</sub>
+
+A local-first C17 utility for comparing CSV and flat JSONL exports by key, with source-row findings and SHA-256 manifests.
+
+[EXPLORE ↗](https://github.com/DT-09/Migraven)
+
+</td>
+<td width="33%" valign="top">
+
+### 09 · IL ROSSO
+
+<sub>INTERACTIVE AUTOMOTIVE DESIGN</sub>
+
+An independent Scuderia Ferrari fan project featuring an original 3D concept-car study and editorial experience.
+
+[EXPLORE ↗](https://github.com/DT-09/IL-ROSSO)
 
 </td>
 </tr>
@@ -153,79 +148,83 @@ An independent, fan-made Scuderia Ferrari tribute with an original 3D concept-ca
 
 ## 03 / Technical range
 
-The projects span low-level utilities, application software, APIs, data processing, cloud deployment and real-time 3D experiences.
+A cross-section of languages, runtimes and tools used across the projects.
 
 <div align="center">
 
-**LANGUAGES & WEB FOUNDATIONS**
+**LANGUAGES & SYSTEMS**
 
 <img src="https://skillicons.dev/icons?i=c,cpp,cs,py,js,ts,html,css,bash&theme=dark" alt="C, C++, C sharp, Python, JavaScript, TypeScript, HTML, CSS and Bash" />
 
 <br /><br />
 
-**APPLICATIONS, FRAMEWORKS & RUNTIMES**
+**APPLICATIONS & FRAMEWORKS**
 
 <img src="https://skillicons.dev/icons?i=react,vite,nodejs,fastapi,dotnet,threejs,sqlite&theme=dark" alt="React, Vite, Node.js, FastAPI, .NET, Three.js and SQLite" />
 
 <br /><br />
 
-**CLOUD, BUILD, TEST & DELIVERY**
+**INFRASTRUCTURE & DELIVERY**
 
 <img src="https://skillicons.dev/icons?i=cloudflare,docker,cmake,git,github,githubactions&theme=dark" alt="Cloudflare, Docker, CMake, Git, GitHub and GitHub Actions" />
 
 </div>
 
-**Additional tools and formats**
+<details>
+<summary><strong>Explore the wider toolset</strong></summary>
 
-- **Backend & APIs:** Python, FastAPI, Streamlit, REST, Node.js, Cloudflare Workers and Pages Functions.
-- **Data & persistence:** SQL, SQLite, Cloudflare D1, CSV, JSON, JSONL, structured document extraction and SHA-256 evidence manifests.
-- **Documents:** PDF text extraction, XLSX and XLS, DOCX, TXT and Markdown processing.
-- **Frontend & 3D:** React, TypeScript, Vite, CSS, Three.js, React Three Fiber, Drei, Motion and GSAP.
-- **Native & systems:** C17, CMake, command-line tooling, cross-platform build and packaging workflows.
-- **Quality & delivery:** pytest, unittest, CTest, npm scripts, GitHub Actions, Docker and Cloudflare deployment workflows.
+- **Languages:** C17, C++, C#, Python, JavaScript, TypeScript, HTML, CSS, Bash.
+- **Frontend & motion:** React, Vite, Three.js, React Three Fiber, Drei, Motion, GSAP.
+- **Backend & APIs:** FastAPI, Streamlit, Node.js, REST, Cloudflare Workers and Pages Functions.
+- **Data & storage:** SQL, SQLite, Cloudflare D1, CSV, JSON, JSONL, structured document extraction, SHA-256.
+- **Documents:** PDF text extraction, XLSX, XLS, DOCX, TXT and Markdown.
+- **Systems & build:** CMake, command-line utilities, native builds and packaging workflows.
+- **Testing & delivery:** pytest, unittest, CTest, npm scripts, GitHub Actions, Docker and Cloudflare deployment.
 
-*Tools are listed because they appear in project implementations or documented workflows—not as a claim of equal depth across every technology.*
+*This is a project-grounded toolset, not a claim of equal depth in every technology.*
 
----
-
-## 04 / How I approach engineering
-
-| PRINCIPLE | IN PRACTICE |
-|:--|:--|
-| Evidence before assertion | Keep claims connected to inspectable source material. |
-| Explicit boundaries | State what the system does, does not do and cannot establish. |
-| Determinism where useful | Prefer reproducible rules for checks that need consistent outcomes. |
-| Traceability | Preserve source references, inputs, versions and outputs. |
-| Human judgment | Surface exceptions and uncertainty; leave consequential decisions reviewable. |
-| Testable design | Build around observable behaviour, validation and clear failure states. |
-| Useful complexity | Make the underlying system rigorous without making the interface needlessly difficult. |
+</details>
 
 ---
 
-## 05 / Git topography
+## 04 / Engineering principles
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/git-topography.svg" width="100%" alt="Isometric terrain generated from the public GitHub contribution calendar." />
-
-<sub>A visual rendering of the public contribution calendar. Activity is not a measure of project quality.</sub>
+| 01 — TRACEABILITY | 02 — EXPLICITNESS |
+|:--|:--|
+| Keep claims connected to source evidence. | Make assumptions, permissions and limits visible. |
+| 03 — REPRODUCIBILITY | 04 — HUMAN JUDGMENT |
+| Prefer checks that can be repeated and inspected. | Surface uncertainty; keep consequential decisions reviewable. |
 
 </div>
 
 ---
 
+## 05 / Beyond the conventional interface
+
+Not every problem belongs in a dashboard. Some are better explored through an interactive environment, a visual model or a spatial experience.
+
+- **Inquiry as an interface** — Vesper explores learning as a process of questioning, hypothesising and testing.
+- **Evidence as an interface** — DealTie, LedgerTrace and DatasheetDelta make relationships between records inspectable.
+- **Space as an interface** — IL ROSSO experiments with 3D form, motion and editorial storytelling.
+
+---
+
 <div align="center">
 
-### Wonder is where knowing begins.
+### Somewhere, something incredible is waiting to be known.
 
 <sub>DT—09 &nbsp;·&nbsp; INDEPENDENT SOFTWARE & SYSTEMS ENGINEERING</sub>
 
-<br />
+<br /><br />
 
-<a href="https://github.com/DT-09?tab=repositories">EXPLORE ALL REPOSITORIES ↗</a>
+<a href="https://github.com/DT-09?tab=repositories">EXPLORE THE REPOSITORIES ↗</a>
+&nbsp;·&nbsp;
+<a href="https://github.com/DT-09">RETURN TO PROFILE ↗</a>
 
 <br /><br />
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:030305,55:161B26,100:030305&height=105&section=footer" width="100%" alt="A dark interstellar footer in the DT—09 palette." />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:030305,55:161B26,100:030305&height=110&section=footer" width="100%" alt="Interstellar dark footer in charcoal and amber." />
 
 </div>
