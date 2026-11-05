@@ -213,7 +213,7 @@ Not every problem belongs in a dashboard. Some are better explored through an in
 
 <div align="center">
 
-### Somewhere, something incredible is waiting to be known.
+### Wonder awaits.
 
 <sub>DT—09 &nbsp;·&nbsp; INDEPENDENT SOFTWARE & SYSTEMS ENGINEERING</sub>
 
