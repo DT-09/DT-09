@@ -5,7 +5,7 @@
 <br />
 
 <a href="https://github.com/DT-09?tab=repositories">
-  <img src="https://img.shields.io/badge/EXPLORE_THE_WORK- repositories?style=for-the-badge&logo=github&logoColor=F9AD6A&labelColor=030305&color=D47A3B" alt="Explore repositories" />
+  <img src="https://img.shields.io/badge/EXPLORE_THE_WORK-REPOSITORIES?style=for-the-badge&logo=github&logoColor=F9AD6A&labelColor=030305&color=D47A3B" alt="Explore repositories" />
 </a>
 &nbsp;
 <a href="https://github.com/DT-09">
