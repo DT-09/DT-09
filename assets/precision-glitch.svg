@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="104" viewBox="0 0 1600 104" role="img" aria-label="Animated editorial phrase: clarity through engineering.">
+<defs><linearGradient id="g" x2="1"><stop stop-color="#D47A3B"/><stop offset=".5" stop-color="#F9AD6A"/><stop offset="1" stop-color="#F5EDE4"/></linearGradient><style>
+.base{font:italic 43px Georgia,serif;letter-spacing:3px}
+.echo-a{animation:shift-a 7s steps(1,end) infinite}
+.echo-b{animation:shift-b 7s steps(1,end) infinite}
+.scan{animation:scan 8s ease-in-out infinite}
+@keyframes shift-a{0%,89%,100%{opacity:0;transform:translate(0)}90%{opacity:.7;transform:translate(-4px,-1px)}91%{opacity:0;transform:translate(3px,1px)}93%{opacity:.45;transform:translate(-2px,0)}94%{opacity:0}}
+@keyframes shift-b{0%,91%,100%{opacity:0}92%{opacity:.65;transform:translate(4px,1px)}93%{opacity:0;transform:translate(-3px,-1px)}}
+@keyframes scan{0%,100%{opacity:.18;transform:scaleX(.25)}50%{opacity:.8;transform:scaleX(1)}}
+@media(prefers-reduced-motion:reduce){.echo-a,.echo-b,.scan{animation:none;opacity:0}}
+</style></defs>
+<rect width="1600" height="104" fill="#030305"/>
+<path d="M80 16H1520" stroke="#F9AD6A" stroke-opacity=".17"/>
+<text class="base" x="800" y="67" text-anchor="middle" fill="url(#g)">CLARITY THROUGH ENGINEERING.</text>
+<text class="base echo-a" x="800" y="67" text-anchor="middle" fill="#F9AD6A">CLARITY THROUGH ENGINEERING.</text>
+<text class="base echo-b" x="800" y="67" text-anchor="middle" fill="#6F9FB2">CLARITY THROUGH ENGINEERING.</text>
+<path class="scan" d="M540 83H1060" stroke="#D47A3B" stroke-width="1.5"/>
+<path d="M80 91H1520" stroke="#F9AD6A" stroke-opacity=".17"/>
+</svg>
