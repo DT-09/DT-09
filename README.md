@@ -16,12 +16,6 @@
 
 ---
 
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/kinetic-type.svg" width="100%" alt="Animated typography: inquire, imagine, model, build, test, refine." />
-
-</div>
-
 ## 01 / A question worth following
 
 I design and implement software across applied AI, systems engineering, data analysis and interactive applications.
@@ -40,7 +34,7 @@ My work focuses on turning complex requirements into systems that can be underst
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/kinetic-type.svg" width="100%" alt="Animated typography: inquire, imagine, model, build, test, refine." />
+<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/precision-glitch.svg" width="100%" alt="Clarity through engineering." />
 
 </div>
 
@@ -158,12 +152,6 @@ An independent Scuderia Ferrari fan project featuring an original 3D concept-car
 
 ---
 
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/kinetic-type.svg" width="100%" alt="Animated typography: inquire, imagine, model, build, test, refine." />
-
-</div>
-
 ## 03 / Technical range
 
 Languages, frameworks and tools represented in the projects below. The selection reflects varied implementation contexts rather than uniform depth across every technology.
@@ -204,12 +192,6 @@ Languages, frameworks and tools represented in the projects below. The selection
 </details>
 
 ---
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/kinetic-type.svg" width="100%" alt="Animated typography: inquire, imagine, model, build, test, refine." />
-
-</div>
 
 ## 04 / Engineering principles
 
