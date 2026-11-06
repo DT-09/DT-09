@@ -1,11 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="150" viewBox="0 0 1600 150" role="img" aria-label="DT—09 independent systems engineering footer.">
-<defs><linearGradient id="base" x2="1" y2="1"><stop stop-color="#24140F"/><stop offset=".48" stop-color="#392016"/><stop offset="1" stop-color="#171D29"/></linearGradient><linearGradient id="edge" x2="1"><stop stop-color="#D47A3B" stop-opacity="0"/><stop offset=".5" stop-color="#F9AD6A"/><stop offset="1" stop-color="#D47A3B" stop-opacity="0"/></linearGradient><style>.glint{animation:glide 9s ease-in-out infinite alternate}@keyframes glide{from{transform:translateX(-180px);opacity:.15}to{transform:translateX(180px);opacity:.75}}@media(prefers-reduced-motion:reduce){.glint{animation:none;opacity:.3}}</style></defs>
-<rect width="1600" height="150" fill="url(#base)"/>
-<path d="M0 2H1600" stroke="url(#edge)" stroke-width="2"/>
-<path d="M0 24C250 2 430 52 660 25S1100 0 1600 30" fill="none" stroke="#F9AD6A" stroke-opacity=".12"/>
-<g class="glint"><path d="M0 76H1600" stroke="#F9AD6A" stroke-opacity=".13" stroke-width="1"/></g>
-<text x="90" y="91" font-family="Georgia, 'Times New Roman', serif" font-size="29" fill="#F5EDE4" letter-spacing="3">DT—09</text>
-<text x="1510" y="88" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="11" letter-spacing="4" fill="#E7B28A">INDEPENDENT SOFTWARE &amp; SYSTEMS ENGINEERING</text>
-<text x="90" y="119" font-family="monospace" font-size="9" letter-spacing="3" fill="#B58A73">CURIOSITY / PRECISION / EVIDENCE</text>
-<text x="1510" y="119" text-anchor="end" font-family="monospace" font-size="9" letter-spacing="3" fill="#B58A73">BUILT TO BE QUESTIONED</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="190" viewBox="0 0 1600 190" role="img" aria-label="DT—09 footer with layered animated bronze and midnight-blue waves.">
+<defs>
+ <linearGradient id="base" x2="1" y2="1"><stop stop-color="#21130F"/><stop offset=".52" stop-color="#382016"/><stop offset="1" stop-color="#171D29"/></linearGradient>
+ <linearGradient id="wave1" x2="1" y2="0"><stop stop-color="#8E482B"/><stop offset=".52" stop-color="#D47A3B"/><stop offset="1" stop-color="#F9AD6A"/></linearGradient>
+ <linearGradient id="wave2" x2="1" y2="0"><stop stop-color="#171D29"/><stop offset=".55" stop-color="#263044"/><stop offset="1" stop-color="#10141E"/></linearGradient>
+ <style>.wave-a{animation:float-a 13s ease-in-out infinite alternate}.wave-b{animation:float-b 17s ease-in-out infinite alternate}.glint{animation:glide 8s ease-in-out infinite alternate}@keyframes float-a{to{transform:translateX(35px) translateY(-5px)}}@keyframes float-b{to{transform:translateX(-28px) translateY(4px)}}@keyframes glide{from{opacity:.12;transform:translateX(-140px)}to{opacity:.65;transform:translateX(140px)}}@media(prefers-reduced-motion:reduce){.wave-a,.wave-b,.glint{animation:none}}</style>
+</defs>
+<rect width="1600" height="190" fill="url(#base)"/>
+<path class="wave-b" d="M-40 38C180 4 350 8 540 39S900 78 1120 38 1450 1 1640 34V0H-40Z" fill="url(#wave2)" opacity=".94"/>
+<path class="wave-a" d="M-40 58C160 22 350 26 540 56S900 91 1120 58 1450 24 1640 55" fill="none" stroke="url(#wave1)" stroke-width="2" opacity=".72"/>
+<path class="wave-b" d="M-40 80C170 48 360 47 560 77S930 112 1140 78 1450 49 1640 80V190H-40Z" fill="#111722" opacity=".76"/>
+<path class="glint" d="M0 102H1600" stroke="#F9AD6A" stroke-opacity=".25"/>
+<text x="88" y="139" font-family="Georgia, 'Times New Roman', serif" font-size="28" fill="#F5EDE4" letter-spacing="3">DT—09</text>
+<text x="1512" y="137" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="11" letter-spacing="3" fill="#E7B28A">INDEPENDENT SOFTWARE &amp; SYSTEMS ENGINEERING</text>
+<text x="90" y="165" font-family="monospace" font-size="9" letter-spacing="3" fill="#B58A73">APPLIED AI / SOFTWARE / DATA / ENGINEERING</text>
+<text x="1510" y="165" text-anchor="end" font-family="monospace" font-size="9" letter-spacing="3" fill="#B58A73">DT—09 · GITHUB</text>
 </svg>
