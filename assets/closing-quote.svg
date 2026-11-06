@@ -1,13 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="190" viewBox="0 0 1600 190" role="img" aria-label="Wonder is where knowing begins.">
-<defs><linearGradient id="ink" x2="1"><stop stop-color="#F5EDE4"/><stop offset=".5" stop-color="#F9AD6A"/><stop offset="1" stop-color="#D47A3B"/></linearGradient><style>
-.quote{animation:reveal 1.4s cubic-bezier(.16,1,.3,1) both}
-.rule{stroke-dasharray:520;stroke-dashoffset:520;animation:draw 2s ease-out .4s forwards}
-@keyframes reveal{from{opacity:0;letter-spacing:18px;transform:translateY(15px)}to{opacity:1;letter-spacing:3px;transform:translateY(0)}}
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="170" viewBox="0 0 1600 170" role="img" aria-label="Somewhere, wonder becomes discovery.">
+<defs><linearGradient id="quote" x2="1"><stop stop-color="#F5EDE4"/><stop offset=".55" stop-color="#F9AD6A"/><stop offset="1" stop-color="#D47A3B"/></linearGradient><style>
+.line{stroke-dasharray:520;stroke-dashoffset:520;animation:draw 1.8s ease-out .3s forwards}
+.statement{opacity:0;animation:appear 1.2s cubic-bezier(.16,1,.3,1) .6s forwards}
 @keyframes draw{to{stroke-dashoffset:0}}
-@media(prefers-reduced-motion:reduce){.quote{animation:none}.rule{animation:none;stroke-dashoffset:0}}
+@keyframes appear{from{opacity:0;letter-spacing:14px;transform:translateY(12px)}to{opacity:1;letter-spacing:2px;transform:translateY(0)}}
+@media(prefers-reduced-motion:reduce){.line{animation:none;stroke-dashoffset:0}.statement{animation:none;opacity:1}}
 </style></defs>
-<rect width="1600" height="190" fill="#08090D"/>
-<path class="rule" d="M110 28H1490" stroke="#D47A3B" stroke-opacity=".75"/>
-<text x="800" y="112" text-anchor="middle" class="quote" font-family="Georgia, 'Times New Roman', serif" font-size="43" font-style="italic" fill="url(#ink)">Wonder is where knowing begins.</text>
-<text x="800" y="151" text-anchor="middle" font-family="monospace" font-size="10" letter-spacing="5" fill="#8B8D96">STAY CURIOUS. KEEP INVESTIGATING.</text>
+<rect width="1600" height="170" fill="#0B0D13"/>
+<path class="line" d="M130 30H1470" stroke="#D47A3B" stroke-width="1.5"/>
+<text class="statement" x="800" y="103" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="42" font-style="italic" fill="url(#quote)">Somewhere, wonder becomes discovery.</text>
+<text x="800" y="139" text-anchor="middle" font-family="monospace" font-size="9" letter-spacing="4" fill="#858995">A PRACTICE OF INQUIRY AND IMPLEMENTATION</text>
 </svg>
