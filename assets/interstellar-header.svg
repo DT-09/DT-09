@@ -1,51 +1,48 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="560" viewBox="0 0 1600 560" role="img" aria-labelledby="t d">
-<title id="t">DT—09 — Wonder is where knowing begins</title>
-<desc id="d">A cinematic, Interstellar-inspired black hole occupies the upper-right corner. Its dark, tilted event horizon is crossed by a narrow, brilliant accretion stream, with gravitational lensing bending the light into asymmetric arcs. Large kinetic editorial typography anchors the left.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="540" viewBox="0 0 1600 540" role="img" aria-labelledby="title desc">
+<title id="title">DT—09 — Independent systems engineering</title>
+<desc id="desc">An abstract technical composition with layered orbital paths, precise linework and animated editorial typography. No black-hole imagery.</desc>
 <defs>
- <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#030305"/><stop offset=".58" stop-color="#090A10"/><stop offset="1" stop-color="#161B26"/></linearGradient>
- <radialGradient id="haze"><stop stop-color="#D47A3B" stop-opacity=".23"/><stop offset=".58" stop-color="#161B26" stop-opacity=".18"/><stop offset="1" stop-color="#030305" stop-opacity="0"/></radialGradient>
- <linearGradient id="stream" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#8C452A" stop-opacity="0"/><stop offset=".23" stop-color="#D47A3B"/><stop offset=".48" stop-color="#FFF0D8"/><stop offset=".7" stop-color="#F9AD6A"/><stop offset="1" stop-color="#8C452A" stop-opacity="0"/></linearGradient>
- <radialGradient id="horizon"><stop offset=".68" stop-color="#010103"/><stop offset=".88" stop-color="#030305"/><stop offset="1" stop-color="#05060A"/></radialGradient>
- <linearGradient id="word" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#F5EDE4"/><stop offset=".62" stop-color="#F9AD6A"/><stop offset="1" stop-color="#D47A3B"/></linearGradient>
- <filter id="bloom"><feGaussianBlur stdDeviation="18"/></filter><filter id="soft"><feGaussianBlur stdDeviation="5"/></filter>
- <pattern id="grid" width="54" height="54" patternUnits="userSpaceOnUse"><path d="M54 0H0V54" fill="none" stroke="#F3E9DE" stroke-opacity=".03"/></pattern>
+ <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#030305"/><stop offset=".58" stop-color="#0B0D13"/><stop offset="1" stop-color="#161B26"/></linearGradient>
+ <linearGradient id="amber" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#D47A3B"/><stop offset=".55" stop-color="#F9AD6A"/><stop offset="1" stop-color="#F4D2B4"/></linearGradient>
+ <linearGradient id="line" x2="1"><stop stop-color="#D47A3B" stop-opacity="0"/><stop offset=".5" stop-color="#F9AD6A" stop-opacity=".75"/><stop offset="1" stop-color="#D47A3B" stop-opacity="0"/></linearGradient>
+ <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse"><path d="M64 0H0V64" fill="none" stroke="#E9D9CC" stroke-opacity=".035"/></pattern>
+ <filter id="glow"><feGaussianBlur stdDeviation="12"/></filter>
  <style>
- .brand{opacity:0;animation:brand-in 1.6s cubic-bezier(.16,1,.3,1) .15s forwards}
- .tagline{opacity:0;animation:rise-in 1.2s cubic-bezier(.16,1,.3,1) .9s forwards}
- .meta{opacity:0;animation:rise-in 1s ease-out 1.4s forwards}
- .singularity{transform-origin:1435px 72px;animation:drift 28s ease-in-out infinite alternate}
- .stream-motion{stroke-dasharray:110 20;animation:flow 18s linear infinite}
- .flare{animation:flare 5.5s ease-in-out infinite}
- .stars circle{animation:twinkle 4s ease-in-out infinite alternate}
- @keyframes brand-in{0%{opacity:0;transform:translateY(28px);letter-spacing:32px}100%{opacity:1;transform:translateY(0);letter-spacing:5px}}
- @keyframes rise-in{0%{opacity:0;transform:translateY(15px);letter-spacing:8px}100%{opacity:1;transform:translateY(0);letter-spacing:3px}}
- @keyframes drift{from{transform:translate(0,0) rotate(-1deg)}to{transform:translate(-7px,8px) rotate(1deg)}}
- @keyframes flow{to{stroke-dashoffset:-520}}
- @keyframes flare{0%,100%{opacity:.35}50%{opacity:.88}}
- @keyframes twinkle{from{opacity:.14}to{opacity:.8}}
- @media(prefers-reduced-motion:reduce){.brand,.tagline,.meta{opacity:1;animation:none}.singularity,.stream-motion,.flare,.stars circle{animation:none}}
+ .wordmark{opacity:0;animation:enter 1.25s cubic-bezier(.16,1,.3,1) .15s forwards}
+ .reveal{clip-path:inset(0 100% 0 0);animation:type 3.2s steps(38,end) 1.05s forwards}
+ .cursor{animation:blink .85s steps(2,start) infinite}
+ .path-a{stroke-dasharray:9 15;animation:dash 34s linear infinite}
+ .path-b{stroke-dasharray:2 13;animation:dash 48s linear infinite reverse}
+ .pulse{animation:pulse 6s ease-in-out infinite}
+ @keyframes enter{to{opacity:1;transform:translateY(0)}from{opacity:0;transform:translateY(25px)}}
+ @keyframes type{to{clip-path:inset(0 0 0 0)}}
+ @keyframes blink{to{opacity:0}}
+ @keyframes dash{to{stroke-dashoffset:-600}}
+ @keyframes pulse{0%,100%{opacity:.25}50%{opacity:.8}}
+ @media(prefers-reduced-motion:reduce){.wordmark{opacity:1;animation:none}.reveal{clip-path:none;animation:none}.cursor,.path-a,.path-b,.pulse{animation:none}}
  </style>
 </defs>
-<rect width="1600" height="560" fill="url(#bg)"/><rect width="1600" height="560" fill="url(#grid)"/>
-<ellipse cx="1390" cy="100" rx="420" ry="340" fill="url(#haze)"/>
-<g class="stars" fill="#F5EDE4"><circle cx="70" cy="74" r="1.5"/><circle cx="420" cy="56" r="1.1"/><circle cx="640" cy="126" r="1.3"/><circle cx="780" cy="455" r="1.2"/><circle cx="930" cy="68" r="1.1"/><circle cx="1510" cy="410" r="1.2"/><circle cx="136" cy="414" r="1.1"/><circle cx="510" cy="340" r="1.4"/><circle cx="870" cy="260" r="1"/><circle cx="1320" cy="500" r="1.3"/><circle cx="290" cy="220" r="1"/></g>
-<!-- One tilted accretion stream; lensing bends its far-side light above and below the horizon. -->
-<g class="singularity">
- <path d="M1035 260C1190 178 1330 70 1488 -18C1540 -48 1580 -56 1640 -62" fill="none" stroke="#D47A3B" stroke-width="36" opacity=".28" filter="url(#bloom)"/>
- <path d="M1035 260C1190 178 1330 70 1488 -18C1540 -48 1580 -56 1640 -62" fill="none" stroke="url(#stream)" stroke-width="11" opacity=".95" filter="url(#soft)"/>
- <path class="stream-motion" d="M1035 260C1190 178 1330 70 1488 -18C1540 -48 1580 -56 1640 -62" fill="none" stroke="#FFE8C8" stroke-width="2.5" opacity=".95"/>
- <ellipse cx="1435" cy="72" rx="104" ry="83" transform="rotate(-29 1435 72)" fill="url(#horizon)"/>
- <path d="M1325 123C1358 8 1468 -55 1558 -9C1602 14 1624 63 1634 100" fill="none" stroke="#F9AD6A" stroke-width="5" opacity=".68" filter="url(#bloom)"/>
- <path d="M1325 123C1358 8 1468 -55 1558 -9C1602 14 1624 63 1634 100" fill="none" stroke="#FFE2BD" stroke-width="1.7" opacity=".88"/>
- <path d="M1310 102C1352 190 1462 215 1548 146C1590 112 1610 70 1635 35" fill="none" stroke="#D47A3B" stroke-width="9" opacity=".5" filter="url(#soft)"/>
- <path d="M1310 102C1352 190 1462 215 1548 146C1590 112 1610 70 1635 35" fill="none" stroke="#F9AD6A" stroke-width="1.5" opacity=".65"/>
- <path class="flare" d="M1200 178C1300 104 1370 30 1450 -34" fill="none" stroke="#FFF0D8" stroke-width="2" filter="url(#soft)"/>
+<rect width="1600" height="540" fill="url(#bg)"/><rect width="1600" height="540" fill="url(#grid)"/>
+<g fill="none">
+ <path d="M800 620C850 390 1060 120 1660 -50" stroke="#D47A3B" stroke-opacity=".2" stroke-width="1"/>
+ <path d="M760 610C890 365 1130 180 1640 80" stroke="#F9AD6A" stroke-opacity=".13" stroke-width="1"/>
+ <path d="M980 590C1020 360 1220 170 1610 150" stroke="#F9AD6A" stroke-opacity=".18" stroke-width="1"/>
+ <path class="path-a" d="M700 610C830 390 1080 160 1650 -10" stroke="url(#line)" stroke-width="2"/>
+ <path class="path-b" d="M860 600C950 370 1190 220 1640 120" stroke="#D47A3B" stroke-opacity=".45"/>
+ <path d="M1050 0V540M1114 0V540M1178 0V540" stroke="#F5EDE4" stroke-opacity=".035"/>
 </g>
-<g class="brand">
- <text x="88" y="218" font-family="Georgia, 'Times New Roman', serif" font-size="132" letter-spacing="5" fill="url(#word)">DT—09</text>
- <text x="98" y="270" font-family="Arial, Helvetica, sans-serif" font-size="14" letter-spacing="5" fill="#D47A3B">INDEPENDENT SYSTEMS ENGINEERING</text>
+<g class="pulse" fill="#F9AD6A"><circle cx="1049" cy="222" r="2"/><circle cx="1178" cy="166" r="2"/><circle cx="1334" cy="110" r="1.5"/><circle cx="1468" cy="76" r="1.5"/></g>
+<g class="wordmark" transform="translate(0 0)">
+ <text x="94" y="216" font-family="Georgia, 'Times New Roman', serif" font-size="142" letter-spacing="3" fill="#F5EDE4">DT—09</text>
+ <path d="M100 251H610" stroke="url(#amber)" stroke-width="2"/>
+ <text x="100" y="292" font-family="Arial, Helvetica, sans-serif" font-size="14" letter-spacing="5" fill="#D47A3B">INDEPENDENT SYSTEMS ENGINEERING</text>
 </g>
-<g class="tagline"><text x="98" y="354" font-family="Georgia, 'Times New Roman', serif" font-size="43" font-style="italic" fill="#F5EDE4">Wonder is where knowing begins.</text><path d="M99 390H570" stroke="#D47A3B" stroke-opacity=".72"/></g>
-<g class="meta"><text x="99" y="428" font-family="Arial, Helvetica, sans-serif" font-size="11" letter-spacing="3" fill="#A6A7B0">APPLIED AI  /  SOFTWARE  /  DATA  /  ENGINEERING</text></g>
-<path d="M70 510H1530" stroke="#161B26" stroke-width="1"/><text x="72" y="538" fill="#777B87" font-family="monospace" font-size="10" letter-spacing="2">CURIOSITY → MODELS → SYSTEMS → EVIDENCE</text><text x="1528" y="538" fill="#777B87" font-family="monospace" font-size="10" text-anchor="end" letter-spacing="2">EST. IN PROGRESS</text>
+<g font-family="monospace" font-size="19" letter-spacing="2" fill="#F5EDE4">
+ <text class="reveal" x="100" y="385">APPLIED AI  /  SOFTWARE  /  DATA  /  ENGINEERING</text>
+ <rect class="cursor" x="100" y="365" width="2" height="28" fill="#F9AD6A"/>
+</g>
+<text x="100" y="449" font-family="Arial, Helvetica, sans-serif" font-size="11" letter-spacing="4" fill="#858995">RESEARCH · DESIGN · IMPLEMENTATION · VERIFICATION</text>
+<path d="M70 500H1530" stroke="#D47A3B" stroke-opacity=".3"/>
+<text x="72" y="524" fill="#777B87" font-family="monospace" font-size="10" letter-spacing="2">CURIOSITY / PRECISION / EVIDENCE</text>
+<text x="1528" y="524" fill="#777B87" font-family="monospace" font-size="10" text-anchor="end" letter-spacing="2">DT—09</text>
 </svg>
