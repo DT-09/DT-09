@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/interstellar-header.svg" width="100%" alt="DT—09. An illustrated black hole with a glowing amber accretion disc and animated editorial typography." />
+<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/interstellar-header.svg" width="100%" alt="DT—09. Abstract technical linework with animated editorial typography." />
 
 <br />
 
@@ -24,11 +24,11 @@
 
 ## 01 / A question worth following
 
-I build software to investigate difficult questions and turn useful answers into working systems.
+I design and implement software across applied AI, systems engineering, data analysis and interactive applications.
 
-My projects move across AI assurance, adaptive learning, financial evidence, engineering data and interactive experiences. I care about what happens beneath the interface: the model, the mechanism, the source material, the edge cases and the evidence that a system did what it claims.
+My work focuses on turning complex requirements into systems that can be understood, tested and improved. That means making the underlying logic explicit, tracing outputs to their sources, and treating edge cases and limitations as part of the design—not as afterthoughts.
 
-**The aim is not complexity for its own sake. It is clarity earned through engineering.**
+**A good system is not merely functional. Its behaviour should be explainable and its results reviewable.**
 
 ---
 
@@ -46,7 +46,7 @@ My projects move across AI assurance, adaptive learning, financial evidence, eng
 
 ## 02 / Selected work
 
-Nine independent projects. Different problems; a shared interest in making complex systems inspectable.
+Selected projects spanning AI assurance, financial workflows, engineering data, learning systems and interactive design.
 
 <table>
 <tr>
@@ -166,7 +166,7 @@ An independent Scuderia Ferrari fan project featuring an original 3D concept-car
 
 ## 03 / Technical range
 
-A cross-section of languages, runtimes and tools used across the projects.
+Languages, frameworks and tools represented in the projects below. The selection reflects varied implementation contexts rather than uniform depth across every technology.
 
 <div align="center">
 
@@ -225,19 +225,19 @@ A cross-section of languages, runtimes and tools used across the projects.
 
 ---
 
-## 05 / Beyond the conventional interface
+## 05 / Design approach
 
-Not every problem belongs in a dashboard. Some are better explored through an interactive environment, a visual model or a spatial experience.
+The interface should reflect the problem being solved—not impose a template on it.
 
-- **Inquiry as an interface** — Vesper explores learning as a process of questioning, hypothesising and testing.
-- **Evidence as an interface** — DealTie, LedgerTrace and DatasheetDelta make relationships between records inspectable.
-- **Space as an interface** — IL ROSSO experiments with 3D form, motion and editorial storytelling.
+- **Inquiry-led experiences** — Vesper structures learning around questions, hypotheses, research and evaluation.
+- **Evidence-centred workflows** — DealTie, LedgerTrace and DatasheetDelta connect findings to the records that support them.
+- **Spatial interaction** — IL ROSSO explores 3D composition, motion and visual storytelling.
 
 ---
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/closing-quote.svg" width="100%" alt="Wonder is where knowing begins." />
+<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/closing-quote.svg" width="100%" alt="Somewhere, wonder becomes discovery." />
 
 <a href="https://github.com/DT-09?tab=repositories">EXPLORE THE REPOSITORIES ↗</a>
 &nbsp;·&nbsp;
@@ -245,6 +245,6 @@ Not every problem belongs in a dashboard. Some are better explored through an in
 
 <br /><br />
 
-<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/footer-panel.svg" width="100%" alt="Contrasting bronze and midnight-blue DT—09 footer." />
+<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/footer-panel.svg" width="100%" alt="Layered bronze and midnight-blue animated wave footer." />
 
 </div>
