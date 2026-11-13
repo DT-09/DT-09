@@ -1,276 +1,232 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/interstellar-header.svg" width="100%" alt="DT—09 — Independent systems engineering. An original dark interstellar composition in bronze and amber." />
+<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/interstellar-header.svg" width="100%" alt="DT—09. Independent systems engineering, at the intersection of mathematical thought and engineered systems." />
 
 <br />
 
-<a href="#selected-work"><img src="https://img.shields.io/badge/EXPLORE_THE_WORK-D47A3B?style=for-the-badge&labelColor=030305" alt="Explore selected work" /></a>
-&nbsp;
-<a href="https://github.com/DT-09?tab=repositories"><img src="https://img.shields.io/badge/ALL_REPOSITORIES-161B26?style=for-the-badge&labelColor=030305" alt="All repositories" /></a>
-
-<br /><br />
-
-<sub>APPLIED AI &nbsp;·&nbsp; SYSTEMS &nbsp;·&nbsp; MATHEMATICS &nbsp;·&nbsp; DATA &nbsp;·&nbsp; ENGINEERING</sub>
-
-<br /><br />
-
-<a href="#the-point-of-view">POINT OF VIEW</a> &nbsp;·&nbsp;
-<a href="#the-intellectual-atlas">INTELLECTUAL ATLAS</a> &nbsp;·&nbsp;
 <a href="#selected-work">SELECTED WORK</a> &nbsp;·&nbsp;
-<a href="#research-frontier">RESEARCH FRONTIER</a> &nbsp;·&nbsp;
-<a href="#engineering-principles">PRINCIPLES</a>
+<a href="#the-field">THE FIELD</a> &nbsp;·&nbsp;
+<a href="#working-method">METHOD</a> &nbsp;·&nbsp;
+<a href="#technical-range">TECHNICAL RANGE</a> &nbsp;·&nbsp;
+<a href="https://github.com/DT-09?tab=repositories">REPOSITORIES ↗</a>
 
 </div>
 
 ---
 
-## The point of view
+<table>
+<tr>
+<td width="62%" valign="top">
 
-I am interested in the space between a difficult question and a system that can answer it reliably.
+## A mind for questions. A discipline for systems.
 
-My work moves across applied AI, software and systems engineering, data-intensive workflows, and interactive experiences. The subjects differ; the standard does not:
+I work where **mathematics, computation, applied AI and systems engineering** meet.
 
-**Understand the problem. Make the logic explicit. Build the mechanism. Verify what it produces.**
+The interest is not technology for its own sake. It is the structure beneath a problem: the assumptions that shape it, the logic that governs it, and the evidence that tells us whether a solution works.
 
-I care about systems whose behaviour can be inspected—not merely demos that look convincing. I try to make assumptions visible, connect conclusions to evidence, and treat failure modes and limitations as part of the engineering.
+I move between abstract inquiry and practical construction. A question may begin as a mathematical model, become an algorithm, and end as a tool that someone can inspect and use.
 
-I do not see mathematics, software, design, and research as separate interests. They are different instruments for understanding and constructing things.
+</td>
+<td width="38%" valign="middle" align="center">
 
-## The intellectual atlas
+<sub>OPERATING PRINCIPLE</sub>
+
+<br /><br />
+
+**MAKE THE INVISIBLE**
+
+*explicit.*
+
+**MAKE THE COMPLEX**
+
+*inspectable.*
+
+**MAKE THE RESULT**
+
+*verifiable.*
+
+</td>
+</tr>
+</table>
+
+## The field
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/intellectual-atlas.svg" width="100%" alt="Original intellectual atlas connecting mathematics, models, algorithms, systems, data, AI, design and evidence around a central question." />
+<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/intellectual-atlas.svg" width="100%" alt="A conceptual map of the fields connected by the work: mathematics, models, algorithms, systems, data, AI, design and evidence." />
 
 </div>
 
-The recurring path is not strictly linear. A result can expose a bad assumption; a test can change the model; a design constraint can reveal a better algorithm. The work improves through that feedback.
+The disciplines are not separate lanes. They form a feedback system. Mathematics sharpens the model; computation tests it; design makes it usable; evidence challenges the result. The next question often comes from the last answer.
 
-## From inquiry to implementation
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/systems-method.svg" width="100%" alt="Five-stage engineering method: inquire, model, build, verify and review." />
-
-</div>
-
-This is the method I aim to bring to each project:
-
-- **Inquire** — identify the real problem and the constraints around it.
-- **Model** — define inputs, assumptions, invariants and expected behaviour.
-- **Build** — implement the smallest coherent system that solves the problem.
-- **Verify** — test outputs against evidence and explicit expectations.
-- **Review** — expose uncertainty, limitations and the next engineering question.
+| Domain | The questions |
+|---|---|
+| **Mathematics & computation** | What structure is hidden in a problem? Which abstractions make it tractable? |
+| **AI & authority** | How should intelligent systems act, and how can their actions be bounded and evaluated? |
+| **Data & provenance** | Can every important conclusion be traced to its source, transformation and assumptions? |
+| **Systems engineering** | What makes software reproducible, resilient, observable and dependable? |
+| **Learning & discovery** | How can people move from curiosity to independent investigation? |
 
 ## Selected work
 
-A selection of independent projects. Each repository is the source of truth for its current implementation, documentation and status.
+Independent projects across assurance, data, finance, learning and interactive systems. The repositories hold the implementation, documentation and current status; descriptions here are concise orientation, not claims of completion.
 
 <table>
 <tr>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
-### 01 / AI assurance
+<sub>01 / AI ASSURANCE</sub>
 
-**[AI Assurance Infrastructure ↗](https://github.com/DT-09/ai-assurance-infrastructure)**
+### [AI Assurance Infrastructure ↗](https://github.com/DT-09/ai-assurance-infrastructure)
 
-Foundations for AI system assurance: identity, authority, evidence, policy and evaluation.
-
-</td>
-<td width="33%" valign="top">
-
-### 02 / Agent authority
-
-**[Aurelis Authority ↗](https://github.com/DT-09/Aurelis-Authority)**
-
-Examines agent actions against intended permissions and policy, making expected and observed behaviour reviewable.
+Foundations for evaluating AI systems through identity, authority, evidence, policy and testing.
 
 </td>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
-### 03 / Learning systems
+<sub>02 / AGENT AUTHORITY</sub>
 
-**[Vesper ↗](https://github.com/DT-09/Vesper)**
+### [Aurelis Authority ↗](https://github.com/DT-09/Aurelis-Authority)
 
-An inquiry-led learning environment built around questions, hypotheses, research and the testing of ideas.
+Explores how agent actions can be checked against intended permissions and policy.
 
 </td>
 </tr>
 <tr>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
-### 04 / Financial evidence
+<sub>03 / LEARNING SYSTEMS</sub>
 
-**[LedgerTrace ↗](https://github.com/DT-09/LedgerTrace)**
+### [Vesper ↗](https://github.com/DT-09/Vesper)
 
-Compares supplier invoices, purchase orders, goods receipts and related records to surface source-linked exceptions.
-
-</td>
-<td width="33%" valign="top">
-
-### 05 / Transaction analysis
-
-**[DealTie ↗](https://github.com/DT-09/DealTie)**
-
-A transaction-document workbench for selected metrics across CIM, QoE and valuation materials, with traceable review findings.
+An inquiry-led learning environment connecting questions, hypotheses, research and investigation.
 
 </td>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
-### 06 / Engineering data
+<sub>04 / FINANCIAL EVIDENCE</sub>
 
-**[DatasheetDelta ↗](https://github.com/DT-09/DatasheetDelta)**
+### [LedgerTrace ↗](https://github.com/DT-09/LedgerTrace)
 
-Compares supported technical fields across document revisions and creates a provenance-linked change register.
+Supplier-payment evidence review across invoices, purchase orders, goods receipts and related records.
 
 </td>
 </tr>
 <tr>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
-### 07 / Commitment intelligence
+<sub>05 / TRANSACTION ANALYSIS</sub>
 
-**[CommitmentGraph ↗](https://github.com/DT-09/CommitmentGraph)**
+### [DealTie ↗](https://github.com/DT-09/DealTie)
 
-Connects obligations, dated events and source records in an inspectable graph for evidence-led investigation.
+A transaction-document workbench for structured review of selected financial and deal materials.
 
 </td>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
-### 08 / Data migration
+<sub>06 / ENGINEERING DATA</sub>
 
-**[Migraven ↗](https://github.com/DT-09/Migraven)**
+### [DatasheetDelta ↗](https://github.com/DT-09/DatasheetDelta)
+
+A technical-document comparison concept focused on revisions, field changes and source context.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<sub>07 / COMMITMENT INTELLIGENCE</sub>
+
+### [CommitmentGraph ↗](https://github.com/DT-09/CommitmentGraph)
+
+An evidence-oriented approach to connecting obligations, events and source records.
+
+</td>
+<td width="50%" valign="top">
+
+<sub>08 / DATA MIGRATION</sub>
+
+### [Migraven ↗](https://github.com/DT-09/Migraven)
 
 A local-first C17 utility for comparing CSV and flat JSONL exports by key, with source-row findings and SHA-256 manifests.
 
 </td>
-<td width="33%" valign="top">
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-### 09 / Interactive design
+<sub>09 / INTERACTIVE DESIGN</sub>
 
-**[IL ROSSO ↗](https://github.com/DT-09/IL-ROSSO)**
+### [IL ROSSO ↗](https://github.com/DT-09/IL-ROSSO)
 
-An independent automotive fan project exploring an original 3D concept-car study and an editorial interactive experience.
+An independent automotive concept study combining 3D exploration and editorial interaction.
+
+</td>
+<td width="50%" valign="top">
+
+<sub>THE COMPLETE INDEX</sub>
+
+### [All repositories ↗](https://github.com/DT-09?tab=repositories)
+
+The wider record: experiments, active builds, research and supporting work.
 
 </td>
 </tr>
 </table>
 
+## Working method
+
 <div align="center">
 
-<a href="https://github.com/DT-09?tab=repositories">VIEW THE COMPLETE REPOSITORY INDEX ↗</a>
+<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/systems-method.svg" width="100%" alt="Five stages of a working method: inquire, model, build, verify and review." />
 
 </div>
 
-## Research frontier
+The loop is deliberate, not ceremonial:
 
-The most interesting work often begins before the implementation exists. These are the directions and questions that shape what I investigate:
+- **Inquire.** Define the problem before choosing the tool.
+- **Model.** State assumptions, constraints, inputs and expected behaviour.
+- **Build.** Implement a coherent mechanism, not a decorative demonstration.
+- **Verify.** Test the result against explicit expectations and source evidence.
+- **Review.** Record what failed, what remains uncertain and what should change.
 
-| Field | Questions I return to |
-|---|---|
-| **Mathematics & computation** | How can a complex system be reduced to a model whose assumptions and behaviour can be reasoned about? |
-| **AI assurance** | How should authority, evidence and evaluation work when software agents can take consequential actions? |
-| **Data & provenance** | How can a conclusion remain connected to the exact records, transformations and assumptions behind it? |
-| **Learning & discovery** | How can a learning environment help someone move from curiosity to independent investigation? |
-| **Systems engineering** | What makes a system reproducible, resilient, inspectable and useful beyond its first successful run? |
-
-These are areas of inquiry, not claims that every question has been solved or published.
+A working result is not automatically a reliable result. Verification is part of the product.
 
 ## Technical range
 
-The tools below are represented across the repositories. They do not imply equal depth or production experience in every technology.
-
-<div align="center">
-
-**LANGUAGES & SYSTEMS**
-
-<img src="https://skillicons.dev/icons?i=c,cpp,cs,py,js,ts,html,css,bash&theme=dark" alt="C, C++, C sharp, Python, JavaScript, TypeScript, HTML, CSS and Bash" />
-
-<br /><br />
-
-**APPLICATIONS & FRAMEWORKS**
-
-<img src="https://skillicons.dev/icons?i=react,vite,nodejs,fastapi,dotnet,threejs,sqlite&theme=dark" alt="React, Vite, Node.js, FastAPI, .NET, Three.js and SQLite" />
-
-<br /><br />
-
-**INFRASTRUCTURE & DELIVERY**
-
-<img src="https://skillicons.dev/icons?i=cloudflare,docker,cmake,git,github,githubactions&theme=dark" alt="Cloudflare, Docker, CMake, Git, GitHub and GitHub Actions" />
-
-</div>
+Tools and languages represented across the repositories. This is a map of the working environment, not a claim of equal expertise in every item.
 
 <details>
-<summary><strong>Full toolset and implementation contexts</strong></summary>
+<summary><strong>Languages & systems</strong></summary>
 
-- **Languages:** C17, C++, C#, Python, JavaScript, TypeScript, HTML, CSS, Bash.
-- **Frontend & interaction:** React, Vite, Three.js, React Three Fiber, Drei, Motion, GSAP.
-- **Backend & APIs:** FastAPI, Streamlit, Node.js, REST, Cloudflare Workers and Pages Functions.
-- **Data & storage:** SQL, SQLite, Cloudflare D1, CSV, JSON, JSONL, structured document extraction, SHA-256.
-- **Documents:** PDF text extraction, XLSX, XLS, DOCX, TXT and Markdown.
-- **Systems & build:** CMake, command-line utilities, native builds and packaging workflows.
-- **Testing & delivery:** pytest, unittest, CTest, npm scripts, GitHub Actions, Docker and Cloudflare deployment.
+C17 · C++ · C# · Python · JavaScript · TypeScript · Bash · SQL · HTML · CSS
 
 </details>
 
-## Engineering principles
+<details>
+<summary><strong>Applications & interfaces</strong></summary>
 
-<table>
-<tr>
-<td width="50%" valign="top">
+React · Vite · Three.js · React Three Fiber · FastAPI · Node.js · .NET · Cloudflare Workers · Cloudflare Pages
 
-**01 — Traceability**
+</details>
 
-Important outputs should connect to their inputs and source evidence.
+<details>
+<summary><strong>Data, testing & delivery</strong></summary>
 
-</td>
-<td width="50%" valign="top">
+SQLite · Cloudflare D1 · CSV · JSON · JSONL · PDF/XLSX/DOCX processing · SHA-256 · pytest · unittest · CTest · CMake · Git · GitHub Actions · Docker
 
-**02 — Explicitness**
+</details>
 
-Assumptions, permissions, constraints and limitations should be visible.
+## Principles
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**03 — Reproducibility**
-
-A result is stronger when another person can repeat and inspect the process.
-
-</td>
-<td width="50%" valign="top">
-
-**04 — Human judgment**
-
-Automation should make decisions easier to review, not hide uncertainty behind confidence.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**05 — Useful simplicity**
-
-Complexity must earn its place. Prefer a clear mechanism over an impressive pile of features.
-
-</td>
-<td width="50%" valign="top">
-
-**06 — Continuous correction**
-
-Tests, criticism and observed failures are inputs to better engineering.
-
-</td>
-</tr>
-</table>
-
-## Beyond the implementation
-
-I am drawn to questions that cross disciplines: mathematical structure, scientific explanation, the design of dependable systems, and the ways people discover and understand complex ideas.
-
-The aim is not to collect technologies. It is to develop the judgment to choose the right abstraction, build it carefully, and know what the evidence does—and does not—show.
+| | |
+|---|---|
+| **Traceability** | Important outputs should retain a path to their inputs and evidence. |
+| **Explicitness** | Assumptions, permissions, constraints and limitations belong in the open. |
+| **Reproducibility** | A process should be repeatable and its result inspectable. |
+| **Restraint** | Complexity must justify its cost. More features do not make a better system. |
+| **Human judgment** | Automation should support review, not conceal uncertainty. |
+| **Correction** | Tests, criticism and failure are evidence. Use them. |
 
 ---
 
@@ -278,17 +234,13 @@ The aim is not to collect technologies. It is to develop the judgment to choose 
 
 <img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/closing-quote.svg" width="100%" alt="Somewhere, wonder becomes discovery." />
 
-**Curiosity begins the work. Precision gives it direction. Evidence earns the conclusion.**
+**Curiosity sets the direction. Precision shapes the work. Evidence tests the claim.**
 
 <br />
 
-<a href="https://github.com/DT-09?tab=repositories">EXPLORE THE REPOSITORIES ↗</a>
-&nbsp;·&nbsp;
-<a href="https://github.com/DT-09">RETURN TO PROFILE ↗</a>
+<a href="https://github.com/DT-09?tab=repositories">EXPLORE THE WORK ↗</a>
 
 <br /><br />
-
-<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/footer-panel.svg" width="100%" alt="Abstract midnight-blue and bronze wave composition." />
 
 <sub>DT—09 &nbsp;·&nbsp; INDEPENDENT SYSTEMS ENGINEERING</sub>
 
