@@ -232,7 +232,7 @@ SQLite · Cloudflare D1 · CSV · JSON · JSONL · PDF/XLSX/DOCX processing · S
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/closing-quote.svg" width="100%" alt="Somewhere, wonder becomes discovery." />
+<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/footer-panel.svg" width="100%" alt="DT—09 animated closing composition: Think. Build. Verify. No black boxes. No empty claims." />
 
 **Curiosity sets the direction. Precision shapes the work. Evidence tests the claim.**
 
