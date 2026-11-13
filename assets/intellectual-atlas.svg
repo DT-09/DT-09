@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="520" viewBox="0 0 1400 520" role="img" aria-labelledby="title desc">
+<title id="title">The DT—09 intellectual atlas</title>
+<desc id="desc">A dark astronomical systems map connecting mathematics, models, algorithms, engineered systems and evidence around a central question.</desc>
+<defs>
+ <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#030305"/><stop offset=".55" stop-color="#0B0D13"/><stop offset="1" stop-color="#161B26"/></linearGradient>
+ <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#D47A3B"/><stop offset=".5" stop-color="#F9AD6A"/><stop offset="1" stop-color="#D47A3B"/></linearGradient>
+ <radialGradient id="core"><stop stop-color="#F9AD6A" stop-opacity=".22"/><stop offset="1" stop-color="#D47A3B" stop-opacity="0"/></radialGradient>
+ <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#F5EDE4" stroke-opacity=".035"/></pattern>
+ <filter id="glow"><feGaussianBlur stdDeviation="14"/></filter>
+ <style>
+ .orbit{fill:none;stroke:#D47A3B;stroke-opacity:.26;stroke-width:1.2}
+ .route{fill:none;stroke:url(#gold);stroke-width:1.5;stroke-dasharray:5 9;opacity:.72}
+ .node{fill:#0B0D13;stroke:#D47A3B;stroke-width:1.4}
+ .label{font-family:Arial,Helvetica,sans-serif;font-size:17px;letter-spacing:2px;fill:#F5EDE4}
+ .sub{font-family:monospace;font-size:10px;letter-spacing:2px;fill:#A6A1A0}
+ @keyframes drift{to{stroke-dashoffset:-280}}
+ .route{animation:drift 36s linear infinite}
+ @media(prefers-reduced-motion:reduce){.route{animation:none}}
+ </style>
+</defs>
+<rect width="1400" height="520" rx="18" fill="url(#bg)"/>
+<rect width="1400" height="520" rx="18" fill="url(#grid)"/>
+<text x="58" y="58" fill="#D47A3B" font-family="monospace" font-size="12" letter-spacing="4">THE INTELLECTUAL ATLAS / 01</text>
+<text x="58" y="88" fill="#F5EDE4" font-family="Georgia,serif" font-size="29">One question. Many ways to understand it.</text>
+<circle cx="700" cy="286" r="190" fill="url(#core)" filter="url(#glow)"/>
+<g class="orbit">
+ <ellipse cx="700" cy="286" rx="510" ry="170"/>
+ <ellipse cx="700" cy="286" rx="390" ry="128" transform="rotate(-28 700 286)"/>
+ <ellipse cx="700" cy="286" rx="390" ry="128" transform="rotate(28 700 286)"/>
+</g>
+<g class="route">
+ <path d="M700 286L250 170M700 286L535 118M700 286L865 118M700 286L1150 170M700 286L250 405M700 286L535 448M700 286L865 448M700 286L1150 405"/>
+</g>
+<g>
+ <circle cx="700" cy="286" r="82" fill="#0B0D13" stroke="url(#gold)" stroke-width="2"/>
+ <circle cx="700" cy="286" r="67" fill="none" stroke="#F9AD6A" stroke-opacity=".35"/>
+ <path d="M700 231V341M645 286H755M661 247L739 325M739 247L661 325" stroke="#F9AD6A" stroke-opacity=".25"/>
+ <circle cx="700" cy="286" r="8" fill="#F9AD6A"/>
+ <text x="700" y="280" text-anchor="middle" fill="#F5EDE4" font-family="Georgia,serif" font-size="18">THE</text>
+ <text x="700" y="303" text-anchor="middle" fill="#F9AD6A" font-family="monospace" font-size="12" letter-spacing="2">QUESTION</text>
+</g>
+<g>
+ <circle class="node" cx="250" cy="170" r="43"/><text class="label" x="250" y="176" text-anchor="middle">MATH</text><text class="sub" x="250" y="229" text-anchor="middle">STRUCTURE · PROOF</text>
+ <circle class="node" cx="535" cy="118" r="43"/><text class="label" x="535" y="124" text-anchor="middle">MODELS</text><text class="sub" x="535" y="177" text-anchor="middle">ABSTRACTION · ASSUMPTIONS</text>
+ <circle class="node" cx="865" cy="118" r="43"/><text class="label" x="865" y="124" text-anchor="middle">ALGORITHMS</text><text class="sub" x="865" y="177" text-anchor="middle">LOGIC · COMPUTATION</text>
+ <circle class="node" cx="1150" cy="170" r="43"/><text class="label" x="1150" y="176" text-anchor="middle">SYSTEMS</text><text class="sub" x="1150" y="229" text-anchor="middle">ARCHITECTURE · EXECUTION</text>
+ <circle class="node" cx="250" cy="405" r="43"/><text class="label" x="250" y="411" text-anchor="middle">DATA</text><text class="sub" x="250" y="464" text-anchor="middle">SIGNAL · PROVENANCE</text>
+ <circle class="node" cx="535" cy="448" r="43"/><text class="label" x="535" y="454" text-anchor="middle">AI</text><text class="sub" x="535" y="507" text-anchor="middle">EVALUATION · AUTHORITY</text>
+ <circle class="node" cx="865" cy="448" r="43"/><text class="label" x="865" y="454" text-anchor="middle">DESIGN</text><text class="sub" x="865" y="507" text-anchor="middle">INTERACTION · CLARITY</text>
+ <circle class="node" cx="1150" cy="405" r="43"/><text class="label" x="1150" y="411" text-anchor="middle">EVIDENCE</text><text class="sub" x="1150" y="464" text-anchor="middle">TESTS · TRACEABILITY</text>
+</g>
+<text x="1340" y="490" text-anchor="end" fill="#777B87" font-family="monospace" font-size="9" letter-spacing="2">DT—09 / INQUIRY → IMPLEMENTATION</text>
+</svg>
