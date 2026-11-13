@@ -106,9 +106,9 @@ An inquiry-led learning environment connecting questions, hypotheses, research a
 
 <sub>04 / FINANCIAL EVIDENCE</sub>
 
-### [LedgerTrace ↗](https://github.com/DT-09/LedgerTrace)
+### [Caseweft ↗](https://github.com/DT-09/LedgerTrace)
 
-Supplier-payment evidence review across invoices, purchase orders, goods receipts and related records.
+A local-first AP exception evidence workbench that turns supported invoice, PO and receipt exports into reviewable, source-linked cases.
 
 </td>
 </tr>
@@ -128,7 +128,7 @@ A transaction-document workbench for structured review of selected financial and
 
 ### [DatasheetDelta ↗](https://github.com/DT-09/DatasheetDelta)
 
-A technical-document comparison concept focused on revisions, field changes and source context.
+Engineering revision intelligence: compares supported technical-document fields and produces a provenance-linked change register for human review.
 
 </td>
 </tr>
