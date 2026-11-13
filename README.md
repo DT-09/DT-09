@@ -1,14 +1,14 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/interstellar-header.svg" width="100%" alt="DT—09. Independent systems engineering, at the intersection of mathematical thought and engineered systems." />
+<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/interstellar-header.svg" width="100%" alt="DT—09 — Think beyond. Mathematics, computation and engineered reality." />
 
 <br />
 
-<a href="#selected-work">SELECTED WORK</a> &nbsp;·&nbsp;
-<a href="#the-field">THE FIELD</a> &nbsp;·&nbsp;
-<a href="#working-method">METHOD</a> &nbsp;·&nbsp;
+<a href="#selected-work">WORK</a> &nbsp;·&nbsp;
+<a href="#questions-i-follow">QUESTIONS</a> &nbsp;·&nbsp;
+<a href="#how-i-work">METHOD</a> &nbsp;·&nbsp;
 <a href="#technical-range">TECHNICAL RANGE</a> &nbsp;·&nbsp;
-<a href="https://github.com/DT-09?tab=repositories">REPOSITORIES ↗</a>
+<a href="https://github.com/DT-09?tab=repositories">ALL REPOSITORIES ↗</a>
 
 </div>
 
@@ -16,60 +16,77 @@
 
 <table>
 <tr>
-<td width="62%" valign="top">
+<td width="64%" valign="top">
 
-## A mind for questions. A discipline for systems.
+### INDEPENDENT INQUIRY / SYSTEMS ENGINEERING
 
-I work where **mathematics, computation, applied AI and systems engineering** meet.
+# A mind for questions. A discipline for systems.
 
-The interest is not technology for its own sake. It is the structure beneath a problem: the assumptions that shape it, the logic that governs it, and the evidence that tells us whether a solution works.
+I work across **mathematics, computation, applied AI and systems engineering**.
 
-I move between abstract inquiry and practical construction. A question may begin as a mathematical model, become an algorithm, and end as a tool that someone can inspect and use.
+I am interested in what sits beneath the interface: the model that frames a problem, the logic that moves it forward, and the evidence that tells us whether the result deserves trust.
+
+The work moves between theory and implementation. An idea should survive contact with constraints. A system should make its behaviour inspectable. A claim should have somewhere solid to stand.
 
 </td>
-<td width="38%" valign="middle" align="center">
+<td width="36%" valign="middle">
 
-<sub>OPERATING PRINCIPLE</sub>
+<sub>DESIGN TEST</sub>
 
-<br /><br />
+**01 — CLARITY**
 
-**MAKE THE INVISIBLE**
+Can the problem be stated precisely?
 
-*explicit.*
+<br />
 
-**MAKE THE COMPLEX**
+**02 — MECHANISM**
 
-*inspectable.*
+Can the solution be explained?
 
-**MAKE THE RESULT**
+<br />
 
-*verifiable.*
+**03 — EVIDENCE**
+
+Can the result be checked?
+
+<br />
+
+**04 — LIMITS**
+
+Is uncertainty visible?
 
 </td>
 </tr>
 </table>
 
-## The field
+## Questions I follow
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/intellectual-atlas.svg" width="100%" alt="A conceptual map of the fields connected by the work: mathematics, models, algorithms, systems, data, AI, design and evidence." />
+<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/intellectual-atlas.svg" width="100%" alt="A connected map linking mathematics, models, algorithms, systems, data, AI, design and evidence around a central question." />
 
 </div>
 
-The disciplines are not separate lanes. They form a feedback system. Mathematics sharpens the model; computation tests it; design makes it usable; evidence challenges the result. The next question often comes from the last answer.
-
-| Domain | The questions |
+| Field | The question underneath |
 |---|---|
-| **Mathematics & computation** | What structure is hidden in a problem? Which abstractions make it tractable? |
-| **AI & authority** | How should intelligent systems act, and how can their actions be bounded and evaluated? |
-| **Data & provenance** | Can every important conclusion be traced to its source, transformation and assumptions? |
-| **Systems engineering** | What makes software reproducible, resilient, observable and dependable? |
-| **Learning & discovery** | How can people move from curiosity to independent investigation? |
+| **Mathematics & computation** | What structure is hidden in the problem? Which abstractions make it tractable? |
+| **Models & algorithms** | What assumptions are encoded, and what follows from them? |
+| **AI & authority** | How should intelligent systems act, and how can those actions be bounded and evaluated? |
+| **Data & provenance** | Can a conclusion be traced through its sources and transformations? |
+| **Systems engineering** | What makes a system reproducible, resilient and observable? |
+| **Learning & discovery** | How do we move from curiosity to independent investigation? |
+
+These are connected disciplines, not separate interests. Mathematics sharpens the model; computation tests it; design makes it usable; evidence challenges the result.
 
 ## Selected work
 
-Independent projects across assurance, data, finance, learning and interactive systems. The repositories hold the implementation, documentation and current status; descriptions here are concise orientation, not claims of completion.
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/selected-work.svg" width="100%" alt="Selected work — nine independent directions, indexed from 01 to 09." />
+
+</div>
+
+A selection of repositories across assurance, data, finance, learning and interactive systems. Each link leads to its source: implementation, documentation and current state. The descriptions are orientation, not claims that every project is complete.
 
 <table>
 <tr>
@@ -128,7 +145,7 @@ A transaction-document workbench for structured review of selected financial and
 
 ### [DatasheetDelta ↗](https://github.com/DT-09/DatasheetDelta)
 
-Engineering revision intelligence: compares supported technical-document fields and produces a provenance-linked change register for human review.
+Compares supported technical-document fields and produces a provenance-linked change register for human review.
 
 </td>
 </tr>
@@ -164,37 +181,37 @@ An independent automotive concept study combining 3D exploration and editorial i
 </td>
 <td width="50%" valign="top">
 
-<sub>THE COMPLETE INDEX</sub>
+<sub>THE WIDER RECORD</sub>
 
 ### [All repositories ↗](https://github.com/DT-09?tab=repositories)
 
-The wider record: experiments, active builds, research and supporting work.
+Experiments, active builds, research and supporting work beyond this selection.
 
 </td>
 </tr>
 </table>
 
-## Working method
+## How I work
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/systems-method.svg" width="100%" alt="Five stages of a working method: inquire, model, build, verify and review." />
+<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/systems-method.svg" width="100%" alt="A five-stage working method: inquire, model, build, verify and review." />
 
 </div>
 
-The loop is deliberate, not ceremonial:
+**Inquire.** Define the problem before choosing the tool.
 
-- **Inquire.** Define the problem before choosing the tool.
-- **Model.** State assumptions, constraints, inputs and expected behaviour.
-- **Build.** Implement a coherent mechanism, not a decorative demonstration.
-- **Verify.** Test the result against explicit expectations and source evidence.
-- **Review.** Record what failed, what remains uncertain and what should change.
+**Model.** State assumptions, constraints, inputs and expected behaviour.
 
-A working result is not automatically a reliable result. Verification is part of the product.
+**Build.** Implement the mechanism. Avoid mistaking a convincing interface for a working system.
+
+**Verify.** Test against explicit expectations and source evidence.
+
+**Review.** Record failures, uncertainty and the next correction.
+
+The process is iterative. Verification is not the final ceremony; it changes what gets built next.
 
 ## Technical range
-
-Tools and languages represented across the repositories. This is a map of the working environment, not a claim of equal expertise in every item.
 
 <details>
 <summary><strong>Languages & systems</strong></summary>
@@ -217,22 +234,24 @@ SQLite · Cloudflare D1 · CSV · JSON · JSONL · PDF/XLSX/DOCX processing · S
 
 </details>
 
+<sub>Tools listed here appear across the repositories; the list does not imply equal depth or production use in every technology.</sub>
+
 ## Principles
 
-| | |
-|---|---|
-| **Traceability** | Important outputs should retain a path to their inputs and evidence. |
-| **Explicitness** | Assumptions, permissions, constraints and limitations belong in the open. |
-| **Reproducibility** | A process should be repeatable and its result inspectable. |
-| **Restraint** | Complexity must justify its cost. More features do not make a better system. |
-| **Human judgment** | Automation should support review, not conceal uncertainty. |
-| **Correction** | Tests, criticism and failure are evidence. Use them. |
+<table>
+<tr><td width="22%"><strong>Traceability</strong></td><td>Important outputs retain a path to their inputs and evidence.</td></tr>
+<tr><td><strong>Explicitness</strong></td><td>Assumptions, permissions, constraints and limitations stay visible.</td></tr>
+<tr><td><strong>Reproducibility</strong></td><td>A process should be repeatable and its result inspectable.</td></tr>
+<tr><td><strong>Restraint</strong></td><td>Complexity must justify its cost. More features do not make a better system.</td></tr>
+<tr><td><strong>Human judgment</strong></td><td>Automation should support review, not conceal uncertainty.</td></tr>
+<tr><td><strong>Correction</strong></td><td>Tests, criticism and failure are evidence. Use them.</td></tr>
+</table>
 
 ---
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/footer-panel.svg" width="100%" alt="DT—09 animated closing composition: Think. Build. Verify. No black boxes. No empty claims." />
+<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/footer-panel.svg" width="100%" alt="DT—09 closing composition: Think. Build. Verify. No black boxes. No empty claims." />
 
 **Curiosity sets the direction. Precision shapes the work. Evidence tests the claim.**
 
