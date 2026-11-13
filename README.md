@@ -1,160 +1,184 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/interstellar-header.svg" width="100%" alt="DT—09. Abstract technical linework with animated editorial typography." />
+<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/interstellar-header.svg" width="100%" alt="DT—09 — Independent systems engineering. An original dark interstellar composition in bronze and amber." />
 
 <br />
 
-<a href="https://github.com/DT-09?tab=repositories"><img src="https://img.shields.io/badge/EXPLORE-REPOSITORIES-D47A3B?style=for-the-badge&labelColor=030305&logo=github&logoColor=F9AD6A" alt="Explore repositories" /></a>
+<a href="#selected-work"><img src="https://img.shields.io/badge/EXPLORE_THE_WORK-D47A3B?style=for-the-badge&labelColor=030305" alt="Explore selected work" /></a>
 &nbsp;
-<a href="https://github.com/DT-09"><img src="https://img.shields.io/badge/INDEPENDENT-SYSTEMS_ENGINEERING-161B26?style=for-the-badge&labelColor=030305&logo=github&logoColor=F9AD6A" alt="Independent systems engineering" /></a>
+<a href="https://github.com/DT-09?tab=repositories"><img src="https://img.shields.io/badge/ALL_REPOSITORIES-161B26?style=for-the-badge&labelColor=030305" alt="All repositories" /></a>
 
 <br /><br />
 
-<sub>APPLIED AI &nbsp;·&nbsp; SYSTEMS &nbsp;·&nbsp; DATA & EVIDENCE &nbsp;·&nbsp; ENGINEERING &nbsp;·&nbsp; INTERACTIVE MEDIA</sub>
+<sub>APPLIED AI &nbsp;·&nbsp; SYSTEMS &nbsp;·&nbsp; MATHEMATICS &nbsp;·&nbsp; DATA &nbsp;·&nbsp; ENGINEERING</sub>
+
+<br /><br />
+
+<a href="#the-point-of-view">POINT OF VIEW</a> &nbsp;·&nbsp;
+<a href="#the-intellectual-atlas">INTELLECTUAL ATLAS</a> &nbsp;·&nbsp;
+<a href="#selected-work">SELECTED WORK</a> &nbsp;·&nbsp;
+<a href="#research-frontier">RESEARCH FRONTIER</a> &nbsp;·&nbsp;
+<a href="#engineering-principles">PRINCIPLES</a>
 
 </div>
 
 ---
 
-## 01 / A question worth following
+## The point of view
 
-I design and implement software across applied AI, systems engineering, data analysis and interactive applications.
+I am interested in the space between a difficult question and a system that can answer it reliably.
 
-My work focuses on turning complex requirements into systems that can be understood, tested and improved. That means making the underlying logic explicit, tracing outputs to their sources, and treating edge cases and limitations as part of the design—not as afterthoughts.
+My work moves across applied AI, software and systems engineering, data-intensive workflows, and interactive experiences. The subjects differ; the standard does not:
 
-**A good system is not merely functional. Its behaviour should be explainable and its results reviewable.**
+**Understand the problem. Make the logic explicit. Build the mechanism. Verify what it produces.**
 
----
+I care about systems whose behaviour can be inspected—not merely demos that look convincing. I try to make assumptions visible, connect conclusions to evidence, and treat failure modes and limitations as part of the engineering.
 
-<div align="center">
+I do not see mathematics, software, design, and research as separate interests. They are different instruments for understanding and constructing things.
 
-<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/systems-method.svg" width="100%" alt="Illustrated process: inquire, model, build, verify and review." />
-
-</div>
+## The intellectual atlas
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/precision-glitch.svg" width="100%" alt="Clarity through engineering." />
+<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/intellectual-atlas.svg" width="100%" alt="Original intellectual atlas connecting mathematics, models, algorithms, systems, data, AI, design and evidence around a central question." />
 
 </div>
 
-## 02 / Selected work
+The recurring path is not strictly linear. A result can expose a bad assumption; a test can change the model; a design constraint can reveal a better algorithm. The work improves through that feedback.
 
-Selected projects spanning AI assurance, financial workflows, engineering data, learning systems and interactive design.
+## From inquiry to implementation
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/systems-method.svg" width="100%" alt="Five-stage engineering method: inquire, model, build, verify and review." />
+
+</div>
+
+This is the method I aim to bring to each project:
+
+- **Inquire** — identify the real problem and the constraints around it.
+- **Model** — define inputs, assumptions, invariants and expected behaviour.
+- **Build** — implement the smallest coherent system that solves the problem.
+- **Verify** — test outputs against evidence and explicit expectations.
+- **Review** — expose uncertainty, limitations and the next engineering question.
+
+## Selected work
+
+A selection of independent projects. Each repository is the source of truth for its current implementation, documentation and status.
 
 <table>
 <tr>
 <td width="33%" valign="top">
 
-### 01 · AI Assurance Infrastructure
+### 01 / AI assurance
 
-<sub>AI CONTROL PLANE</sub>
+**[AI Assurance Infrastructure ↗](https://github.com/DT-09/ai-assurance-infrastructure)**
 
-Identity, authority, evidence, policy and evaluation foundations for AI systems, with protocol and benchmark work.
-
-[EXPLORE ↗](https://github.com/DT-09/ai-assurance-infrastructure)
+Foundations for AI system assurance: identity, authority, evidence, policy and evaluation.
 
 </td>
 <td width="33%" valign="top">
 
-### 02 · Aurelis Authority
+### 02 / Agent authority
 
-<sub>AGENT AUTHORITY</sub>
+**[Aurelis Authority ↗](https://github.com/DT-09/Aurelis-Authority)**
 
-Assesses agent actions against intended permissions and policy, comparing expected and observed behaviour for review.
-
-[EXPLORE ↗](https://github.com/DT-09/Aurelis-Authority)
+Examines agent actions against intended permissions and policy, making expected and observed behaviour reviewable.
 
 </td>
 <td width="33%" valign="top">
 
-### 03 · Vesper
+### 03 / Learning systems
 
-<sub>ADAPTIVE LEARNING</sub>
+**[Vesper ↗](https://github.com/DT-09/Vesper)**
 
-An inquiry-led learning environment for exploring subjects, forming hypotheses, researching sources and testing ideas.
-
-[EXPLORE ↗](https://github.com/DT-09/Vesper)
+An inquiry-led learning environment built around questions, hypotheses, research and the testing of ideas.
 
 </td>
 </tr>
 <tr>
 <td width="33%" valign="top">
 
-### 04 · LedgerTrace
+### 04 / Financial evidence
 
-<sub>SUPPLIER PAYMENT EVIDENCE</sub>
+**[LedgerTrace ↗](https://github.com/DT-09/LedgerTrace)**
 
-Compares supplier invoices with purchase orders, goods receipts and related records to surface source-linked exceptions.
-
-[EXPLORE ↗](https://github.com/DT-09/LedgerTrace)
+Compares supplier invoices, purchase orders, goods receipts and related records to surface source-linked exceptions.
 
 </td>
 <td width="33%" valign="top">
 
-### 05 · DealTie
+### 05 / Transaction analysis
 
-<sub>FINANCIAL RECONCILIATION</sub>
+**[DealTie ↗](https://github.com/DT-09/DealTie)**
 
 A transaction-document workbench for selected metrics across CIM, QoE and valuation materials, with traceable review findings.
 
-[EXPLORE ↗](https://github.com/DT-09/DealTie)
-
 </td>
 <td width="33%" valign="top">
 
-### 06 · DatasheetDelta
+### 06 / Engineering data
 
-<sub>ENGINEERING DOCUMENTS</sub>
+**[DatasheetDelta ↗](https://github.com/DT-09/DatasheetDelta)**
 
 Compares supported technical fields across document revisions and creates a provenance-linked change register.
-
-[EXPLORE ↗](https://github.com/DT-09/DatasheetDelta)
 
 </td>
 </tr>
 <tr>
 <td width="33%" valign="top">
 
-### 07 · CommitmentGraph
+### 07 / Commitment intelligence
 
-<sub>COMMITMENT INTELLIGENCE</sub>
+**[CommitmentGraph ↗](https://github.com/DT-09/CommitmentGraph)**
 
 Connects obligations, dated events and source records in an inspectable graph for evidence-led investigation.
 
-[EXPLORE ↗](https://github.com/DT-09/CommitmentGraph)
-
 </td>
 <td width="33%" valign="top">
 
-### 08 · Migraven
+### 08 / Data migration
 
-<sub>DATA MIGRATION VERIFICATION</sub>
+**[Migraven ↗](https://github.com/DT-09/Migraven)**
 
 A local-first C17 utility for comparing CSV and flat JSONL exports by key, with source-row findings and SHA-256 manifests.
 
-[EXPLORE ↗](https://github.com/DT-09/Migraven)
-
 </td>
 <td width="33%" valign="top">
 
-### 09 · IL ROSSO
+### 09 / Interactive design
 
-<sub>INTERACTIVE AUTOMOTIVE DESIGN</sub>
+**[IL ROSSO ↗](https://github.com/DT-09/IL-ROSSO)**
 
-An independent Scuderia Ferrari fan project featuring an original 3D concept-car study and editorial experience.
-
-[EXPLORE ↗](https://github.com/DT-09/IL-ROSSO)
+An independent automotive fan project exploring an original 3D concept-car study and an editorial interactive experience.
 
 </td>
 </tr>
 </table>
 
----
+<div align="center">
 
-## 03 / Technical range
+<a href="https://github.com/DT-09?tab=repositories">VIEW THE COMPLETE REPOSITORY INDEX ↗</a>
 
-Languages, frameworks and tools represented in the projects below. The selection reflects varied implementation contexts rather than uniform depth across every technology.
+</div>
+
+## Research frontier
+
+The most interesting work often begins before the implementation exists. These are the directions and questions that shape what I investigate:
+
+| Field | Questions I return to |
+|---|---|
+| **Mathematics & computation** | How can a complex system be reduced to a model whose assumptions and behaviour can be reasoned about? |
+| **AI assurance** | How should authority, evidence and evaluation work when software agents can take consequential actions? |
+| **Data & provenance** | How can a conclusion remain connected to the exact records, transformations and assumptions behind it? |
+| **Learning & discovery** | How can a learning environment help someone move from curiosity to independent investigation? |
+| **Systems engineering** | What makes a system reproducible, resilient, inspectable and useful beyond its first successful run? |
+
+These are areas of inquiry, not claims that every question has been solved or published.
+
+## Technical range
+
+The tools below are represented across the repositories. They do not imply equal depth or production experience in every technology.
 
 <div align="center">
 
@@ -177,43 +201,76 @@ Languages, frameworks and tools represented in the projects below. The selection
 </div>
 
 <details>
-<summary><strong>Explore the wider toolset</strong></summary>
+<summary><strong>Full toolset and implementation contexts</strong></summary>
 
 - **Languages:** C17, C++, C#, Python, JavaScript, TypeScript, HTML, CSS, Bash.
-- **Frontend & motion:** React, Vite, Three.js, React Three Fiber, Drei, Motion, GSAP.
+- **Frontend & interaction:** React, Vite, Three.js, React Three Fiber, Drei, Motion, GSAP.
 - **Backend & APIs:** FastAPI, Streamlit, Node.js, REST, Cloudflare Workers and Pages Functions.
 - **Data & storage:** SQL, SQLite, Cloudflare D1, CSV, JSON, JSONL, structured document extraction, SHA-256.
 - **Documents:** PDF text extraction, XLSX, XLS, DOCX, TXT and Markdown.
 - **Systems & build:** CMake, command-line utilities, native builds and packaging workflows.
 - **Testing & delivery:** pytest, unittest, CTest, npm scripts, GitHub Actions, Docker and Cloudflare deployment.
 
-*This is a project-grounded toolset, not a claim of equal depth in every technology.*
-
 </details>
 
----
+## Engineering principles
 
-## 04 / Engineering principles
+<table>
+<tr>
+<td width="50%" valign="top">
 
-<div align="center">
+**01 — Traceability**
 
-| 01 — TRACEABILITY | 02 — EXPLICITNESS |
-|:--|:--|
-| Keep claims connected to source evidence. | Make assumptions, permissions and limits visible. |
-| 03 — REPRODUCIBILITY | 04 — HUMAN JUDGMENT |
-| Prefer checks that can be repeated and inspected. | Surface uncertainty; keep consequential decisions reviewable. |
+Important outputs should connect to their inputs and source evidence.
 
-</div>
+</td>
+<td width="50%" valign="top">
 
----
+**02 — Explicitness**
 
-## 05 / Design approach
+Assumptions, permissions, constraints and limitations should be visible.
 
-The interface should reflect the problem being solved—not impose a template on it.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-- **Inquiry-led experiences** — Vesper structures learning around questions, hypotheses, research and evaluation.
-- **Evidence-centred workflows** — DealTie, LedgerTrace and DatasheetDelta connect findings to the records that support them.
-- **Spatial interaction** — IL ROSSO explores 3D composition, motion and visual storytelling.
+**03 — Reproducibility**
+
+A result is stronger when another person can repeat and inspect the process.
+
+</td>
+<td width="50%" valign="top">
+
+**04 — Human judgment**
+
+Automation should make decisions easier to review, not hide uncertainty behind confidence.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**05 — Useful simplicity**
+
+Complexity must earn its place. Prefer a clear mechanism over an impressive pile of features.
+
+</td>
+<td width="50%" valign="top">
+
+**06 — Continuous correction**
+
+Tests, criticism and observed failures are inputs to better engineering.
+
+</td>
+</tr>
+</table>
+
+## Beyond the implementation
+
+I am drawn to questions that cross disciplines: mathematical structure, scientific explanation, the design of dependable systems, and the ways people discover and understand complex ideas.
+
+The aim is not to collect technologies. It is to develop the judgment to choose the right abstraction, build it carefully, and know what the evidence does—and does not—show.
 
 ---
 
@@ -221,12 +278,18 @@ The interface should reflect the problem being solved—not impose a template on
 
 <img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/closing-quote.svg" width="100%" alt="Somewhere, wonder becomes discovery." />
 
+**Curiosity begins the work. Precision gives it direction. Evidence earns the conclusion.**
+
+<br />
+
 <a href="https://github.com/DT-09?tab=repositories">EXPLORE THE REPOSITORIES ↗</a>
 &nbsp;·&nbsp;
 <a href="https://github.com/DT-09">RETURN TO PROFILE ↗</a>
 
 <br /><br />
 
-<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/footer-panel.svg" width="100%" alt="Layered bronze and midnight-blue animated wave footer." />
+<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/footer-panel.svg" width="100%" alt="Abstract midnight-blue and bronze wave composition." />
+
+<sub>DT—09 &nbsp;·&nbsp; INDEPENDENT SYSTEMS ENGINEERING</sub>
 
 </div>
