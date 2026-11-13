@@ -1,47 +1,61 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="500" viewBox="0 0 1600 500" role="img" aria-labelledby="title desc">
-<title id="title">DT—09 — Independent systems engineering</title>
-<desc id="desc">A restrained editorial and astronomical composition. A large serif wordmark sits beside a precise orbital diagram, on a midnight field with bronze and amber details.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="590" viewBox="0 0 1600 590" role="img" aria-labelledby="title desc">
+<title id="title">DT—09 — Think beyond the interface</title>
+<desc id="desc">An animated editorial identity: oversized kinetic serif and monospaced typography, a mathematical orbital instrument, fine gridwork, and restrained bronze light.</desc>
 <defs>
- <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#030305"/><stop offset=".58" stop-color="#0B0D13"/><stop offset="1" stop-color="#161B26"/></linearGradient>
- <linearGradient id="amber" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#D47A3B"/><stop offset=".55" stop-color="#F9AD6A"/><stop offset="1" stop-color="#F4D2B4"/></linearGradient>
- <radialGradient id="halo"><stop stop-color="#D47A3B" stop-opacity=".16"/><stop offset="1" stop-color="#D47A3B" stop-opacity="0"/></radialGradient>
- <pattern id="grid" width="56" height="56" patternUnits="userSpaceOnUse"><path d="M56 0H0V56" fill="none" stroke="#F5EDE4" stroke-opacity=".035"/></pattern>
+ <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#030305"/><stop offset=".55" stop-color="#0B0D13"/><stop offset="1" stop-color="#171D29"/></linearGradient>
+ <linearGradient id="metal" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#8E482B"/><stop offset=".48" stop-color="#F9AD6A"/><stop offset="1" stop-color="#D47A3B"/></linearGradient>
+ <radialGradient id="aura"><stop stop-color="#D47A3B" stop-opacity=".2"/><stop offset="1" stop-color="#D47A3B" stop-opacity="0"/></radialGradient>
+ <pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse"><path d="M52 0H0V52" fill="none" stroke="#F5EDE4" stroke-opacity=".04"/></pattern>
+ <clipPath id="reveal"><rect x="94" y="118" width="1000" height="260"/></clipPath>
  <style>
- .orbit{fill:none;stroke:#F9AD6A;stroke-opacity:.38;stroke-width:1.1}
- .orbit2{fill:none;stroke:#D47A3B;stroke-opacity:.35;stroke-width:1;stroke-dasharray:4 10;animation:drift 40s linear infinite}
- .word{opacity:0;animation:rise 1.1s cubic-bezier(.16,1,.3,1) .12s forwards}
- .rule{stroke-dasharray:520;stroke-dashoffset:520;animation:draw 1.5s ease-out .4s forwards}
- .spark{animation:pulse 4s ease-in-out infinite}
- @keyframes rise{to{opacity:1;transform:translateY(0)}from{opacity:0;transform:translateY(20px)}}
+ .eyebrow{font:11px monospace;letter-spacing:5px;fill:#D47A3B}
+ .hero-type{font-family:Georgia,'Times New Roman',serif;font-weight:400;fill:#F5EDE4;letter-spacing:-8px}
+ .line-a{opacity:0;animation:rise 1.1s cubic-bezier(.16,1,.3,1) .12s forwards}
+ .line-b{opacity:0;animation:rise 1.2s cubic-bezier(.16,1,.3,1) .38s forwards}
+ .subline{opacity:0;animation:rise 1s ease-out .85s forwards}
+ .orbit{fill:none;stroke:#F9AD6A;stroke-opacity:.42;stroke-width:1}
+ .orbit-dash{fill:none;stroke:#D47A3B;stroke-opacity:.6;stroke-width:1;stroke-dasharray:3 12;animation:orbit 55s linear infinite}
+ .scan{stroke:url(#metal);stroke-width:2;stroke-dasharray:420;stroke-dashoffset:420;animation:draw 2s ease-out .6s forwards}
+ .pulse{animation:pulse 4.2s ease-in-out infinite}
+ .ticker{animation:marquee 28s linear infinite}
+ .ticktext{font:12px monospace;letter-spacing:4px;fill:#C5A18A}
+ @keyframes rise{from{opacity:0;transform:translateY(42px)}to{opacity:1;transform:translateY(0)}}
  @keyframes draw{to{stroke-dashoffset:0}}
- @keyframes drift{to{stroke-dashoffset:-560}}
- @keyframes pulse{0%,100%{opacity:.3}50%{opacity:1}}
- @media(prefers-reduced-motion:reduce){.word{opacity:1;animation:none}.rule{stroke-dashoffset:0;animation:none}.orbit2,.spark{animation:none}}
+ @keyframes orbit{to{stroke-dashoffset:-900}}
+ @keyframes pulse{0%,100%{opacity:.25}50%{opacity:1}}
+ @keyframes marquee{to{transform:translateX(-50%)}}
+ @media(prefers-reduced-motion:reduce){.line-a,.line-b,.subline{opacity:1;animation:none}.orbit-dash,.pulse,.ticker{animation:none}.scan{stroke-dashoffset:0;animation:none}}
  </style>
 </defs>
-<rect width="1600" height="500" fill="url(#bg)"/><rect width="1600" height="500" fill="url(#grid)"/>
-<circle cx="1190" cy="235" r="290" fill="url(#halo)"/>
-<g transform="translate(1190 230)">
- <circle r="188" class="orbit"/><ellipse rx="252" ry="112" transform="rotate(-28)" class="orbit"/>
- <ellipse rx="252" ry="112" transform="rotate(28)" class="orbit2"/>
- <ellipse rx="300" ry="158" transform="rotate(62)" class="orbit2" opacity=".6"/>
- <path d="M-315 0H315M0 -250V250" stroke="#F5EDE4" stroke-opacity=".08"/>
- <circle r="54" fill="#0B0D13" stroke="url(#amber)" stroke-width="1.5"/>
- <circle r="39" fill="none" stroke="#F9AD6A" stroke-opacity=".35"/>
- <path d="M-28 0H28M0 -28V28" stroke="#F9AD6A" stroke-opacity=".45"/>
- <circle r="5" fill="#F9AD6A"/>
- <circle cx="188" cy="0" r="4" fill="#F9AD6A" class="spark"/>
- <circle cx="-126" cy="-154" r="3" fill="#D47A3B" class="spark"/>
- <circle cx="104" cy="218" r="3" fill="#F9AD6A" class="spark"/>
+<rect width="1600" height="590" fill="url(#bg)"/><rect width="1600" height="590" fill="url(#grid)"/>
+<circle cx="1255" cy="260" r="330" fill="url(#aura)"/>
+<text x="98" y="70" class="eyebrow">DT—09 / INDEPENDENT SYSTEMS ENGINEERING</text>
+<g clip-path="url(#reveal)">
+ <text x="86" y="270" class="hero-type line-a" font-size="178">THINK</text>
+ <text x="92" y="398" class="hero-type line-b" font-size="150" font-style="italic" fill="#F9AD6A">BEYOND.</text>
 </g>
-<g class="word">
- <text x="100" y="210" fill="#F5EDE4" font-family="Georgia, 'Times New Roman', serif" font-size="150" letter-spacing="-5">DT—09</text>
- <path class="rule" d="M108 250H640" stroke="url(#amber)" stroke-width="2"/>
- <text x="108" y="294" fill="#D47A3B" font-family="Arial,Helvetica,sans-serif" font-size="14" letter-spacing="5">INDEPENDENT SYSTEMS ENGINEERING</text>
- <text x="108" y="368" fill="#F5EDE4" font-family="Georgia, 'Times New Roman', serif" font-size="31" font-style="italic">Between the abstract</text>
- <text x="108" y="408" fill="#F5EDE4" font-family="Georgia, 'Times New Roman', serif" font-size="31" font-style="italic">and the engineered.</text>
+<path class="scan" d="M100 432H930" fill="none"/>
+<g class="subline">
+ <text x="102" y="476" fill="#F5EDE4" font-family="Arial,Helvetica,sans-serif" font-size="15" letter-spacing="4">MATHEMATICS  /  COMPUTATION  /  ENGINEERED REALITY</text>
+ <text x="102" y="515" fill="#8C8F99" font-family="monospace" font-size="11" letter-spacing="2">QUESTIONS FIRST. SYSTEMS THAT STAND UP TO QUESTIONS.</text>
 </g>
-<path d="M72 458H1528" stroke="#D47A3B" stroke-opacity=".35"/>
-<text x="76" y="482" fill="#858995" font-family="monospace" font-size="10" letter-spacing="3">MATHEMATICS / APPLIED AI / SOFTWARE / DATA / SYSTEMS</text>
-<text x="1524" y="482" fill="#858995" font-family="monospace" font-size="10" text-anchor="end" letter-spacing="3">INQUIRE · CONSTRUCT · VERIFY</text>
+<g transform="translate(1260 270)">
+ <circle r="202" fill="none" stroke="#F5EDE4" stroke-opacity=".07"/>
+ <circle r="166" class="orbit"/><ellipse rx="220" ry="92" transform="rotate(-34)" class="orbit-dash"/><ellipse rx="220" ry="92" transform="rotate(34)" class="orbit"/>
+ <ellipse rx="255" ry="145" transform="rotate(74)" class="orbit-dash" opacity=".55"/>
+ <path d="M-285 0H285M0 -270V270" stroke="#F5EDE4" stroke-opacity=".12"/>
+ <circle r="66" fill="#0B0D13" stroke="url(#metal)" stroke-width="1.8"/>
+ <circle r="49" fill="none" stroke="#F9AD6A" stroke-opacity=".35"/>
+ <path d="M-34 0H34M0 -34V34M-24 -24L24 24M24 -24L-24 24" stroke="#F9AD6A" stroke-opacity=".4"/>
+ <circle r="6" fill="#F9AD6A"/>
+ <circle cx="166" cy="0" r="4" fill="#F9AD6A" class="pulse"/>
+ <circle cx="-110" cy="-124" r="3" fill="#D47A3B" class="pulse"/>
+ <circle cx="82" cy="198" r="3" fill="#F9AD6A" class="pulse"/>
+ <text x="0" y="-236" text-anchor="middle" fill="#A8A0A0" font-family="monospace" font-size="9" letter-spacing="3">MODEL / 01</text>
+ <text x="0" y="250" text-anchor="middle" fill="#A8A0A0" font-family="monospace" font-size="9" letter-spacing="3">OBSERVE · TEST · REFINE</text>
+</g>
+<path d="M70 550H1530" stroke="#D47A3B" stroke-opacity=".4"/>
+<svg x="70" y="560" width="1460" height="24" viewBox="0 0 1460 24" overflow="hidden">
+ <g class="ticker"><text class="ticktext" x="0" y="16">MATHEMATICS  ✳  SYSTEMS  ✳  ALGORITHMS  ✳  AI ASSURANCE  ✳  DATA  ✳  EVIDENCE  ✳  DESIGN  ✳  </text><text class="ticktext" x="1460" y="16">MATHEMATICS  ✳  SYSTEMS  ✳  ALGORITHMS  ✳  AI ASSURANCE  ✳  DATA  ✳  EVIDENCE  ✳  DESIGN  ✳  </text></g>
+</svg>
 </svg>
