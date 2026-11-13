@@ -11,7 +11,7 @@
  .orbit{fill:none;stroke:#D47A3B;stroke-opacity:.26;stroke-width:1.2}
  .route{fill:none;stroke:url(#gold);stroke-width:1.5;stroke-dasharray:5 9;opacity:.72}
  .node{fill:#0B0D13;stroke:#D47A3B;stroke-width:1.4}
- .label{font-family:Arial,Helvetica,sans-serif;font-size:17px;letter-spacing:2px;fill:#F5EDE4}
+ .label{font-family:Arial,Helvetica,sans-serif;font-size:13px;letter-spacing:1.2px;fill:#F5EDE4}
  .sub{font-family:monospace;font-size:10px;letter-spacing:2px;fill:#A6A1A0}
  @keyframes drift{to{stroke-dashoffset:-280}}
  .route{animation:drift 36s linear infinite}
