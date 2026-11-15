@@ -1,18 +1,16 @@
 <div align="center">
 
-<img src="https://media1.tenor.com/m/MCtlzqgI2c8AAAAd/gargantua-interstellar.gif" width="420" alt="Gargantua, the black hole from Interstellar, with its luminous accretion ring." />
+<img src="https://media1.tenor.com/m/K6xWzjc8InkAAAAd/blackhole.gif" width="498" alt="Animated black hole with a planet in the background." />
 
-<p align="center"><img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&size=18&duration=7000&pause=3000&color=F9AD6A&center=true&vCenter=true&width=1000&lines=Somewhere%2C+something+incredible+is+waiting+to+be+known." alt="Somewhere, something incredible is waiting to be known." /></p>
+<p align="center"><img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&size=18&duration=7000&pause=3000&color=F9AD6A&center=true&vCenter=true&width=1000&lines=%22Somewhere%2C+something+incredible+is+waiting+to+be+known.%22" alt="Somewhere, something incredible is waiting to be known." /></p>
 
-<p align="center"><img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&size=17&duration=5200&pause=2400&color=F9AD6A&center=true&vCenter=true&width=900&lines=INQUIRE+DEEPLY.+MODEL+PRECISELY.+BUILD+WITH+EVIDENCE.;The+unknown+is+not+a+wall.+It+is+an+invitation+to+understand.;Curiosity+finds+the+question.+Discipline+earns+the+answer.;Build+what+can+be+tested.+Trust+what+can+be+traced." alt="Slowly rotating original research and engineering statements" /></p>
+<p align="center"><img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&size=17&duration=5200&pause=2400&color=F9AD6A&center=true&vCenter=true&width=900&lines=INQUIRE+DEEPLY.+MODEL+PRECISELY.+BUILD+WITH+EVIDENCE.;The+unknown+is+not+a+wall.+It+is+an+invitation+to+understand.;Curiosity+finds+the+question.+Discipline+earns+the+answer.;Build+what+can+be+tested.+Trust+what+can+be+traced." alt="Slowly rotating original research and engineering statements in the interstellar palette" /></p>
 
 <p>
   <img src="https://img.shields.io/badge/OBSERVATORY-09%20SELECTED%20SYSTEMS-F9AD6A?style=flat-square&labelColor=030305" alt="Nine selected systems" />
   <img src="https://img.shields.io/badge/ORBIT-MATHEMATICS%20%C2%B7%20COMPUTATION%20%C2%B7%20ENGINEERING-D47A3B?style=flat-square&labelColor=030305" alt="Mathematics, computation and engineering" />
   <img src="https://img.shields.io/badge/METHOD-QUESTION%20%E2%86%92%20MODEL%20%E2%86%92%20BUILD%20%E2%86%92%20VERIFY-F9AD6A?style=flat-square&labelColor=030305" alt="Question, model, build, verify" />
 </p>
-
-*Somewhere, something incredible is waiting to be known.*
 
 </div>
 
@@ -23,6 +21,8 @@
 <table>
 <tr>
 <td valign="middle">
+
+### HELLO THERE.
 
 **INDEPENDENT INQUIRY / COMPUTATIONAL SYSTEMS / ENGINEERING**
 
@@ -43,7 +43,7 @@ This is a portfolio of selected work, not a list of inflated claims. Each reposi
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/topography.svg" width="100%" alt="Abstract interstellar systems map: connected research nodes, coordinate lines and restrained cyan and orange signals." />
+<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/topography.svg" width="100%" alt="Abstract interstellar systems map: connected research nodes, coordinate lines and restrained amber signals." />
 
 </div>
 
@@ -151,7 +151,7 @@ A feature is not established because it appears in a roadmap, mock-up or marketi
 
 ### THE UNKNOWN IS WORTH THE WORK.
 
-<p align="center"><img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&size=15&duration=5600&pause=2600&color=F9AD6A&center=true&vCenter=true&width=860&lines=Ask+better+questions.+Build+clearer+models.;Follow+the+evidence.+Revise+the+idea.;Make+the+abstract+useful." alt="Slowly rotating closing lines" /></p>
+<p align="center"><img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&size=15&duration=5600&pause=2600&color=F9AD6A&center=true&vCenter=true&width=860&lines=Ask+better+questions.+Build+clearer+models.;Follow+the+evidence.+Revise+the+idea.;Make+the+abstract+useful." alt="Slowly rotating closing lines in the interstellar palette" /></p>
 
 <sub>DT—09 · INDEPENDENT INQUIRY / COMPUTATIONAL SYSTEMS</sub>
 
