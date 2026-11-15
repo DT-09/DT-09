@@ -10,20 +10,27 @@ permissions:
   contents: read
 
 concurrency:
-  group: portfolio-checks-${{ github.ref }}
+  group: portfolio-checks-${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
   validate:
-    name: Validate profile content and artwork
+    name: Validate portfolio and validator tests
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Validate local links and SVG assets
+
+      - name: Run validator unit tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Validate portfolio documents and artwork
         run: python scripts/validate_portfolio.py
