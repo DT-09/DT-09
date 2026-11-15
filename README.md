@@ -2,6 +2,8 @@
 
 <img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/interstellar-header.svg" width="100%" alt="DT—09 — Think beyond. Mathematics, computation and engineered reality." />
 
+[![Portfolio integrity](https://github.com/DT-09/DT-09/actions/workflows/portfolio-checks.yml/badge.svg)](https://github.com/DT-09/DT-09/actions/workflows/portfolio-checks.yml)
+
 <br />
 
 <a href="#selected-work">WORK</a> &nbsp;·&nbsp;
@@ -232,6 +234,8 @@ Experiments, active builds, research and supporting work beyond this selection.
 **Review.** Record failures, uncertainty and the next correction.
 
 The process is iterative. Verification is not the final ceremony; it changes what gets built next.
+
+The profile repository also runs a lightweight integrity check on pushes and pull requests. It checks local document links, referenced artwork, SVG structure and accessibility metadata. It deliberately does not claim to validate external services or the correctness of the projects linked here. See [the workflow](.github/workflows/portfolio-checks.yml) and [the validator](scripts/validate_portfolio.py).
 
 A useful result should make five things inspectable: **scope, inputs, assumptions, method and limitations**. Where possible, tests should be repeatable, outputs should retain source references, and failures should be recorded rather than hidden.
 
