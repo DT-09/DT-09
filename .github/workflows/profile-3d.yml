@@ -1,4 +1,4 @@
-name: GitHub Profile — 3D Contribution Topology
+name: GitHub profile contribution artwork
 
 on:
   schedule:
@@ -8,28 +8,34 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: profile-contribution-artwork
+  cancel-in-progress: true
+
 jobs:
   generate:
-    name: Generate 3D contribution artwork
+    name: Generate contribution artwork
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - name: Check out profile repository
         uses: actions/checkout@v5
 
       - name: Generate contribution artwork
-        uses: yoshi389111/github-profile-3d-contrib@latest
+        uses: yoshi389111/github-profile-3d-contrib@e235d118909be71eb7edb05482a3de4e76156df3
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
 
-      - name: Commit generated SVGs
+      - name: Commit generated SVGs only
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A .
+          git add profile-3d-contrib/*.svg
           if git diff --cached --quiet; then
             echo "No generated changes."
-          else
-            git commit -m "chore: refresh 3D contribution artwork"
-            git push
+            exit 0
           fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: refresh profile contribution artwork"
+          git pull --rebase origin main
+          git push
