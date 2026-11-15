@@ -59,21 +59,29 @@ def validate_document(path: Path) -> list[str]:
 
 def validate_svgs() -> list[str]:
     errors: list[str] = []
-    for path in sorted(SVG_DIR.glob("*.svg")):
+    readme = (ROOT / "README.md").read_text(encoding="utf-8")
+    referenced = sorted(set(re.findall(r"assets/[^/\"']+\.svg", readme)))
+    if not referenced:
+        return ["README.md does not reference any portfolio SVG assets"]
+
+    for relative in referenced:
+        path = ROOT / relative
+        if not path.is_file():
+            errors.append(f"README.md: referenced SVG is missing: {relative}")
+            continue
         try:
             root = ET.parse(path).getroot()
         except ET.ParseError as exc:
-            errors.append(f"{path.relative_to(ROOT)}: invalid SVG XML: {exc}")
+            errors.append(f"{relative}: invalid SVG XML: {exc}")
             continue
         if root.tag.split("}")[-1] != "svg":
-            errors.append(f"{path.relative_to(ROOT)}: root element is not svg")
+            errors.append(f"{relative}: root element is not svg")
         children = {child.tag.split("}")[-1] for child in root}
         if "title" not in children or "desc" not in children:
-            errors.append(f"{path.relative_to(ROOT)}: SVG must include title and desc")
+            errors.append(f"{relative}: SVG must include title and desc")
         if not root.attrib.get("viewBox"):
-            errors.append(f"{path.relative_to(ROOT)}: SVG must define viewBox")
+            errors.append(f"{relative}: SVG must define viewBox")
     return errors
-
 
 def main() -> int:
     errors: list[str] = []
