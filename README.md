@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://media1.tenor.com/m/K6xWzjc8InkAAAAd/blackhole.gif" width="498" alt="Animated black hole with a planet in the background." />
+<img src="https://media1.tenor.com/m/K6xWzjc8InkAAAAd/blackhole.gif" width="374" alt="Interstellar-style black hole with a planet in the background." />
 
-<p align="center"><img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&size=18&duration=7000&pause=3000&color=F9AD6A&center=true&vCenter=true&width=1000&lines=%22Somewhere%2C+something+incredible+is+waiting+to+be+known.%22" alt="Somewhere, something incredible is waiting to be known." /></p>
+<p align="center"><img src="https://readme-typing-svg.demolab.com?font=Cormorant+Garamond&size=30&duration=9000&pause=9000&color=F9AD6A&center=true&vCenter=true&width=1000&lines=%22Somewhere%2C+something+incredible+is+waiting+to+be+known.%22" alt="Somewhere, something incredible is waiting to be known." /></p>
 
 <p align="center"><img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&size=17&duration=5200&pause=2400&color=F9AD6A&center=true&vCenter=true&width=900&lines=INQUIRE+DEEPLY.+MODEL+PRECISELY.+BUILD+WITH+EVIDENCE.;The+unknown+is+not+a+wall.+It+is+an+invitation+to+understand.;Curiosity+finds+the+question.+Discipline+earns+the+answer.;Build+what+can+be+tested.+Trust+what+can+be+traced." alt="Slowly rotating original research and engineering statements in the interstellar palette" /></p>
 
@@ -18,28 +18,15 @@
 
 <div align="center">
 
-<table>
-<tr>
-<td valign="middle">
+<sub>HELLO THERE.</sub>
 
-### HELLO THERE.
+</div>
 
 **INDEPENDENT INQUIRY / COMPUTATIONAL SYSTEMS / ENGINEERING**
 
 I work across mathematics, computation, applied AI, data systems and software engineering. I am interested in the structure beneath a problem: the algorithm that makes it tractable, the system that makes it useful, and the evidence that makes its output worth trusting.
 
 This is a portfolio of selected work, not a list of inflated claims. Each repository remains the source of truth for its implementation, verification status and limitations.
-
-</td>
-<td valign="middle" align="center" width="220">
-
-<img src="https://media1.tenor.com/m/EJ5ezT8nTdoAAAAd/hello-there-obi-wan.gif" width="190" alt="Obi-Wan Kenobi saying Hello there." />
-
-</td>
-</tr>
-</table>
-
-</div>
 
 <div align="center">
 
