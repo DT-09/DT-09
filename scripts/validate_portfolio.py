@@ -210,7 +210,7 @@ def validate_html(path: Path, root: Path) -> list[str]:
     for duplicate in duplicates:
         errors.append(f"{path.relative_to(root)}: duplicate HTML id: {duplicate}")
     if parser.html_lang != "en":
-        errors.append(f"{path.relative_to(root)}: html element must declare lang=\\"en\\"")
+        errors.append(f"{path.relative_to(root)}: html element must declare lang=en")
     if parser.title_count != 1:
         errors.append(f"{path.relative_to(root)}: expected exactly one title element")
     if not parser.description:
