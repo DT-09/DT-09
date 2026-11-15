@@ -7,6 +7,7 @@
 <a href="#selected-work">WORK</a> &nbsp;·&nbsp;
 <a href="#questions-i-follow">QUESTIONS</a> &nbsp;·&nbsp;
 <a href="#how-i-work">METHOD</a> &nbsp;·&nbsp;
+<a href="#research-directions">RESEARCH</a> &nbsp;·&nbsp;
 <a href="#technical-range">TECHNICAL RANGE</a> &nbsp;·&nbsp;
 <a href="https://github.com/DT-09?tab=repositories">ALL REPOSITORIES ↗</a>
 
@@ -27,6 +28,10 @@ I work across **mathematics, computation, applied AI and systems engineering**.
 I am interested in what sits beneath the interface: the model that frames a problem, the logic that moves it forward, and the evidence that tells us whether the result deserves trust.
 
 The work moves between theory and implementation. An idea should survive contact with constraints. A system should make its behaviour inspectable. A claim should have somewhere solid to stand.
+
+I am especially interested in the boundary between **what a system can do** and **what it can justify doing**: the mathematics behind a model, the authority behind an action, and the evidence behind a conclusion.
+
+This profile is a working record. It includes research directions, experiments and software at different stages of maturity; the presence of a repository is not a claim of production readiness.
 
 </td>
 <td width="36%" valign="middle">
@@ -78,6 +83,21 @@ Is uncertainty visible?
 
 These are connected disciplines, not separate interests. Mathematics sharpens the model; computation tests it; design makes it usable; evidence challenges the result.
 
+## Research directions
+
+The questions behind the projects matter as much as the projects themselves. Six threads recur across the work:
+
+| Direction | Core question |
+|---|---|
+| **Mathematical structure** | Which abstractions, invariants and algorithms make a problem tractable? |
+| **Bounded AI agency** | What should an intelligent system be permitted to do, and how is that authority checked? |
+| **Data provenance** | Can a conclusion be traced through its source records and transformations? |
+| **Resilient systems** | How should software behave under failure, uncertainty and constrained resources? |
+| **Scientific learning** | How does a question become a hypothesis, experiment and revised model? |
+| **Engineering design** | How can an interface expose complexity without concealing limitations? |
+
+The longer-form research agenda, including specific questions and an evidence standard, lives in [RESEARCH.md](RESEARCH.md).
+
 ## Selected work
 
 <div align="center">
@@ -87,6 +107,8 @@ These are connected disciplines, not separate interests. Mathematics sharpens th
 </div>
 
 A selection of repositories across assurance, data, finance, learning and interactive systems. Each link leads to its source: implementation, documentation and current state. The descriptions are orientation, not claims that every project is complete.
+
+**How to read this index:** project names identify areas of work, not maturity levels. Check each repository's README, release history, tests and open issues before relying on a capability. A prototype, research experiment and maintained product are different things.
 
 <table>
 <tr>
@@ -211,6 +233,8 @@ Experiments, active builds, research and supporting work beyond this selection.
 
 The process is iterative. Verification is not the final ceremony; it changes what gets built next.
 
+A useful result should make five things inspectable: **scope, inputs, assumptions, method and limitations**. Where possible, tests should be repeatable, outputs should retain source references, and failures should be recorded rather than hidden.
+
 ## Technical range
 
 <details>
@@ -238,6 +262,8 @@ SQLite · Cloudflare D1 · CSV · JSON · JSONL · PDF/XLSX/DOCX processing · S
 
 ## Principles
 
+These are engineering constraints, not decorative values. They should be visible in the implementation and the evidence.
+
 <table>
 <tr><td width="22%"><strong>Traceability</strong></td><td>Important outputs retain a path to their inputs and evidence.</td></tr>
 <tr><td><strong>Explicitness</strong></td><td>Assumptions, permissions, constraints and limitations stay visible.</td></tr>
@@ -254,6 +280,8 @@ SQLite · Cloudflare D1 · CSV · JSON · JSONL · PDF/XLSX/DOCX processing · S
 <img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/footer-panel.svg" width="100%" alt="DT—09 closing composition: Think. Build. Verify. No black boxes. No empty claims." />
 
 **Curiosity sets the direction. Precision shapes the work. Evidence tests the claim.**
+
+<sub>For the questions, methods and evidence standards behind this portfolio, see <a href="RESEARCH.md">the research programme</a>.</sub>
 
 <br />
 
