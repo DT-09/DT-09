@@ -46,7 +46,27 @@ Selected for technical substance, distinct problem domains, inspectable implemen
 
 > **Maturity boundary:** The nine projects are at different stages. NODUS documents important production gaps; LOTWISE is an evaluation foundation; research systems are not represented as production controllers. Read each repository's current limits before relying on a capability. No customer adoption, revenue, certification or benchmark superiority is implied.
 
-## 02 / The field instruments
+## 02 / Languages & instruments
+
+Logos identify technologies represented in the repositories. They are not proficiency ratings.
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=rust,go,c,python,ts,js,html,css,linux,git,github,sqlite&perline=6" alt="Rust, Go, C, Python, TypeScript, JavaScript, HTML, CSS, Linux, Git, GitHub and SQLite logos" />
+
+</div>
+
+## 03 / Contribution topology
+
+A live rendering of the public GitHub contribution history. Activity is not a measure of quality or impact.
+
+<div align="center">
+
+<img src="https://ghchart.rshah.org/FF8C00/DT-09" alt="GitHub contribution activity for DT-09" width="100%" />
+
+</div>
+
+## 04 / The field instruments
 
 A visual field log, not a badge wall. Entries indicate technologies used or explored across the portfolio; they do not imply equal depth or professional mastery.
 
@@ -65,7 +85,7 @@ A visual field log, not a badge wall. Entries indicate technologies used or expl
 - AI authority boundaries, policy evaluation and auditability
 - Test design, reproducible examples, technical documentation and release review
 
-## 03 / Research coordinates
+## 05 / Research coordinates
 
 | VECTOR | QUESTION |
 |---|---|
@@ -76,7 +96,7 @@ A visual field log, not a badge wall. Entries indicate technologies used or expl
 | **Resilient engineering** | How should software behave under failure, uncertainty and constrained resources? |
 | **Scientific learning** | How does curiosity become a hypothesis, experiment and revised model? |
 
-## 04 / The method
+## 06 / The method
 
 <div align="center">
 
@@ -92,7 +112,7 @@ A visual field log, not a badge wall. Entries indicate technologies used or expl
 
 A feature is not established because it appears in a roadmap, mock-up or marketing page. A claim needs somewhere solid to stand.
 
-## 05 / Observatory principles
+## 07 / Observatory principles
 
 - **Mechanism before metaphor.** Understand what the system actually does.
 - **Evidence before confidence.** Tests and traces outrank adjectives.
