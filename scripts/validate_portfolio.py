@@ -16,7 +16,7 @@ SVG_PATTERN = re.compile(r"""assets/[^/"']+\.svg""", re.I)
 MARKDOWN_LINK = re.compile(r"""!?(?:\[[^\]]*\])\((<[^>]+>|[^)\s]+)(?:\s+[^)]*)?\)""")
 HTML_LINK = re.compile(r"""(?:href|src)\s*=\s*["']([^"']+)["']""", re.I)
 HTML_ID = re.compile(r"""(?:^|\s)id\s*=\s*["']([^"']+)["']""", re.I)
-HEADING = re.compile(r"^ {0,3}(#{1,6})\s+(.+?)\s*#*\s*$")
+HEADING = re.compile(r"^ {0,3}(#{1,6})\s+(.+?)\s*#*\s*$", re.M)
 
 
 def strip_code_fences(content: str) -> str:
