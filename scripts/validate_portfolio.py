@@ -4,14 +4,19 @@
 from __future__ import annotations
 
 import re
+import shutil
+import subprocess
 import sys
+import tempfile
 import xml.etree.ElementTree as ET
+from html.parser import HTMLParser
 from collections import Counter
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 DOCUMENTS = ("README.md", "RESEARCH.md", "PORTFOLIO_STANDARD.md")
+HTML_DOCUMENT = "index.html"
 SVG_PATTERN = re.compile(r"""assets/[^/"']+\.svg""", re.I)
 MARKDOWN_LINK = re.compile(r"""!?(?:\[[^\]]*\])\((<[^>]+>|[^)\s]+)(?:\s+[^)]*)?\)""")
 HTML_LINK = re.compile(r"""(?:href|src)\s*=\s*["']([^"']+)["']""", re.I)
@@ -135,6 +140,128 @@ def validate_svg(path: Path) -> list[str]:
     return errors
 
 
+
+
+class PortfolioHTMLParser(HTMLParser):
+    """Collect structural metadata, identifiers, local links and inline scripts."""
+
+    def __init__(self) -> None:
+        super().__init__(convert_charrefs=True)
+        self.ids: list[str] = []
+        self.links: list[str] = []
+        self.html_lang = ""
+        self.title_count = 0
+        self.description = False
+        self.viewport = False
+        self.h1_count = 0
+        self.main_count = 0
+        self.nav_count = 0
+        self.skip_link = False
+        self.in_script = False
+        self.current_script: list[str] = []
+        self.scripts: list[str] = []
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        values = dict(attrs)
+        if tag == "html":
+            self.html_lang = values.get("lang") or ""
+        if "id" in values and values["id"]:
+            self.ids.append(values["id"] or "")
+        if tag == "a" and "skip-link" in (values.get("class") or "").split():
+            self.skip_link = True
+        if tag == "meta":
+            name = (values.get("name") or "").lower()
+            self.description = self.description or name == "description"
+            self.viewport = self.viewport or name == "viewport"
+        if tag == "title":
+            self.title_count += 1
+        if tag == "h1":
+            self.h1_count += 1
+        if tag == "main":
+            self.main_count += 1
+        if tag == "nav":
+            self.nav_count += 1
+        for key in ("href", "src"):
+            if values.get(key):
+                self.links.append(values[key] or "")
+        if tag == "script":
+            self.in_script = True
+            self.current_script = []
+
+    def handle_data(self, data: str) -> None:
+        if self.in_script:
+            self.current_script.append(data)
+
+    def handle_endtag(self, tag: str) -> None:
+        if tag == "script" and self.in_script:
+            self.scripts.append("".join(self.current_script))
+            self.current_script = []
+            self.in_script = False
+
+
+def validate_html(path: Path, root: Path) -> list[str]:
+    errors: list[str] = []
+    content = path.read_text(encoding="utf-8")
+    parser = PortfolioHTMLParser()
+    parser.feed(content)
+    parser.close()
+
+    duplicates = [item for item, count in Counter(parser.ids).items() if count > 1]
+    for duplicate in duplicates:
+        errors.append(f"{path.relative_to(root)}: duplicate HTML id: {duplicate}")
+    if parser.html_lang != "en":
+        errors.append(f"{path.relative_to(root)}: html element must declare lang=\\"en\\"")
+    if parser.title_count != 1:
+        errors.append(f"{path.relative_to(root)}: expected exactly one title element")
+    if not parser.description:
+        errors.append(f"{path.relative_to(root)}: missing description meta tag")
+    if not parser.viewport:
+        errors.append(f"{path.relative_to(root)}: missing viewport meta tag")
+    if parser.h1_count != 1:
+        errors.append(f"{path.relative_to(root)}: expected exactly one h1")
+    if parser.main_count != 1:
+        errors.append(f"{path.relative_to(root)}: expected exactly one main landmark")
+    if parser.nav_count < 1:
+        errors.append(f"{path.relative_to(root)}: missing navigation landmark")
+    if not parser.skip_link:
+        errors.append(f"{path.relative_to(root)}: missing skip-to-content link")
+    if "prefers-reduced-motion" not in content:
+        errors.append(f"{path.relative_to(root)}: missing reduced-motion support")
+    if "<noscript" not in content.lower():
+        errors.append(f"{path.relative_to(root)}: missing no-JavaScript fallback")
+
+    known_ids = set(parser.ids)
+    for target in parser.links:
+        if target.startswith(("http://", "https://", "mailto:", "tel:", "data:", "javascript:")):
+            continue
+        parsed = urlsplit(target)
+        if parsed.scheme or parsed.netloc:
+            continue
+        destination = (path.parent / unquote(parsed.path)).resolve() if parsed.path else path.resolve()
+        if not destination.exists():
+            errors.append(f"{path.relative_to(root)}: broken local HTML link: {target}")
+            continue
+        if parsed.fragment and destination == path.resolve() and unquote(parsed.fragment) not in known_ids:
+            errors.append(f"{path.relative_to(root)}: missing HTML anchor: {target}")
+
+    node = shutil.which("node")
+    if node and parser.scripts:
+        with tempfile.TemporaryDirectory() as temp:
+            script_path = Path(temp) / "inline.js"
+            script_path.write_text("\n".join(parser.scripts), encoding="utf-8")
+            result = subprocess.run(
+                [node, "--check", str(script_path)],
+                capture_output=True,
+                text=True,
+                timeout=15,
+                check=False,
+            )
+            if result.returncode:
+                detail = (result.stderr or result.stdout).strip().splitlines()
+                errors.append(f"{path.relative_to(root)}: inline JavaScript syntax check failed: {detail[-1] if detail else 'unknown error'}")
+    return errors
+
+
 def validate(root: Path = ROOT) -> list[str]:
     errors: list[str] = []
     anchor_cache: dict[Path, set[str]] = {}
@@ -146,6 +273,12 @@ def validate(root: Path = ROOT) -> list[str]:
     for document in documents:
         if document.is_file():
             errors.extend(validate_document(document, root, anchor_cache))
+
+    html_document = root / HTML_DOCUMENT
+    if not html_document.is_file():
+        errors.append(f"missing required document: {HTML_DOCUMENT}")
+    else:
+        errors.extend(validate_html(html_document, root))
 
     assets_dir = root / "assets"
     if not assets_dir.is_dir():
@@ -172,7 +305,7 @@ def main() -> int:
         for error in errors:
             print(f" - {error}")
         return 1
-    print(f"Portfolio validation passed: {len(DOCUMENTS)} documents and all README-linked SVG assets.")
+    print(f"Portfolio validation passed: {len(DOCUMENTS)} Markdown documents, the HTML portfolio and all README-linked SVG assets.")
     return 0
 
 
