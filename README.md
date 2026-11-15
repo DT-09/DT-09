@@ -1,6 +1,8 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/interstellar-header.svg" width="100%" alt="DT—09 — abstract interstellar systems identity: connected research nodes, coordinate grids and kinetic typography." />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=190&text=DT%E2%80%9409&fontSize=54&fontColor=F0F8FF&animation=twinkling&color=0:05050A,55:161B26,100:00CED1&section=header" width="100%" alt="Animated interstellar wave header for DT—09." />
+
+<p align="center"><img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&size=18&duration=2800&pause=850&color=00CED1&center=true&vCenter=true&width=820&lines=INQUIRE+%E2%86%92+MODEL+%E2%86%92+BUILD+%E2%86%92+VERIFY;Mathematics.+Computation.+Engineering.;Build+systems+that+earn+their+claims." alt="Rotating portfolio descriptors" /></p>
 
 <p>
   <img src="https://img.shields.io/badge/OBSERVATORY-09%20SELECTED%20SYSTEMS-FF8C00?style=flat-square&labelColor=05050A" alt="Nine selected systems" />
@@ -62,7 +64,9 @@ A live rendering of the public GitHub contribution history. Activity is not a me
 
 <div align="center">
 
-<img src="https://ghchart.rshah.org/FF8C00/DT-09" alt="GitHub contribution activity for DT-09" width="100%" />
+<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/profile-3d-contrib/profile-night-rainbow.svg" alt="Isometric 3D topology of DT-09 GitHub contributions, generated from the public contribution history." width="100%" />
+
+<sub>Generated daily from GitHub contribution data by the repository workflow.</sub>
 
 </div>
 
@@ -131,5 +135,7 @@ A feature is not established because it appears in a roadmap, mock-up or marketi
 *Stay curious. Stay exact.*
 
 <sub>DT—09 / FIELD NOTES FROM THE EDGE OF COMPUTATION</sub>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:00CED1,50:161B26,100:05050A&section=footer&animation=twinkling" width="100%" alt="Animated wave footer." />
 
 </div>
