@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=190&text=DT%E2%80%9409&fontSize=54&fontColor=F0F8FF&animation=twinkling&color=0:05050A,52:0A1220,100:00CED1&section=header" width="100%" alt="Animated interstellar wave header for DT—09." />
+<img src="https://media1.tenor.com/m/EJ5ezT8nTdoAAAAd/hello-there-obi-wan.gif" width="480" alt="Obi-Wan Kenobi saying Hello there." />
 
 <p align="center"><img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&size=17&duration=5200&pause=2400&color=FF8C00&center=true&vCenter=true&width=900&lines=INQUIRE+DEEPLY.+MODEL+PRECISELY.+BUILD+WITH+EVIDENCE.;The+unknown+is+not+a+wall.+It+is+an+invitation+to+understand.;Curiosity+finds+the+question.+Discipline+earns+the+answer.;Build+what+can+be+tested.+Trust+what+can+be+traced." alt="Slowly rotating original research and engineering statements" /></p>
 
