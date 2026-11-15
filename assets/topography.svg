@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="300" viewBox="0 0 1600 300" role="img" aria-labelledby="title desc">
+<title id="title">Interstellar topography</title>
+<desc id="desc">Layered contour lines, orbital trajectories and coordinate marks form an abstract map of a gravitational field.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#070A12"/><stop offset="1" stop-color="#141B2A"/></linearGradient>
+ <radialGradient id="core"><stop stop-color="#D47A3B" stop-opacity=".2"/><stop offset="1" stop-color="#D47A3B" stop-opacity="0"/></radialGradient>
+ <pattern id="micro" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#AAB5C8" stroke-opacity=".09"/></pattern>
+</defs>
+<rect width="1600" height="300" fill="url(#bg)"/><rect width="1600" height="300" fill="url(#micro)"/>
+<ellipse cx="800" cy="150" rx="520" ry="180" fill="url(#core)"/>
+<g fill="none" stroke="#D47A3B" stroke-opacity=".45" stroke-width="1.15">
+ <path d="M-80 80C130 -10 240 12 390 82S650 210 810 122 1110 -10 1300 70 1510 195 1690 105"/>
+ <path d="M-90 102C110 18 250 36 400 102S650 230 820 144 1110 18 1300 90 1510 215 1690 128"/>
+ <path d="M-90 124C100 45 260 60 415 124S660 250 830 166 1120 42 1310 112 1510 235 1690 150"/>
+ <path d="M-90 146C100 75 270 85 430 146S670 270 840 188 1130 68 1320 135 1520 255 1690 172"/>
+ <path d="M-90 168C110 104 280 112 445 168S680 290 850 210 1140 94 1330 158 1530 275 1690 194"/>
+</g>
+<g fill="none" stroke="#9CB7C9" stroke-opacity=".32">
+ <ellipse cx="800" cy="150" rx="260" ry="86" transform="rotate(-15 800 150)"/>
+ <ellipse cx="800" cy="150" rx="350" ry="112" transform="rotate(18 800 150)"/>
+ <ellipse cx="800" cy="150" rx="455" ry="145" transform="rotate(-28 800 150)"/>
+ <path d="M0 150H1600M800 0V300" stroke-dasharray="3 9"/>
+</g>
+<circle cx="800" cy="150" r="4" fill="#F9AD6A"/><circle cx="800" cy="150" r="18" fill="none" stroke="#F9AD6A" stroke-opacity=".55"/>
+<g fill="#AAB5C8" font-family="monospace" font-size="10" letter-spacing="2">
+ <text x="38" y="36">FIELD / 09</text><text x="1450" y="36">CONTOUR MAP</text><text x="38" y="275">INQUIRY · STRUCTURE · EVIDENCE</text><text x="1450" y="275">∞</text>
+</g>
+</svg>
