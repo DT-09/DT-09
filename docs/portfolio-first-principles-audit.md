@@ -78,6 +78,20 @@ Bayesian updates must record the hypothesis, prior rationale, evidence, likeliho
 - What evidence would justify spending another week on each project?
 - What is the opportunity cost of keeping every repository active?
 
+
+## Different projects require different success criteria
+
+Do not force every repository into a SaaS or revenue objective. First establish its intended class:
+
+- **Commercial product:** painful recurring job, identifiable buyer, measurable outcome, willingness to pay, retention, and safe operations.
+- **Research system:** precise question, defensible method, reproducible results, baselines, limitations, and a contribution that survives comparison.
+- **Developer tool / infrastructure:** clear integration point, correctness, reliability, adoption friction, documentation, and maintenance cost.
+- **Learning or editorial experience:** genuine user value, content accuracy, usability, accessibility, and evidence of learning or audience engagement.
+- **Personal utility:** dependable operation, low maintenance burden, reversibility, and a real improvement over the built-in alternative.
+- **Portfolio artifact:** technical substance, honest scope, reproducible demonstration, and clear evidence; commercial demand is not presumed.
+
+A project may change class, but the change requires an explicit thesis and new acceptance criteria. The portfolio objective is not to maximize the number of products. It is to maximize the quality and distinct value of the work while minimizing duplicated effort and unsupported claims.
+
 ## Audit sequence
 
 1. Resolve inventory and repository identity.
