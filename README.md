@@ -235,7 +235,7 @@ Experiments, active builds, research and supporting work beyond this selection.
 
 The process is iterative. Verification is not the final ceremony; it changes what gets built next.
 
-The profile repository runs automated integrity checks on pushes and pull requests. It checks local links and cross-document anchors, duplicate HTML IDs, referenced artwork, SVG accessibility metadata and unsafe SVG elements. Unit tests exercise the validator itself. These checks do not validate external services, the implementation quality of linked projects or the truth of their claims. See [the workflow](.github/workflows/portfolio-checks.yml), [the validator](scripts/validate_portfolio.py), and [its tests](tests/test_validate_portfolio.py).
+The profile repository runs automated integrity checks on pushes and pull requests. It checks Markdown and website links, cross-document anchors, duplicate IDs, page metadata, skip navigation, reduced-motion support, inline JavaScript syntax, referenced artwork, SVG accessibility metadata and unsafe SVG elements. Unit tests exercise the validator itself. These checks do not validate external services, the implementation quality of linked projects or the truth of their claims. See [the workflow](.github/workflows/portfolio-checks.yml), [the validator](scripts/validate_portfolio.py), and [its tests](tests/test_validate_portfolio.py).
 
 A useful result should make five things inspectable: **scope, inputs, assumptions, method and limitations**. Where possible, tests should be repeatable, outputs should retain source references, and failures should be recorded rather than hidden.
 
