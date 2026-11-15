@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=190&text=DT%E2%80%9409&fontSize=54&fontColor=F0F8FF&animation=twinkling&color=0:05050A,55:161B26,100:00CED1&section=header" width="100%" alt="Animated interstellar wave header for DT—09." />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=190&text=DT%E2%80%9409&fontSize=54&fontColor=F0F8FF&animation=twinkling&color=0:05050A,52:0A1220,100:00CED1&section=header" width="100%" alt="Animated interstellar wave header for DT—09." />
 
-<p align="center"><img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&size=18&duration=2800&pause=850&color=00CED1&center=true&vCenter=true&width=820&lines=INQUIRE+%E2%86%92+MODEL+%E2%86%92+BUILD+%E2%86%92+VERIFY;Mathematics.+Computation.+Engineering.;Build+systems+that+earn+their+claims." alt="Rotating portfolio descriptors" /></p>
+<p align="center"><img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&size=17&duration=5200&pause=2400&color=FF8C00&center=true&vCenter=true&width=900&lines=INQUIRE+DEEPLY.+MODEL+PRECISELY.+BUILD+WITH+EVIDENCE.;The+unknown+is+not+a+wall.+It+is+an+invitation+to+understand.;Curiosity+finds+the+question.+Discipline+earns+the+answer.;Build+what+can+be+tested.+Trust+what+can+be+traced." alt="Slowly rotating original research and engineering statements" /></p>
 
 <p>
   <img src="https://img.shields.io/badge/OBSERVATORY-09%20SELECTED%20SYSTEMS-FF8C00?style=flat-square&labelColor=05050A" alt="Nine selected systems" />
@@ -64,9 +64,9 @@ A live rendering of the public GitHub contribution history. Activity is not a me
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/profile-3d-contrib/profile-night-rainbow.svg" alt="Isometric 3D topology of DT-09 GitHub contributions, generated from the public contribution history." width="100%" />
+<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/profile-3d-contrib/profile-night-orange.svg" alt="Isometric 3D topology of DT-09 GitHub contributions, generated from the public contribution history." width="100%" />
 
-<sub>Generated daily from GitHub contribution data by the repository workflow.</sub>
+<sub>Generated daily from GitHub contribution data · amber signal on the observatory palette.</sub>
 
 </div>
 
@@ -130,12 +130,12 @@ A feature is not established because it appears in a roadmap, mock-up or marketi
 
 <div align="center">
 
-### THE UNIVERSE IS UNDER NO OBLIGATION TO BE SIMPLE.
+### THE UNKNOWN IS WORTH THE WORK.
 
-*Stay curious. Stay exact.*
+<p align="center"><img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&size=15&duration=5600&pause=2600&color=F0F8FF&center=true&vCenter=true&width=860&lines=Ask+better+questions.+Build+clearer+models.;Follow+the+evidence.+Revise+the+idea.;Make+the+abstract+useful." alt="Slowly rotating closing lines" /></p>
 
-<sub>DT—09 / FIELD NOTES FROM THE EDGE OF COMPUTATION</sub>
+<sub>DT—09 · INDEPENDENT INQUIRY / COMPUTATIONAL SYSTEMS</sub>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:00CED1,50:161B26,100:05050A&section=footer&animation=twinkling" width="100%" alt="Animated wave footer." />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=185&color=0:00CED1,42:0A1220,100:05050A&section=footer&animation=twinkling" width="100%" alt="Larger animated interstellar wave footer." />
 
 </div>
