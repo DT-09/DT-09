@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/interstellar-header.svg" width="100%" alt="DT—09 — an interstellar field study of computation, engineered systems and inquiry." />
+<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/interstellar-header.svg" width="100%" alt="DT—09 — abstract interstellar systems identity: connected research nodes, coordinate grids and kinetic typography." />
 
 <p>
   <img src="https://img.shields.io/badge/OBSERVATORY-09%20SELECTED%20SYSTEMS-FF8C00?style=flat-square&labelColor=05050A" alt="Nine selected systems" />
@@ -22,7 +22,7 @@ This is a portfolio of selected work, not a list of inflated claims. Each reposi
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/topography.svg" width="100%" alt="Gravitational field topography: orbital paths, contour lines and coordinate marks." />
+<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/topography.svg" width="100%" alt="Abstract interstellar systems map: connected research nodes, coordinate lines and restrained cyan and orange signals." />
 
 </div>
 
@@ -110,6 +110,6 @@ A feature is not established because it appears in a roadmap, mock-up or marketi
 
 *Stay curious. Stay exact.*
 
-<sub>DT—09 / FIELD NOTES FROM THE EVENT HORIZON</sub>
+<sub>DT—09 / FIELD NOTES FROM THE EDGE OF COMPUTATION</sub>
 
 </div>
