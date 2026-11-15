@@ -1,35 +1,64 @@
 name: Deploy engineering fieldbook
+
 on:
   push:
     branches: [main]
     paths:
       - "index.html"
+      - "scripts/validate_portfolio.py"
+      - "tests/**"
       - ".github/workflows/deploy-pages.yml"
   workflow_dispatch:
+
 permissions:
   contents: read
   pages: write
   id-token: write
+
 concurrency:
-  group: "pages"
+  group: pages
   cancel-in-progress: true
+
 jobs:
   deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Check out repository
         uses: actions/checkout@v4
-      - name: Configure Pages
+        with:
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run portfolio tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Validate portfolio and inline JavaScript
+        run: python scripts/validate_portfolio.py
+
+      - name: Stage the public website only
+        run: |
+          mkdir -p _site
+          cp index.html _site/index.html
+          touch _site/.nojekyll
+
+      - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
         with:
           enablement: true
-      - name: Upload site
+
+      - name: Upload website artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: "."
+          path: _site
+
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
