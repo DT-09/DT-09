@@ -1,13 +1,15 @@
 <div align="center">
 
-<img src="https://media1.tenor.com/m/EJ5ezT8nTdoAAAAd/hello-there-obi-wan.gif" width="480" alt="Obi-Wan Kenobi saying Hello there." />
+<img src="https://media1.tenor.com/m/MCtlzqgI2c8AAAAd/gargantua-interstellar.gif" width="420" alt="Gargantua, the black hole from Interstellar, with its luminous accretion ring." />
 
-<p align="center"><img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&size=17&duration=5200&pause=2400&color=FF8C00&center=true&vCenter=true&width=900&lines=INQUIRE+DEEPLY.+MODEL+PRECISELY.+BUILD+WITH+EVIDENCE.;The+unknown+is+not+a+wall.+It+is+an+invitation+to+understand.;Curiosity+finds+the+question.+Discipline+earns+the+answer.;Build+what+can+be+tested.+Trust+what+can+be+traced." alt="Slowly rotating original research and engineering statements" /></p>
+<p align="center"><img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&size=18&duration=7000&pause=3000&color=F9AD6A&center=true&vCenter=true&width=1000&lines=Somewhere%2C+something+incredible+is+waiting+to+be+known." alt="Somewhere, something incredible is waiting to be known." /></p>
+
+<p align="center"><img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&size=17&duration=5200&pause=2400&color=F9AD6A&center=true&vCenter=true&width=900&lines=INQUIRE+DEEPLY.+MODEL+PRECISELY.+BUILD+WITH+EVIDENCE.;The+unknown+is+not+a+wall.+It+is+an+invitation+to+understand.;Curiosity+finds+the+question.+Discipline+earns+the+answer.;Build+what+can+be+tested.+Trust+what+can+be+traced." alt="Slowly rotating original research and engineering statements" /></p>
 
 <p>
-  <img src="https://img.shields.io/badge/OBSERVATORY-09%20SELECTED%20SYSTEMS-FF8C00?style=flat-square&labelColor=05050A" alt="Nine selected systems" />
-  <img src="https://img.shields.io/badge/ORBIT-MATHEMATICS%20%C2%B7%20COMPUTATION%20%C2%B7%20ENGINEERING-00CED1?style=flat-square&labelColor=05050A" alt="Mathematics, computation and engineering" />
-  <img src="https://img.shields.io/badge/METHOD-QUESTION%20%E2%86%92%20MODEL%20%E2%86%92%20BUILD%20%E2%86%92%20VERIFY-F0F8FF?style=flat-square&labelColor=05050A" alt="Question, model, build, verify" />
+  <img src="https://img.shields.io/badge/OBSERVATORY-09%20SELECTED%20SYSTEMS-F9AD6A?style=flat-square&labelColor=030305" alt="Nine selected systems" />
+  <img src="https://img.shields.io/badge/ORBIT-MATHEMATICS%20%C2%B7%20COMPUTATION%20%C2%B7%20ENGINEERING-D47A3B?style=flat-square&labelColor=030305" alt="Mathematics, computation and engineering" />
+  <img src="https://img.shields.io/badge/METHOD-QUESTION%20%E2%86%92%20MODEL%20%E2%86%92%20BUILD%20%E2%86%92%20VERIFY-F9AD6A?style=flat-square&labelColor=030305" alt="Question, model, build, verify" />
 </p>
 
 *Somewhere, something incredible is waiting to be known.*
@@ -16,11 +18,28 @@
 
 # DT—09
 
-**Independent inquiry / computational systems / engineering**
+<div align="center">
+
+<table>
+<tr>
+<td valign="middle">
+
+**INDEPENDENT INQUIRY / COMPUTATIONAL SYSTEMS / ENGINEERING**
 
 I work across mathematics, computation, applied AI, data systems and software engineering. I am interested in the structure beneath a problem: the algorithm that makes it tractable, the system that makes it useful, and the evidence that makes its output worth trusting.
 
 This is a portfolio of selected work, not a list of inflated claims. Each repository remains the source of truth for its implementation, verification status and limitations.
+
+</td>
+<td valign="middle" align="center" width="220">
+
+<img src="https://media1.tenor.com/m/EJ5ezT8nTdoAAAAd/hello-there-obi-wan.gif" width="190" alt="Obi-Wan Kenobi saying Hello there." />
+
+</td>
+</tr>
+</table>
+
+</div>
 
 <div align="center">
 
@@ -132,10 +151,10 @@ A feature is not established because it appears in a roadmap, mock-up or marketi
 
 ### THE UNKNOWN IS WORTH THE WORK.
 
-<p align="center"><img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&size=15&duration=5600&pause=2600&color=F0F8FF&center=true&vCenter=true&width=860&lines=Ask+better+questions.+Build+clearer+models.;Follow+the+evidence.+Revise+the+idea.;Make+the+abstract+useful." alt="Slowly rotating closing lines" /></p>
+<p align="center"><img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&size=15&duration=5600&pause=2600&color=F9AD6A&center=true&vCenter=true&width=860&lines=Ask+better+questions.+Build+clearer+models.;Follow+the+evidence.+Revise+the+idea.;Make+the+abstract+useful." alt="Slowly rotating closing lines" /></p>
 
 <sub>DT—09 · INDEPENDENT INQUIRY / COMPUTATIONAL SYSTEMS</sub>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=185&color=0:00CED1,42:0A1220,100:05050A&section=footer&animation=twinkling" width="100%" alt="Larger animated interstellar wave footer." />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=185&color=0:030305,38:161B26,72:D47A3B,100:030305&section=footer&animation=twinkling" width="100%" alt="Animated black-hole palette footer." />
 
 </div>
