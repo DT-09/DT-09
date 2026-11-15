@@ -98,7 +98,7 @@ The questions behind the projects matter as much as the projects themselves. Six
 | **Scientific learning** | How does a question become a hypothesis, experiment and revised model? |
 | **Engineering design** | How can an interface expose complexity without concealing limitations? |
 
-The longer-form research agenda, including specific questions and an evidence standard, lives in [RESEARCH.md](RESEARCH.md).
+The longer-form research agenda lives in [RESEARCH.md](RESEARCH.md). The rules for presenting implementation status and evidence live in [PORTFOLIO_STANDARD.md](PORTFOLIO_STANDARD.md).
 
 ## Selected work
 
@@ -110,7 +110,7 @@ The longer-form research agenda, including specific questions and an evidence st
 
 A selection of repositories across assurance, data, finance, learning and interactive systems. Each link leads to its source: implementation, documentation and current state. The descriptions are orientation, not claims that every project is complete.
 
-**How to read this index:** project names identify areas of work, not maturity levels. Check each repository's README, release history, tests and open issues before relying on a capability. A prototype, research experiment and maintained product are different things.
+**How to read this index:** project names identify areas of work, not maturity levels. Check each repository's README, release history, tests and open issues before relying on a capability. A prototype, research experiment and maintained product are different things. The [portfolio evidence standard](PORTFOLIO_STANDARD.md) defines the maturity labels, proof hierarchy and release-review requirements used for this profile.
 
 <table>
 <tr>
@@ -147,7 +147,7 @@ An inquiry-led learning environment connecting questions, hypotheses, research a
 
 <sub>04 / FINANCIAL EVIDENCE</sub>
 
-### [Caseweft ↗](https://github.com/DT-09/LedgerTrace)
+### [Caseweft (LedgerTrace repository) ↗](https://github.com/DT-09/LedgerTrace)
 
 A local-first AP exception evidence workbench that turns supported invoice, PO and receipt exports into reviewable, source-linked cases.
 
@@ -235,7 +235,7 @@ Experiments, active builds, research and supporting work beyond this selection.
 
 The process is iterative. Verification is not the final ceremony; it changes what gets built next.
 
-The profile repository also runs a lightweight integrity check on pushes and pull requests. It checks local document links, referenced artwork, SVG structure and accessibility metadata. It deliberately does not claim to validate external services or the correctness of the projects linked here. See [the workflow](.github/workflows/portfolio-checks.yml) and [the validator](scripts/validate_portfolio.py).
+The profile repository runs automated integrity checks on pushes and pull requests. It checks local links and cross-document anchors, duplicate HTML IDs, referenced artwork, SVG accessibility metadata and unsafe SVG elements. Unit tests exercise the validator itself. These checks do not validate external services, the implementation quality of linked projects or the truth of their claims. See [the workflow](.github/workflows/portfolio-checks.yml), [the validator](scripts/validate_portfolio.py), and [its tests](tests/test_validate_portfolio.py).
 
 A useful result should make five things inspectable: **scope, inputs, assumptions, method and limitations**. Where possible, tests should be repeatable, outputs should retain source references, and failures should be recorded rather than hidden.
 
