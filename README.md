@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://media1.tenor.com/m/K6xWzjc8InkAAAAd/blackhole.gif" width="374" alt="Interstellar-style black hole with a planet in the background." />
+<a href="https://tenor.com/en-GB/view/blackhole-gif-3146985683315073657"><img src="https://media1.tenor.com/m/K6xWzjc8InkAAAAd/blackhole.gif" width="430" alt="Interstellar-style black hole with a planet in the background. Open the supplied black-hole GIF on Tenor." /></a>
 
-<p align="center"><img src="https://readme-typing-svg.demolab.com?font=Cormorant+Garamond&size=30&duration=9000&pause=9000&color=F9AD6A&center=true&vCenter=true&width=1000&lines=%22Somewhere%2C+something+incredible+is+waiting+to+be+known.%22" alt="Somewhere, something incredible is waiting to be known." /></p>
+<p align="center"><img src="https://readme-typing-svg.demolab.com?font=Cormorant+Garamond&weight=500&size=34&duration=9000&pause=9000&color=F9AD6A&center=true&vCenter=true&width=1000&lines=%E2%80%9CSomewhere%2C+something+incredible+is+waiting+to+be+known.%E2%80%9D" alt="Somewhere, something incredible is waiting to be known." /></p>
 
 <p align="center"><img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&size=17&duration=5200&pause=2400&color=F9AD6A&center=true&vCenter=true&width=900&lines=INQUIRE+DEEPLY.+MODEL+PRECISELY.+BUILD+WITH+EVIDENCE.;The+unknown+is+not+a+wall.+It+is+an+invitation+to+understand.;Curiosity+finds+the+question.+Discipline+earns+the+answer.;Build+what+can+be+tested.+Trust+what+can+be+traced." alt="Slowly rotating original research and engineering statements in the interstellar palette" /></p>
 
@@ -18,15 +18,13 @@
 
 <div align="center">
 
-<sub>HELLO THERE.</sub>
+<sub>hello there.</sub>
 
 </div>
 
-**INDEPENDENT INQUIRY / COMPUTATIONAL SYSTEMS / ENGINEERING**
+I work across mathematics, computation, applied AI, data engineering and software systems. My focus is the structure beneath a problem: the model that makes it legible, the algorithm that makes it tractable, the system that makes it useful, and the evidence that makes its output trustworthy.
 
-I work across mathematics, computation, applied AI, data systems and software engineering. I am interested in the structure beneath a problem: the algorithm that makes it tractable, the system that makes it useful, and the evidence that makes its output worth trusting.
-
-This is a portfolio of selected work, not a list of inflated claims. Each repository remains the source of truth for its implementation, verification status and limitations.
+This is a record of selected work and ongoing inquiry. Each repository is the source of truth for its implementation, verification status and known limitations.
 
 <div align="center">
 
@@ -34,9 +32,9 @@ This is a portfolio of selected work, not a list of inflated claims. Each reposi
 
 </div>
 
-## 01 / The nine systems
+## 01 / Selected systems
 
-Selected for technical substance, distinct problem domains, inspectable implementation and portfolio value.
+Nine projects across applied engineering, computational research, data integrity and autonomous systems. Selected for distinct problem domains, inspectable implementation and technical substance.
 
 | ORBIT | ASSET | DOMAIN / SIGNAL |
 |:--:|---|---|
@@ -54,19 +52,38 @@ Selected for technical substance, distinct problem domains, inspectable implemen
 
 > **Maturity boundary:** The nine projects are at different stages. NODUS documents important production gaps; LOTWISE is an evaluation foundation; research systems are not represented as production controllers. Read each repository's current limits before relying on a capability. No customer adoption, revenue, certification or benchmark superiority is implied.
 
-## 02 / Languages & instruments
+## 02 / Toolkit & working surfaces
 
-Logos identify technologies represented in the repositories. They are not proficiency ratings.
+A broad working toolkit spanning systems languages, application development, data infrastructure, build systems and deployment. The icons indicate technologies used or explored across the repositories; they are not proficiency ratings.
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=rust,go,c,python,ts,js,html,css,linux,git,github,sqlite&perline=6" alt="Rust, Go, C, Python, TypeScript, JavaScript, HTML, CSS, Linux, Git, GitHub and SQLite logos" />
+**Languages & foundations**
+
+<img src="https://skillicons.dev/icons?i=rust,go,c,cpp,python,java,ts,js,bash,powershell,html,css&perline=6" alt="Rust, Go, C, C++, Python, Java, TypeScript, JavaScript, Bash, PowerShell, HTML and CSS" />
+
+**Data, runtimes & infrastructure**
+
+<img src="https://skillicons.dev/icons?i=sqlite,postgres,mysql,linux,docker,wasm,graphql&perline=7" alt="SQLite, PostgreSQL, MySQL, Linux, Docker, WebAssembly and GraphQL" />
+
+**Build, versioning & delivery**
+
+<img src="https://skillicons.dev/icons?i=git,github,githubactions,cloudflare,vercel,vscode,latex&perline=7" alt="Git, GitHub, GitHub Actions, Cloudflare, Vercel, Visual Studio Code and LaTeX" />
 
 </div>
 
+**Engineering practices**
+
+- Systems programming, memory and resource constraints
+- Algorithms, data structures, graph models and complexity
+- SQL, local-first data workflows and embedded databases
+- WebAssembly, browser computation and typed interfaces
+- Build automation, CI workflows, version control and deployment
+- Reproducible testing, documentation and release verification
+
 ## 03 / Contribution topology
 
-A live rendering of the public GitHub contribution history. Activity is not a measure of quality or impact.
+A three-dimensional view of the public contribution graph. It visualises activity over time—not quality, impact or technical depth.
 
 <div align="center">
 
@@ -76,9 +93,9 @@ A live rendering of the public GitHub contribution history. Activity is not a me
 
 </div>
 
-## 04 / The field instruments
+## 04 / Engineering disciplines
 
-A visual field log, not a badge wall. Entries indicate technologies used or explored across the portfolio; they do not imply equal depth or professional mastery.
+The recurring methods behind the projects:
 
 <div align="center">
 
@@ -95,7 +112,7 @@ A visual field log, not a badge wall. Entries indicate technologies used or expl
 - AI authority boundaries, policy evaluation and auditability
 - Test design, reproducible examples, technical documentation and release review
 
-## 05 / Research coordinates
+## 05 / Questions under investigation
 
 | VECTOR | QUESTION |
 |---|---|
@@ -106,7 +123,7 @@ A visual field log, not a badge wall. Entries indicate technologies used or expl
 | **Resilient engineering** | How should software behave under failure, uncertainty and constrained resources? |
 | **Scientific learning** | How does curiosity become a hypothesis, experiment and revised model? |
 
-## 06 / The method
+## 06 / How I work
 
 <div align="center">
 
@@ -122,7 +139,7 @@ A visual field log, not a badge wall. Entries indicate technologies used or expl
 
 A feature is not established because it appears in a roadmap, mock-up or marketing page. A claim needs somewhere solid to stand.
 
-## 07 / Observatory principles
+## 07 / Working principles
 
 - **Mechanism before metaphor.** Understand what the system actually does.
 - **Evidence before confidence.** Tests and traces outrank adjectives.
