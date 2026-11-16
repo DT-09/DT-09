@@ -1,131 +1,158 @@
 <div align="center">
 
-<img src="https://media1.tenor.com/m/EJ5ezT8nTdoAAAAd/hello-there-obi-wan.gif" width="480" alt="Obi-Wan Kenobi saying Hello there." />
+<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/hero-observatory.svg" width="100%" alt="A custom orbital observatory in obsidian and amber, representing independent inquiry and computational systems." />
 
-<p><sub>A GOOD PLACE TO BEGIN IS WITH A QUESTION.</sub></p>
+<p><img src="https://readme-typing-svg.demolab.com?font=Cormorant+Garamond&weight=500&size=31&duration=9000&pause=9000&color=F9AD6A&center=true&vCenter=true&width=1100&lines=%E2%80%9CSomewhere%2C+something+incredible+is+waiting+to+be+known.%E2%80%9D" alt="Somewhere, something incredible is waiting to be known." /></p>
 
-<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/hero-observatory.svg" width="100%" alt="DT—09 observatory: an orbital research field in amber and obsidian." />
-
-<p><img src="https://readme-typing-svg.demolab.com?font=Cormorant+Garamond&weight=500&size=34&duration=9000&pause=9000&color=F9AD6A&center=true&vCenter=true&width=1100&lines=%E2%80%9CSomewhere%2C+something+incredible+is+waiting+to+be+known.%E2%80%9D" alt="Somewhere, something incredible is waiting to be known." /></p>
-<sub>— Carl Sagan</sub>
+<p><sub>MATHEMATICS &nbsp;·&nbsp; COMPUTATION &nbsp;·&nbsp; ENGINEERING &nbsp;·&nbsp; SCIENTIFIC INQUIRY</sub></p>
 
 <p>
-<img src="https://img.shields.io/badge/INQUIRY-MATHEMATICS%20%C2%B7%20COMPUTATION%20%C2%B7%20ENGINEERING-F9AD6A?style=flat-square&labelColor=030305" alt="Mathematics, computation and engineering" />
-<img src="https://img.shields.io/badge/METHOD-INQUIRE%20%E2%86%92%20MODEL%20%E2%86%92%20BUILD%20%E2%86%92%20VERIFY-D47A3B?style=flat-square&labelColor=030305" alt="Inquire, model, build, verify" />
-<img src="https://img.shields.io/badge/PROFILE-INDEPENDENT%20INQUIRY-F9AD6A?style=flat-square&labelColor=030305" alt="Independent inquiry" />
+<img src="https://img.shields.io/badge/THINK-QUESTION%20%E2%86%92%20MODEL-F9AD6A?style=flat-square&labelColor=030305" alt="Question to model" />
+<img src="https://img.shields.io/badge/BUILD-IMPLEMENT%20%E2%86%92%20VERIFY-D47A3B?style=flat-square&labelColor=030305" alt="Implement to verify" />
+<img src="https://img.shields.io/badge/APPROACH-EVIDENCE%20FIRST-F9AD6A?style=flat-square&labelColor=030305" alt="Evidence first" />
 </p>
+
 </div>
 
 ---
 
-## The work, at a glance
+## THE FIELD
 
-I study difficult problems, build computational systems, and look for ways to make complex ideas testable.
+**I explore how things work, then build systems that make the answers testable.**
 
-| EXPLORE | ENGINEER | ESTABLISH |
+<table>
+<tr>
+<td width="33%" valign="top">
+
+**01 / UNDERSTAND**
+
+- Mathematics
+- Logic & probability
+- Scientific models
+- Abstract structures
+
+</td>
+<td width="33%" valign="top">
+
+**02 / ENGINEER**
+
+- Algorithms
+- Software systems
+- Data & infrastructure
+- Low-level computing
+
+</td>
+<td width="33%" valign="top">
+
+**03 / VERIFY**
+
+- Tests & invariants
+- Reproducibility
+- Evidence & provenance
+- Failure analysis
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/topography.svg" width="100%" alt="A connected systems map of research nodes, coordinate lines and signals." />
+</div>
+
+## 01 — SELECTED SYSTEMS
+
+*Different domains. A shared interest in structure, mechanisms and verifiable outcomes.*
+
+| SYSTEM | DOMAIN | FOCUS |
 |:--|:--|:--|
-| Mathematics & logic | Algorithms & runtimes | Tests & invariants |
-| Scientific questions | Software & data systems | Evidence & provenance |
-| Models & abstractions | Tools & infrastructure | Reproducible results |
+| [**NODUS**](https://github.com/DT-09/Nodus) | Commerce intelligence | Merchant performance, operational signals & decision support |
+| [**AI Assurance Infrastructure**](https://github.com/DT-09/ai-assurance-infrastructure) | AI assurance | Evaluation, boundaries & auditability |
+| [**ORTHEON**](https://github.com/DT-09/Ortheon) | Structural computation | Graphs, hypergraphs & relational systems |
+| [**VANTAGE**](https://github.com/DT-09/Vantage) | Workflow engineering | Deterministic execution, recovery & inspection |
+| [**STRATA**](https://github.com/DT-09/Strata) | Data engineering | Local analytical workflows & reproducible exploration |
+| [**LOTWISE**](https://github.com/DT-09/Lotwise) | Quality intelligence | Supplier evidence & specification comparison |
+| [**DealTie**](https://github.com/DT-09/DealTie) | Financial evidence | Traceable transaction-record reconciliation |
+| [**PHANTOM**](https://github.com/DT-09/Phantom) | Low-level systems | x86-64 assembly & constrained execution |
+| [**Migraven**](https://github.com/DT-09/Migraven) | Data migration | Migration comparison & verification |
 
-**Current direction:** move between theory and implementation—from understanding the structure of a problem to building a system that can be inspected, challenged and improved.
+**Other explorations:** [Vesper](https://github.com/DT-09/Vesper) · [CommitmentGraph](https://github.com/DT-09/CommitmentGraph) · [DatasheetDelta](https://github.com/DT-09/DatasheetDelta) · [Aurelis Authority](https://github.com/DT-09/Aurelis-Authority) · [All repositories ↗](https://github.com/DT-09?tab=repositories)
 
-<div align="center">
-<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/assets/topography.svg" width="100%" alt="Connected systems map showing research nodes, coordinate lines and amber signals." />
-</div>
+<sub>Projects are at different stages: research, concept, prototype and implementation. Each repository is the source of truth for its current capabilities, tests and limitations.</sub>
 
-## 01 / Selected systems
+## 02 — CONTRIBUTION TOPOLOGY
 
-*Different projects. Different questions. One consistent standard: make the mechanism understandable.*
-
-| PROJECT | FIELD | WHAT IT EXPLORES |
-|---|---|---|
-| [**NODUS**](https://github.com/DT-09/Nodus) | Commerce intelligence | Merchant economics, order performance and operational signals |
-| [**AI Assurance Infrastructure**](https://github.com/DT-09/ai-assurance-infrastructure) | AI governance | Boundaries, evaluation and auditability for AI systems |
-| [**ORTHEON**](https://github.com/DT-09/Ortheon) | Structural computation | Graphs, hypergraphs and relational structures |
-| [**VANTAGE**](https://github.com/DT-09/Vantage) | Workflow systems | Deterministic execution, recovery and inspection |
-| [**STRATA**](https://github.com/DT-09/Strata) | Data engineering | Local analytical workflows and reproducible exploration |
-| [**LOTWISE**](https://github.com/DT-09/Lotwise) | Quality intelligence | Supplier evidence and specification comparison |
-| [**DealTie**](https://github.com/DT-09/DealTie) | Financial evidence | Traceable reconciliation of transaction records |
-| [**PHANTOM**](https://github.com/DT-09/Phantom) | Low-level systems | Constrained x86-64 assembly and packet structures |
-| [**Migraven**](https://github.com/DT-09/Migraven) | Migration verification | Precise comparison and verification of migrated data |
-
-**Further explorations:** [Vesper](https://github.com/DT-09/Vesper) · [CommitmentGraph](https://github.com/DT-09/CommitmentGraph) · [DatasheetDelta](https://github.com/DT-09/DatasheetDelta) · [Aurelis Authority](https://github.com/DT-09/Aurelis-Authority) · [All repositories ↗](https://github.com/DT-09?tab=repositories)
-
-<sub>Projects are at different stages of maturity. A concept, prototype, research implementation and production system are not interchangeable. Visit each repository for its current implementation, tests and limitations.</sub>
-
-## 02 / Contribution topology
-
-**A 3D view of public GitHub contribution activity over time.** It is a record of activity—not a proxy for code quality.
+**A three-dimensional view of public GitHub contribution activity.**
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/profile-3d-contrib/profile-night-view.svg" width="100%" alt="Three-dimensional GitHub contribution topology generated from public contribution activity." />
-<sub>GENERATED CONTRIBUTION FIELD · UPDATED BY GITHUB ACTIONS</sub>
+<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/profile-3d-contrib/profile-night-orange.svg" width="100%" alt="Three-dimensional GitHub contribution topology in an orange night theme." />
+<sub>CONTRIBUTION FIELD / GENERATED BY GITHUB ACTIONS</sub>
 </div>
 
-## 03 / Technical toolkit
+## 03 — TECHNICAL TOOLKIT
 
-*A growing toolkit across programming languages, systems, data, infrastructure and verification. Listed technologies reflect a mix of active use, study and exploration; proficiency is not uniform.*
+*An evolving working set across languages, software, infrastructure and analytical methods. Inclusion indicates use, study or exploration—not equal proficiency.*
 
-### Languages & low-level foundations
+### Programming languages
 
 <div align="center">
-<img src="https://skillicons.dev/icons?i=rust,go,c,cpp,python,java,kotlin,swift,ts,js,php&perline=6" alt="Rust, Go, C, C++, Python, Java, Kotlin, Swift, TypeScript, JavaScript and PHP" />
+<img src="https://skillicons.dev/icons?i=rust,go,c,cpp,python,java,kotlin,swift,ts,js,php,ruby,dart,lua&perline=7" alt="Rust, Go, C, C++, Python, Java, Kotlin, Swift, TypeScript, JavaScript, PHP, Ruby, Dart and Lua" />
 </div>
 
-x86-64 Assembly · Bash · PowerShell · SQL · HTML · CSS · SCSS · Markdown · LaTeX · WebAssembly
+**Also:** x86-64 Assembly · Bash · PowerShell · SQL · HTML · CSS · SCSS · Markdown · LaTeX · WebAssembly
 
-### Frameworks, runtimes & application development
+### Frameworks, runtimes & interfaces
 
 <div align="center">
-<img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,deno,tauri,flutter,vite,actix&perline=8" alt="React, Next.js, Node.js, Deno, Tauri, Flutter, Vite and Actix" />
+<img src="https://skillicons.dev/icons?i=react,nextjs,nodejs, deno,tauri,flutter,vite,actix,fastapi,flask&perline=8" alt="React, Next.js, Node.js, Deno, Tauri, Flutter, Vite, Actix, FastAPI and Flask" />
 </div>
 
-### Databases, data & infrastructure
+### Data, storage & infrastructure
 
 <div align="center">
 <img src="https://skillicons.dev/icons?i=sqlite,postgres,mysql,mongodb,redis,docker,linux,nginx&perline=8" alt="SQLite, PostgreSQL, MySQL, MongoDB, Redis, Docker, Linux and Nginx" />
 </div>
 
-DuckDB · Data modelling · ETL concepts · Data lineage · Provenance · Local-first systems
+**Also:** DuckDB · Data modelling · ETL concepts · Data lineage · Provenance · Local-first architecture
 
-### Cloud, delivery & developer environment
+### Cloud, tooling & delivery
 
 <div align="center">
 <img src="https://skillicons.dev/icons?i=git,github,githubactions,cloudflare,vercel,aws,azure,vscode&perline=8" alt="Git, GitHub, GitHub Actions, Cloudflare, Vercel, AWS, Azure and Visual Studio Code" />
 </div>
 
-Cargo · CMake · CI/CD · Linux shell · Deployment workflows · API integration
+**Also:** Cargo · CMake · CI/CD · Linux shell · API integration · Build systems · Deployment workflows
 
-### Engineering methods
+### Engineering disciplines
 
-| DISCIPLINE | TOOLKIT |
-|---|---|
-| **Mathematics** | Discrete mathematics · logic · probability · linear algebra · calculus · numerical methods |
-| **Algorithms** | Data structures · graph algorithms · search · optimisation · complexity analysis |
-| **Systems** | Memory & process fundamentals · concurrency · networking · operating systems |
-| **AI engineering** | Model integration · agent architecture · tool boundaries · evaluation · assurance |
-| **Formal reasoning** | Specification · invariants · proof-oriented reasoning · introductory formal verification |
-| **Data engineering** | SQL · data modelling · transformation · lineage · integrity checks |
-| **Verification** | Unit & integration tests · property-oriented testing · deterministic replay · hashing · audit trails |
+<table>
+<tr><td width="26%"><b>Mathematics</b></td><td>Discrete structures · Logic · Probability · Linear algebra · Calculus · Numerical methods</td></tr>
+<tr><td><b>Algorithms</b></td><td>Data structures · Graph algorithms · Search · Optimisation · Complexity</td></tr>
+<tr><td><b>Systems</b></td><td>Memory · Processes · Concurrency · Networking · Operating systems</td></tr>
+<tr><td><b>AI engineering</b></td><td>Model integration · Agent architecture · Tool boundaries · Evaluation · Assurance</td></tr>
+<tr><td><b>Formal methods</b></td><td>Specifications · Invariants · Proof-oriented reasoning · Formal verification</td></tr>
+<tr><td><b>Data engineering</b></td><td>SQL · Modelling · Transformation · Lineage · Integrity</td></tr>
+<tr><td><b>Verification</b></td><td>Unit & integration tests · Property-based testing · Deterministic replay · Hashing · Audit trails</td></tr>
+</table>
 
-## 04 / How I approach a problem
+## 04 — THE METHOD
 
 <div align="center">
 
-**QUESTION**　→　**MODEL**　→　**IMPLEMENT**　→　**TEST**　→　**REFINE**
+<img src="https://img.shields.io/badge/01-QUESTION-030305?style=for-the-badge&labelColor=D47A3B" alt="01 Question" />
+<img src="https://img.shields.io/badge/02-MODEL-030305?style=for-the-badge&labelColor=D47A3B" alt="02 Model" />
+<img src="https://img.shields.io/badge/03-BUILD-030305?style=for-the-badge&labelColor=D47A3B" alt="03 Build" />
+<img src="https://img.shields.io/badge/04-TEST-030305?style=for-the-badge&labelColor=D47A3B" alt="04 Test" />
+<img src="https://img.shields.io/badge/05-REFINE-030305?style=for-the-badge&labelColor=D47A3B" alt="05 Refine" />
 
 </div>
 
-| MOVE | PRACTICE |
-|:--:|---|
-| **01** | Find the actual problem. Separate facts from assumptions. |
-| **02** | Define inputs, outputs, constraints and invariants. |
-| **03** | Build the smallest complete mechanism that tests the model. |
-| **04** | Challenge it with edge cases, failures and counterexamples. |
-| **05** | Keep the evidence. Revise what the evidence disproves. |
+- **Define the problem.** Separate observations, assumptions and unknowns.
+- **Make a model.** State inputs, outputs, constraints and invariants.
+- **Build the mechanism.** Turn the model into something executable.
+- **Try to break it.** Use edge cases, counterexamples and failure tests.
+- **Follow the evidence.** Keep what survives; revise what does not.
 
-## 05 / Questions on the horizon
+## 05 — OPEN QUESTIONS
 
 <table>
 <tr>
@@ -133,60 +160,62 @@ Cargo · CMake · CI/CD · Linux shell · Deployment workflows · API integratio
 
 **MATHEMATICAL STRUCTURE**
 
-What representation makes a difficult problem simpler?
+Find representations that make hard problems tractable.
 
 </td>
 <td width="50%" valign="top">
 
 **AI ASSURANCE**
 
-How can an intelligent system's authority be bounded and audited?
+Bound authority. Make behaviour inspectable.
 
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
+<td valign="top">
 
 **CAUSAL COMPUTATION**
 
-How can concurrent execution become explainable and reproducible?
+Make concurrent execution explainable and reproducible.
 
 </td>
-<td width="50%" valign="top">
+<td valign="top">
 
 **DATA INTEGRITY**
 
-Can every conclusion be traced to its source and transformations?
+Trace conclusions to sources and transformations.
 
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
+<td valign="top">
 
 **RESILIENT SYSTEMS**
 
-How should software behave under uncertainty and constrained resources?
+Design for uncertainty, failure and limited resources.
 
 </td>
-<td width="50%" valign="top">
+<td valign="top">
 
 **SCIENTIFIC LEARNING**
 
-How does curiosity become a hypothesis, experiment and better model?
+Turn curiosity into hypotheses, experiments and better models.
 
 </td>
 </tr>
 </table>
 
-## 06 / Principles
+## 06 — WORKING PRINCIPLES
 
-- **Mechanism over metaphor.**
-- **Evidence over adjectives.**
-- **Explicit boundaries over unchecked autonomy.**
-- **Clarity over ornament.**
-- **Curiosity disciplined by verification.**
+| PRINCIPLE | IN PRACTICE |
+|:--|:--|
+| Mechanism over metaphor | Explain how it works |
+| Evidence over adjectives | Show what can be verified |
+| Boundaries over unchecked autonomy | Define what a system may do |
+| Clarity over ornament | Make complexity legible |
+| Curiosity with discipline | Ask, test, revise |
 
-[Research programme](RESEARCH.md) · [Portfolio evidence standard](PORTFOLIO_STANDARD.md) · [Browse repositories](https://github.com/DT-09?tab=repositories)
+[Research programme](RESEARCH.md) · [Portfolio evidence standard](PORTFOLIO_STANDARD.md) · [Browse all repositories](https://github.com/DT-09?tab=repositories)
 
 ---
 
