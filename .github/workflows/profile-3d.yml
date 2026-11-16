@@ -15,7 +15,7 @@ jobs:
       - name: Check out profile repository
         uses: actions/checkout@v5
       - name: Generate contribution topology
-        uses: yoshi389111/github-profile-3d-contrib@0.9.3
+        uses: yoshi389111/github-profile-3d-contrib@v0.9.3
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: DT-09
