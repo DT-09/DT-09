@@ -100,7 +100,7 @@ A three-dimensional rendering of public GitHub contribution activity. The topolo
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/profile-3d-contrib/profile-night-orange.svg" width="100%" alt="Three-dimensional orange contribution topology generated from the DT-09 GitHub contribution graph." />
+<img src="https://raw.githubusercontent.com/DT-09/DT-09/main/profile-3d-contrib/profile-night-view.svg" width="100%" alt="Three-dimensional orange contribution topology generated from the DT-09 GitHub contribution graph." />
 
 <sub>Generated from public contribution history by GitHub Actions · scheduled refresh</sub>
 
