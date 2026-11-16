@@ -63,13 +63,13 @@ A broad, evolving toolkit across programming languages, systems, data, interface
 
 **Programming languages**
 
-<img src="https://skillicons.dev/icons?i=rust,go,c,cpp,asm,python,java,kotlin,swift,ts,js,php&perline=6" alt="Rust, Go, C, C++, Assembly, Python, Java, Kotlin, Swift, TypeScript, JavaScript and PHP" />
+<img src="https://skillicons.dev/icons?i=rust,go,c,cpp,assembly,python,java,kotlin,swift,ts,js,php&perline=6" alt="Rust, Go, C, C++, Assembly, Python, Java, Kotlin, Swift, TypeScript, JavaScript and PHP" />
 
 <img src="https://skillicons.dev/icons?i=bash,powershell,html,css,scss,md,latex,wasm&perline=8" alt="Bash, PowerShell, HTML, CSS, SCSS, Markdown, LaTeX and WebAssembly" />
 
 **Frameworks & application engineering**
 
-<img src="https://skillicons.dev/icons?i=react,nextjs,nodejs, deno,tauri,flutter,vite,actix&perline=8" alt="React, Next.js, Node.js, Deno, Tauri, Flutter, Vite and Actix" />
+<img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,deno,tauri,flutter,vite,actix&perline=8" alt="React, Next.js, Node.js, Deno, Tauri, Flutter, Vite and Actix" />
 
 **Data systems & infrastructure**
 
