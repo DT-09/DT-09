@@ -23,11 +23,11 @@
 
 <img src="https://media1.tenor.com/m/EJ5ezT8nTdoAAAAd/hello-there-obi-wan.gif" width="76" align="left" alt="Obi-Wan Kenobi saying Hello there." /> 
 
-I explore the structure beneath difficult problems: the mathematics that describes them, the algorithms that make them tractable, the software that turns ideas into working systems, and the evidence that makes results dependable.
+I work at the intersection of mathematics, computation and systems engineering. I study difficult problems, choose representations that make them tractable, and build software whose behaviour can be inspected and tested.
 
-My work spans systems engineering, applied AI, data integrity, computational research and independent study. I am interested in mechanisms—not just interfaces; in verifiable behaviour—not just claims; and in tools that solve a defined problem rather than decorate a roadmap.
+My interests range from algorithms, low-level systems and data integrity to AI assurance and scientific inquiry. I care about the mechanism beneath an interface, the evidence behind a result, and the constraints that determine whether a system is dependable.
 
-This profile is an evolving observatory of selected projects, experiments and questions. Each repository is the source of truth for its implementation, current maturity, verification status and known limitations.
+This profile is a record of selected work and active questions—not a claim that every project is complete. Each repository documents its own implementation, maturity, verification and limitations.
 
 <div align="center">
 
@@ -57,17 +57,19 @@ Nine projects chosen for their distinct problem domains and engineering question
 
 ## 02 / Toolkit
 
-A broad, evolving toolkit across programming languages, systems, data, interfaces, infrastructure and formal reasoning. The list reflects technologies used or explored across projects; it is not a claim of equal proficiency in every tool.
+A working map of the tools and technical areas I use, test or explore. Breadth is intentional; depth varies by domain. A listed technology is not a claim of professional mastery or production experience.
 
 <div align="center">
 
 **Programming languages**
 
-<img src="https://skillicons.dev/icons?i=rust,go,c,cpp,assembly,python,java,kotlin,swift,ts,js,php&perline=6" alt="Rust, Go, C, C++, Assembly, Python, Java, Kotlin, Swift, TypeScript, JavaScript and PHP" />
+<img src="https://skillicons.dev/icons?i=rust,go,c,cpp,python,java,kotlin,swift,ts,js,php&perline=6" alt="Rust, Go, C, C++, Python, Java, Kotlin, Swift, TypeScript, JavaScript and PHP" />
+
+<sub>Also: x86-64 Assembly · Bash · PowerShell · SQL · LaTeX · WebAssembly</sub>
 
 <img src="https://skillicons.dev/icons?i=bash,powershell,html,css,scss,md,latex,wasm&perline=8" alt="Bash, PowerShell, HTML, CSS, SCSS, Markdown, LaTeX and WebAssembly" />
 
-**Frameworks & application engineering**
+**Frameworks, runtimes & application engineering**
 
 <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,deno,tauri,flutter,vite,actix&perline=8" alt="React, Next.js, Node.js, Deno, Tauri, Flutter, Vite and Actix" />
 
@@ -75,7 +77,7 @@ A broad, evolving toolkit across programming languages, systems, data, interface
 
 <img src="https://skillicons.dev/icons?i=sqlite,postgres,mysql,mongodb,redis,docker,linux,nginx&perline=8" alt="SQLite, PostgreSQL, MySQL, MongoDB, Redis, Docker, Linux and Nginx" />
 
-**Cloud, delivery & developer tools**
+**Cloud, delivery & developer tooling**
 
 <img src="https://skillicons.dev/icons?i=git,github,githubactions,cloudflare,vercel,aws,azure,vscode&perline=8" alt="Git, GitHub, GitHub Actions, Cloudflare, Vercel, AWS, Azure and Visual Studio Code" />
 
@@ -85,18 +87,18 @@ A broad, evolving toolkit across programming languages, systems, data, interface
 
 | AREA | WORKING TOOLKIT |
 |---|---|
-| **Algorithms & computation** | Data structures, graph algorithms, search, optimisation, complexity analysis, deterministic computation |
-| **Systems & runtimes** | Rust, Go, C, C++, Assembly, Linux, process and memory fundamentals, concurrency, WebAssembly |
-| **Web engineering** | TypeScript, JavaScript, React, Next.js, HTML, CSS, browser APIs, responsive interfaces |
+| **Algorithms & computation** | Data structures, graph and hypergraph algorithms, search, optimisation, complexity analysis, deterministic computation, numerical methods |
+| **Systems & runtimes** | Rust, Go, C, C++, x86-64 Assembly, Linux, process and memory fundamentals, concurrency, networking fundamentals, WebAssembly |
+| **Web engineering** | TypeScript, JavaScript, React, Next.js, Node.js, HTML, CSS, browser APIs, REST interfaces, responsive interfaces |
 | **Data engineering** | SQL, SQLite, PostgreSQL, DuckDB, data modelling, ETL concepts, reconciliation, provenance |
-| **AI & intelligent systems** | Model integration, agent architecture, tool boundaries, policy evaluation, evaluation and assurance |
-| **Formal & mathematical methods** | Discrete mathematics, logic, probability, linear algebra, calculus, proof-oriented reasoning |
-| **Build & operations** | Git, GitHub Actions, CMake, Cargo, package tooling, CI, testing, deployment and release checks |
+| **AI & intelligent systems** | Model integration, agent architecture, tool boundaries, policy evaluation, evaluation design, AI assurance and human oversight |
+| **Formal & mathematical methods** | Discrete mathematics, logic, probability, linear algebra, calculus, invariants, proof-oriented reasoning and introductory formal verification |
+| **Build & operations** | Git, GitHub Actions, CMake, Cargo, package tooling, CI pipelines, Linux shell workflows, deployment and release checks |
 | **Quality & verification** | Unit and integration testing, property-oriented tests, reproducibility, hashing, audit trails, failure analysis |
 
 ## 03 / Contribution topology
 
-A three-dimensional rendering of public GitHub contribution activity. The topology shows the rhythm and distribution of contributions over time; it does not measure code quality, impact or technical depth.
+A three-dimensional view of public GitHub contribution activity. It visualises activity over time—not code quality, project impact or technical depth. The graphic is generated from GitHub contribution data and refreshed by the repository workflow.
 
 <div align="center">
 
